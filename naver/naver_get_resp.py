@@ -13,6 +13,16 @@ hier_dict = {}
 region_to_coord = {}
 region_to_polygon = {}
 
+hier_dict = {}
+hier_dict_file = 'hier_dict.json'
+with open(hier_dict_file, 'r') as file:
+    hier_dict = json.load(file)
+
+hier_dict_test = {}
+hier_dict_test_file = 'hier_dict_test.json'
+with open(hier_dict_test_file, 'r') as file:
+    hier_dict_test = json.load(file)
+
 def parse_coords(url: str):
     parsed = urlparse(url)
     query = parse_qs(parsed.query)
@@ -21,7 +31,7 @@ def parse_coords(url: str):
     coords_str = query.get("coords", [None])[0]
     if not coords_str:
         raise ValueError("No 'coords' parameter found in URL")
-    
+
     # Split into lon, lat
     lon_str, lat_str = coords_str.split(",")
     return lon_str, lat_str
@@ -76,20 +86,24 @@ def get_response(driver):
                         return
                     if area1 and area1 not in hier_dict:
                         hier_dict[area1] = {}
+                        hier_dict_test[area1] = {"kr_name": area1, "sub_regions": {}}
                     if not area2:
                         return
                     if area2 not in hier_dict[area1]:
                         hier_dict[area1][area2] = {}
+                        hier_dict_test[area1]["sub_regions"][area2] = {"kr_name": area2, "sub_regions": {}}
                     if not area3:
                         return
                     if area3 not in hier_dict[area1][area2]:
                         hier_dict[area1][area2][area3] = []
+                        hier_dict_test[area1]["sub_regions"][area2]["sub_regions"][area3] = {"kr_name": area3, "sub_regions": {}}
                     if area4:
                         hier_dict[area1][area2][area3].append(area4)
+                        hier_dict_test[area1]["sub_regions"][area2]["sub_regions"][area3]["sub_regions"][area4] = {"kr_name": area4, "sub_regions": {}}
             except Exception as e:
                 print("Could not get body for", url, e)
 
-url = "https://map.naver.com/p?c={zoom},0,0,0,dh"
+url = f"https://map.naver.com/p?c={zoom},0,0,0,dh"
 
 # Start Chrome with Selenium 4
 options = webdriver.ChromeOptions()
@@ -101,8 +115,8 @@ driver.execute_cdp_cmd("Network.enable", {})
 
 driver.get(url) 
 
-for i in range(1):
-    x_coord = base_x + i * 0.001
+for i in range(100):
+    x_coord = base_x + i * 0.01
     y_coord = base_y
     time.sleep(5)
     areas = driver.execute_async_script(f"""
@@ -113,18 +127,20 @@ for i in range(1):
     let url = `https://map.naver.com/p/api/location/geocode?coords=${{x}},${{y}}&orders=admcode,legalcode`;
     console.log(url);
     xhr.open('GET', url);
-    let areas = [];
+    let areas = new Map();
     xhr.onreadystatechange = function() {{
         if (xhr.readyState === 4 && xhr.status === 200) {{
             let responseData = JSON.parse(xhr.responseText);
             let region = responseData.results[0].region;
-            let area1 = region.area1.name;
-            let area2 = region.area2.name;
-            let area3 = region.area3.name;
-            let area4 = region.area4.name;
-            areas = [area1, area2, area3, area4];
-            console.log(areas);
-            callback(areas);
+            areas.set("l1", [region.area1.name, region.area1.coords.center.x, region.area1.coords.center.y]);
+            areas.set("l2", [region.area2.name, region.area2.coords.center.x, region.area2.coords.center.y]);
+            areas.set("l3", [region.area3.name, region.area3.coords.center.x, region.area3.coords.center.y]);
+            if (region.area4.name !== "") {{
+                areas.set("l4", [region.area4.name, region.area4.coords.center.x, region.area4.coords.center.y]);
+            }}
+            const obj = Object.fromEntries(areas);
+            console.log(obj);
+            callback(obj);
         }} else {{
             console.log(xhr.readyState, xhr.status, xhr.responseText);
             console.error('Error fetching data');
@@ -132,70 +148,53 @@ for i in range(1):
     }}
     xhr.send();
     """)
-    if not areas[0]:
+    print(areas)
+    if not areas.get("l1"):
         continue
-    if areas[0] not in hier_dict:
-        hier_dict[areas[0]] = {}
-        region_to_coord[areas[0]] = (x_coord, y_coord)
-    if not areas[1]:
+    if areas.get("l1")[0] not in hier_dict:
+        hier_dict[areas.get("l1")[0]] = {}
+        region_to_coord[areas.get("l1")[0]] = (areas.get("l1")[1], areas.get("l1")[2])
+        hier_dict_test[areas.get("l1")[0]] = {"kr_name": areas.get("l1")[0], "coords": [areas.get("l1")[1], areas.get("l1")[2]], "sub_regions": {}}
+    if not areas.get("l2"):
         continue
-    if areas[1] not in hier_dict[areas[0]]:
-        hier_dict[areas[0]][areas[1]] = {}
-        region_to_coord[areas[1]] = (x_coord, y_coord)
-    if not areas[2]:
+    if areas.get("l2")[0] not in hier_dict[areas.get("l1")[0]]:
+        hier_dict[areas.get("l1")[0]][areas.get("l2")[0]] = {}
+        region_to_coord[areas.get("l2")[0]] = (areas.get("l2")[1], areas.get("l2")[2])
+        hier_dict_test[areas.get("l1")[0]]["sub_regions"][areas.get("l2")[0]] = {"kr_name": areas.get("l2")[0], "coords": [areas.get("l2")[1], areas.get("l2")[2]], "sub_regions": {}}
+    if not areas.get("l3"):
         continue
-    if areas[2] not in hier_dict[areas[0]][areas[1]]:
-        hier_dict[areas[0]][areas[1]][areas[2]] = []
-        region_to_coord[areas[2]] = (x_coord, y_coord)
-    if areas[3]:
-        hier_dict[areas[0]][areas[1]][areas[2]].append(areas[3])
-        region_to_coord[areas[3]] = (x_coord, y_coord)
+    if areas.get("l3")[0] not in hier_dict[areas.get("l1")[0]][areas.get("l2")[0]]:
+        hier_dict[areas.get("l1")[0]][areas.get("l2")[0]][areas.get("l3")[0]] = []
+        region_to_coord[areas.get("l3")[0]] = (areas.get("l3")[1], areas.get("l3")[2])
+        hier_dict_test[areas.get("l1")[0]]["sub_regions"][areas.get("l2")[0]]["sub_regions"][areas.get("l3")[0]] = {"kr_name": areas.get("l3")[0], "coords": [areas.get("l3")[1], areas.get("l3")[2]], "sub_regions": {}}
+    if areas.get("l4"):
+        hier_dict[areas.get("l1")[0]][areas.get("l2")[0]][areas.get("l3")[0]].append(areas.get("l4")[0])
+        region_to_coord[areas.get("l4")[0]] = (areas.get("l4")[1], areas.get("l4")[2])
+        hier_dict_test[areas.get("l1")[0]]["sub_regions"][areas.get("l2")[0]]["sub_regions"][areas.get("l3")[0]][areas.get("l4")[0]] = {"kr_name": areas.get("l4")[0], "coords": [areas.get("l4")[1], areas.get("l4")[2]], "sub_regions": {}}
+        
 print(hier_dict)
-file_path = f"./hier_dict.json"
-with open(file_path, "w") as json_file:
-    json.dump(hier_dict, json_file, indent=4)
+with open(hier_dict_file, "w", encoding="utf-8") as json_file:
+    json.dump(hier_dict, json_file, indent=4, ensure_ascii=False)
+with open(hier_dict_test_file, "w", encoding="utf-8") as json_file:
+    json.dump(hier_dict_test, json_file, indent=4, ensure_ascii=False)
+file_path = f"./region_coord.json"
+with open(file_path, "w", encoding="utf-8") as json_file:
+    json.dump(region_to_coord, json_file, indent=4, ensure_ascii=False)
 
-polygon_url = lambda x, y: f"https://map.naver.com/p/api/polygon?lng={x}&lat={y}&order=adm&keyword=09140&zoom=14"
+polygon_url = lambda x, y, k, z: f"https://map.naver.com/p/api/polygon?lng={x}&lat={y}&order=adm&keyword={k}&zoom={z}"
 
-def get_region_json(area):
-    area_url = polygon_url(*region_to_coord[area])
-    polygon = driver.execute_async_script(f"""
-    let polygon_url = "{area_url}";
-    const callback = arguments[arguments.length - 1];
-    let xhr = new XMLHttpRequest();
-    xhr.open('GET', polygon_url);
-    console.log(polygon_url);
-    xhr.onreadystatechange = function() {{
-        if (xhr.readyState === 4 && xhr.status === 200) {{
-            console.log(xhr.readyState, xhr.status, xhr.responseText);
-            let responseData = JSON.parse(xhr.responseText);
-            console.log(responseData);
-            callback(responseData);
-        }} else if (xhr.status !== 200) {{
-            console.error('Error fetching data');
-        }}
-    }};
-    xhr.send();""")
-    return polygon
+print(region_to_coord)
 
-for area in region_to_coord:
-    if area in region_to_polygon.keys():
-        continue
-    region_to_polygon[area] = get_region_json(area)
-    file_path = f"./geojson/{area}_polygon.json"
-    with open(file_path, "w") as json_file:
-        json.dump(region_to_polygon[area], json_file, indent=4)
-
-print(region_to_polygon)
-
-    # time.sleep(5)
-    # get_response(driver)
-    # clickable = None
-    # cnt = 0
-    # while not clickable and cnt < 1000:
-    #     clickable = driver.find_element(By.CLASS_NAME, "mapboxgl-canvas")
-    #     cnt += 1
-    #     time.sleep(0.01)
-    # print("cnt>>>>>>>>>>>", cnt)
+# deprecated 
+# retrieve area data by moving map with arrow keys
+# time.sleep(5)
+# get_response(driver)
+# clickable = None
+# cnt = 0
+# while not clickable and cnt < 1000:
+#     clickable = driver.find_element(By.CLASS_NAME, "mapboxgl-canvas")
+#     cnt += 1
+#     time.sleep(0.01)
+# print("cnt>>>>>>>>>>>", cnt)
 
 # driver.quit()
