@@ -8,7 +8,7 @@ from LocgiApi import GeoDataService
 from UserUtils import UserInput
 import json
 
-locgi_url = get_locgi_url('staging')
+locgi_url = UserInput.get_locgi_url('staging')
 
 hier_dict_test = {}
 hier_dict_test_file = 'hier_dict_test.json'
@@ -48,18 +48,21 @@ new_regions = []
 for naver_code in hier_dict_test:
     db_names = [x[1] for x in l1_ids]
     naver_name = hier_dict_test[naver_code]['en_name']
-    print(">>>naver_code", naver_code, "; naver_name:", naver_name)
-    # print(l1_ids)
+    admcode = hier_dict_test[naver_code]['admcode']
     idx = query_llm(naver_name, db_names)
     if idx == -1:
         # print(f"No match for {naver_name}")
-        new_regions.append([naver_code, naver_name])
+        new_regions.append([admcode, naver_name])
     elif idx < len(db_names):
         # print(f"{naver_name} find match in db: {db_names[idx]}")
-        pair_ids.append([naver_code, l1_ids[idx][0], naver_name, db_names[idx]])
+        pair_ids.append([admcode, l1_ids[idx][0], naver_name, db_names[idx]])
     else:
         print(f"Wrong output with idx: {idx}")
 print("pair ids:")
-print(pair_ids)
+for pair in pair_ids:
+    print(pair)
+json.dump(pair_ids, open('l1_pair_info.json', 'w', encoding='utf-8'), indent=4, ensure_ascii=False)
+
 print("new regions:")
 print(new_regions)
+json.dump(new_regions, open('new_region_id_list.json', 'w', encoding='utf-8'), indent=4, ensure_ascii=False)

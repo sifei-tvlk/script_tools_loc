@@ -9,14 +9,8 @@ from urllib.parse import urlparse, parse_qs
 base_x = 126.99080268424797
 base_y = 37.56655100000084
 zoom = 13
-hier_dict = {}
 region_to_coord = {}
 region_to_polygon = {}
-
-hier_dict = {}
-hier_dict_file = 'hier_dict.json'
-with open(hier_dict_file, 'r') as file:
-    hier_dict = json.load(file)
 
 hier_dict_test = {}
 hier_dict_test_file = 'hier_dict_test.json'
@@ -151,39 +145,26 @@ for i in range(100):
     print(areas)
     if not areas.get("l1"):
         continue
-    if areas.get("l1")[0] not in hier_dict:
-        hier_dict[areas.get("l1")[0]] = {}
+    if areas.get("l1")[0] not in hier_dict_test:
         region_to_coord[areas.get("l1")[0]] = (areas.get("l1")[1], areas.get("l1")[2])
         hier_dict_test[areas.get("l1")[0]] = {"kr_name": areas.get("l1")[0], "coords": [areas.get("l1")[1], areas.get("l1")[2]], "sub_regions": {}}
     if not areas.get("l2"):
         continue
-    if areas.get("l2")[0] not in hier_dict[areas.get("l1")[0]]:
-        hier_dict[areas.get("l1")[0]][areas.get("l2")[0]] = {}
+    if areas.get("l2")[0] not in hier_dict_test[areas.get("l1")[0]]:
         region_to_coord[areas.get("l2")[0]] = (areas.get("l2")[1], areas.get("l2")[2])
         hier_dict_test[areas.get("l1")[0]]["sub_regions"][areas.get("l2")[0]] = {"kr_name": areas.get("l2")[0], "coords": [areas.get("l2")[1], areas.get("l2")[2]], "sub_regions": {}}
     if not areas.get("l3"):
         continue
-    if areas.get("l3")[0] not in hier_dict[areas.get("l1")[0]][areas.get("l2")[0]]:
-        hier_dict[areas.get("l1")[0]][areas.get("l2")[0]][areas.get("l3")[0]] = []
+    if areas.get("l3")[0] not in hier_dict_test[areas.get("l1")[0]][areas.get("l2")[0]]:
         region_to_coord[areas.get("l3")[0]] = (areas.get("l3")[1], areas.get("l3")[2])
         hier_dict_test[areas.get("l1")[0]]["sub_regions"][areas.get("l2")[0]]["sub_regions"][areas.get("l3")[0]] = {"kr_name": areas.get("l3")[0], "coords": [areas.get("l3")[1], areas.get("l3")[2]], "sub_regions": {}}
     if areas.get("l4"):
-        hier_dict[areas.get("l1")[0]][areas.get("l2")[0]][areas.get("l3")[0]].append(areas.get("l4")[0])
-        region_to_coord[areas.get("l4")[0]] = (areas.get("l4")[1], areas.get("l4")[2])
         hier_dict_test[areas.get("l1")[0]]["sub_regions"][areas.get("l2")[0]]["sub_regions"][areas.get("l3")[0]][areas.get("l4")[0]] = {"kr_name": areas.get("l4")[0], "coords": [areas.get("l4")[1], areas.get("l4")[2]], "sub_regions": {}}
-        
-print(hier_dict)
-with open(hier_dict_file, "w", encoding="utf-8") as json_file:
-    json.dump(hier_dict, json_file, indent=4, ensure_ascii=False)
+
 with open(hier_dict_test_file, "w", encoding="utf-8") as json_file:
     json.dump(hier_dict_test, json_file, indent=4, ensure_ascii=False)
-file_path = f"./region_coord.json"
-with open(file_path, "w", encoding="utf-8") as json_file:
-    json.dump(region_to_coord, json_file, indent=4, ensure_ascii=False)
 
 polygon_url = lambda x, y, k, z: f"https://map.naver.com/p/api/polygon?lng={x}&lat={y}&order=adm&keyword={k}&zoom={z}"
-
-print(region_to_coord)
 
 # deprecated 
 # retrieve area data by moving map with arrow keys
