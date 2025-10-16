@@ -294,7 +294,7 @@ class GeoDataService:
         return get_result(response)
 
     @staticmethod
-    def get_response_by_prompt(prompt):
+    def get_response_by_prompt(prompt, url):
         req_body = {
             "jsonrpc": "2.0",
             "id": "123",
