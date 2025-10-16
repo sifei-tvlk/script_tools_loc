@@ -95,31 +95,37 @@ for i in range(1, 20):
         json.dump(region_to_polygon[admcode], json_file, indent=4, ensure_ascii=False)
 
 for l1_naver_code in available_code.keys():
-    for i in range(100, 1000):
+    if available_code[l1_naver_code] == {}:
+        idxs = list(range(100, 1000))
+    else:
+        idxs = available_code[l1_naver_code].keys()
+    for i in idxs:
         navercode = l1_naver_code + str(i).zfill(3)
-    # for navercode in available_code[l1_naver_code].keys():
-        data = get_region_json(navercode)
-        features = data.get('features', [])
-        if not features:
-            continue
-        admcode = features[0].get('properties', {}).get('admcode')
-        print(navercode, admcode)
-        if not admcode:
-            continue
-        if navercode not in available_code[l1_naver_code].keys():
-            available_code[l1_naver_code][navercode] = {}
-        region_to_polygon[admcode] = data
-        if name not in hier_dict_test[l1_naver_code]['sub_regions'].keys() and admcode not in hier_dict_test[l1_naver_code]['sub_regions'].keys():
-            hier_dict_test[l1_naver_code]['sub_regions'][naver_code] = {"kr_name": name, "coords": [features[0].get('properties', {}).get('center').get('x'), features[0].get('properties', {}).get('center').get('y')], "sub_regions": {}}
-        if name in hier_dict_test[l1_naver_code]['sub_regions'].keys():
-            hier_dict_test[l1_naver_code]['sub_regions'][naver_code] = copy.deepcopy(hier_dict_test[l1_naver_code]['sub_regions'][name])
-            hier_dict_test[l1_naver_code]['sub_regions'][naver_code]["admcode"] = admcode
-            # hier_dict_test[admcode]["coords"] = [features[0].get('properties', {}).get('center').get('x'), features[0].get('properties', {}).get('center').get('y')]
-            hier_dict_test[l1_naver_code]['sub_regions'].pop(name)
-        file_path = f"./geojson/area2/{admcode}_polygon.json"
-        with open(file_path, "w", encoding="utf-8") as json_file:
-            json.dump(region_to_polygon[admcode], json_file, indent=4, ensure_ascii=False)
-        time.sleep(0.1)
+        try:
+            data = get_region_json(navercode)
+            features = data.get('features', [])
+            if not features:
+                continue
+            admcode = features[0].get('properties', {}).get('admcode')
+            print(navercode, admcode)
+            if not admcode:
+                continue
+            if navercode not in available_code[l1_naver_code].keys():
+                available_code[l1_naver_code][navercode] = {}
+            region_to_polygon[admcode] = data
+            if name not in hier_dict_test[l1_naver_code]['sub_regions'].keys() and admcode not in hier_dict_test[l1_naver_code]['sub_regions'].keys():
+                hier_dict_test[l1_naver_code]['sub_regions'][naver_code] = {"kr_name": name, "coords": [features[0].get('properties', {}).get('center').get('x'), features[0].get('properties', {}).get('center').get('y')], "sub_regions": {}}
+            if name in hier_dict_test[l1_naver_code]['sub_regions'].keys():
+                hier_dict_test[l1_naver_code]['sub_regions'][naver_code] = copy.deepcopy(hier_dict_test[l1_naver_code]['sub_regions'][name])
+                hier_dict_test[l1_naver_code]['sub_regions'][naver_code]["admcode"] = admcode
+                # hier_dict_test[admcode]["coords"] = [features[0].get('properties', {}).get('center').get('x'), features[0].get('properties', {}).get('center').get('y')]
+                hier_dict_test[l1_naver_code]['sub_regions'].pop(name)
+            file_path = f"./geojson/area2/{admcode}_polygon.json"
+            with open(file_path, "w", encoding="utf-8") as json_file:
+                json.dump(region_to_polygon[admcode], json_file, indent=4, ensure_ascii=False)
+            time.sleep(0.1)
+        except:
+            break
 
 with open(available_code_file, "w", encoding="utf-8") as json_file:
     json.dump(available_code, json_file, indent=4, ensure_ascii=False)

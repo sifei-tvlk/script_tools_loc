@@ -52,7 +52,7 @@ for naver_code in hier_dict_test:
     idx = query_llm(naver_name, db_names)
     if idx == -1:
         # print(f"No match for {naver_name}")
-        new_regions.append([admcode, naver_name])
+        new_regions.append([admcode, naver_name, naver_code])
     elif idx < len(db_names):
         # print(f"{naver_name} find match in db: {db_names[idx]}")
         pair_ids.append([admcode, l1_ids[idx][0], naver_name, db_names[idx]])
