@@ -32,7 +32,7 @@ l1_info = GeoDataService.get_children_geo_by_id(sk_id, locgi_url)
 l1_ids = []
 
 for l1 in l1_info:
-    if l1_info.get('isActive') == False:
+    if l1.get('isActive') == False:
         continue
     l1_id = l1.get('geoId')
     l1_ids.append([l1_id, l1.get('name')])
