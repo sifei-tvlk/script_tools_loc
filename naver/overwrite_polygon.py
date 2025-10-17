@@ -28,7 +28,7 @@ with open(hier_dict_file, 'r') as file:
 
 def overrite_geojson(geoId, geojson, locgi_url):
     data = GeoDataService.get_geo_with_geometry_by_id(geoId, locgi_url)
-    data['geoJson'] = geoJson
+    data['geometry'] = geojson
     res = GeoDataService.upsert_geo_with_geometry(data, locgi_url)
     return res
 
@@ -78,7 +78,7 @@ for pair_info in pair_info_list:
     geojson_file = f'./geojson/area1/{admcode}_polygon.json'
     with open(geojson_file, 'r') as file:
         geojson = json.load(file)
-    print(geoId, admcode, geojson)
+    print(geoId, admcode)
     res = overrite_geojson(geoId, geojson, locgi_url)
     print(geoId, " polygon overwritten.")
 
