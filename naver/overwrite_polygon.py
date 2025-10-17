@@ -77,7 +77,7 @@ for pair_info in pair_info_list:
     admcode = pair_info[0]
     geojson_file = f'./geojson/area1/{admcode}_polygon.json'
     with open(geojson_file, 'r') as file:
-        geojson = json.load(file).get('feature')[0].get('geometry')
+        geojson = json.load(file).get('features')[0].get('geometry')
     print(geoId, admcode)
     res = overrite_geojson(geoId, geojson, locgi_url)
     print(geoId, " polygon overwritten.")
@@ -86,7 +86,7 @@ for pair_info in pair_info_list:
 for new_region in new_regions:
     admcode = new_region[0]
     name = new_region[1]
-    naver_code = admcode[2]
+    naver_code = new_region[2]
     parentId = sk_id
     geojson_file = f'./geojson/area1/{admcode}_polygon.json'
     center_lng = hier_dict[naver_code]['coords'][0]
