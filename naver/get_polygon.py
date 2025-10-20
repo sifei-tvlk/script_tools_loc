@@ -76,7 +76,6 @@ for i in range(1, 18):
         continue
     name = get_name(features)
     admcode = features[0].get('properties', {}).get('admcode')
-    print(admcode)
     if not admcode:
         continue
     if str(i).zfill(2) not in available_code.keys():
@@ -113,8 +112,8 @@ for l1_naver_code in available_code.keys():
         if l2_naver_code not in available_code[l1_naver_code].keys():
             available_code[l1_naver_code][l2_naver_code] = {}
         region_to_polygon[admcode] = data
-        if name not in hier_dict[l1_naver_code]['sub_regions'].keys() and admcode not in hier_dict[l1_naver_code]['sub_regions'].keys():
-            hier_dict[l1_naver_code]['sub_regions'][l2_naver_code] = {"kr_name": name, "coords": [features[0].get('properties', {}).get('center').get('x'), features[0].get('properties', {}).get('center').get('y')], "sub_regions": {}}
+        if name not in hier_dict[l1_naver_code]['sub_regions'].keys() and l2_naver_code not in hier_dict[l1_naver_code]['sub_regions'].keys():
+            hier_dict[l1_naver_code]['sub_regions'][l2_naver_code] = {"admcode": admcode, "kr_name": name, "coords": [features[0].get('properties', {}).get('center').get('x'), features[0].get('properties', {}).get('center').get('y')], "sub_regions": {}}
         if name in hier_dict[l1_naver_code]['sub_regions'].keys():
             hier_dict[l1_naver_code]['sub_regions'][l2_naver_code] = copy.deepcopy(hier_dict[l1_naver_code]['sub_regions'][name])
             hier_dict[l1_naver_code]['sub_regions'][l2_naver_code]["admcode"] = admcode

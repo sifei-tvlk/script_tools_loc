@@ -4,16 +4,16 @@ import json
 translator = Translator()
 print(translator.translate("서울", src="ko", dest="en").text)
 
-with open("./hier_dict_test.json", "r", encoding="utf-8") as json_file:
-    hier_dict_test = json.load(json_file)
+with open("./hier_dict.json", "r", encoding="utf-8") as json_file:
+    hier_dict = json.load(json_file)
 
 hier_dict_en = {}
 
-for l1, l1_value in hier_dict_test.items():
+for l1, l1_value in hier_dict.items():
     l1_kr = l1_value['kr_name']
     l1_en = translator.translate(l1_kr, src="ko", dest="en").text
     print(l1_kr, l1_en)
-    hier_dict_test[l1]['en_name'] = l1_en
+    hier_dict[l1]['en_name'] = l1_en
     for l2, l2_value in l1_value['sub_regions'].items():
         l2_kr = l2_value['kr_name']
         l2_en = translator.translate(l2_kr, src="ko", dest="en").text
@@ -29,4 +29,4 @@ for l1, l1_value in hier_dict_test.items():
                 l4_en = translator.translate(l4_kr, src="ko", dest="en").text
                 print("        ", l4_kr, l4_en)
                 l4_value['en_name'] = l4_en
-json.dump(hier_dict_test, open('hier_dict_test.json', 'w', encoding='utf-8'), indent=4, ensure_ascii=False)
+json.dump(hier_dict, open('hier_dict.json', 'w', encoding='utf-8'), indent=4, ensure_ascii=False)
