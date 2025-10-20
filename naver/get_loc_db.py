@@ -52,6 +52,7 @@ def pairing_ids(level, parentId, all_sub_info):
 
 paired_ids = [[], [], [], []]  # level 1 to level 4
 new_regions = []
+db_active_l1_ids = []
 
 db_l1_info = GeoDataService.get_children_geo_by_id(sk_id, locgi_url)
 for l1 in db_l1_info:
