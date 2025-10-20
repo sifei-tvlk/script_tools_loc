@@ -10,10 +10,10 @@ import json
 
 locgi_url = UserInput.get_locgi_url('staging')
 
-hier_dict_test = {}
-hier_dict_test_file = 'hier_dict_test.json'
-with open(hier_dict_test_file, 'r') as file:
-    hier_dict_test = json.load(file)
+hier_dict = {}
+hier_dict_file = 'hier_dict.json'
+with open(hier_dict_file, 'r') as file:
+    hier_dict = json.load(file)
 
 sk_id = 20004311
 
@@ -28,42 +28,57 @@ def query_llm(name_naver, list_db_name) -> int:
     response = GeoDataService.get_response_by_prompt(prompt, locgi_url)
     return int(response)
 
-l1_info = GeoDataService.get_children_geo_by_id(sk_id, locgi_url)
-l1_ids = []
+def pairing_ids(level, parentId, all_sub_info):
+    if level == 4:
+        return
+    db_info = GeoDataService.get_children_geo_by_id(parentId, locgi_url)
+    db_active_ids = []
+    for info in db_info:
+        if info.get('isActive') == False:
+            continue
+        db_active_ids.append([info.get('geoId'), info.get('name')])
+    for naver_code in all_sub_info:
+        db_names = [x[1] for x in db_active_ids]
+        naver_name = all_sub_info[naver_code]['en_name']
+        admcode = all_sub_info[naver_code]['admcode']
+        idx = query_llm(naver_name, db_names)
+        if idx == -1:
+            new_regions.append([admcode, naver_name, naver_code, parentId])
+        elif idx < len(db_names):
+            paired_ids[level - 1].append([admcode, db_active_ids[idx].get('geoId'), naver_name, db_names[idx], level])
+        else:
+            print(f"Wrong output with idx: {idx}")
+        pairing_ids(level + 1, db_active_ids[idx].get('geoId'), all_sub_info[naver_code]['sub_regions'])
 
-for l1 in l1_info:
-    if l1.get('isActive') == False:
-        continue
-    l1_id = l1.get('geoId')
-    l1_ids.append([l1_id, l1.get('name')])
-
-json.dump(l1_ids, open('l1_info.json', 'w', encoding='utf-8'), indent=4, ensure_ascii=False)
-
-hier_dict_test = {}
-hier_dict_test_file = 'hier_dict_test.json'
-with open(hier_dict_test_file, 'r') as file:
-    hier_dict_test = json.load(file)
-
-pair_ids = []
+paired_ids = [[], [], [], []]  # level 1 to level 4
 new_regions = []
 
-for naver_code in hier_dict_test:
-    db_names = [x[1] for x in l1_ids]
-    naver_name = hier_dict_test[naver_code]['en_name']
-    admcode = hier_dict_test[naver_code]['admcode']
+db_l1_info = GeoDataService.get_children_geo_by_id(sk_id, locgi_url)
+for l1 in db_l1_info:
+    if l1.get('isActive') == False:
+        continue
+    db_active_l1_ids.append([l1.get('geoId'), l1.get('name')])
+
+for naver_code in hier_dict:
+    db_names = [x[1] for x in db_active_l1_ids]
+
+    naver_name = hier_dict[naver_code]['en_name']
+    admcode = hier_dict[naver_code]['admcode']
     idx = query_llm(naver_name, db_names)
     if idx == -1:
         # print(f"No match for {naver_name}")
-        new_regions.append([admcode, naver_name, naver_code])
+        new_regions.append([admcode, naver_name, naver_code, sk_id])
     elif idx < len(db_names):
         # print(f"{naver_name} find match in db: {db_names[idx]}")
-        pair_ids.append([admcode, l1_ids[idx][0], naver_name, db_names[idx]])
+        paired_ids[0].append([admcode, db_active_l1_ids[idx][0], naver_name, db_names[idx], 1])
     else:
         print(f"Wrong output with idx: {idx}")
-print("pair ids:")
-for pair in pair_ids:
+    pairing_ids(2, db_active_l1_ids[idx][0], hier_dict[naver_code]['sub_regions'])
+    
+print("paired ids:")
+for pair in paired_ids:
     print(pair)
-json.dump(pair_ids, open('l1_pair_info.json', 'w', encoding='utf-8'), indent=4, ensure_ascii=False)
+json.dump(paired_ids, open('pair_info.json', 'w', encoding='utf-8'), indent=4, ensure_ascii=False)
 
 print("new regions:")
 print(new_regions)

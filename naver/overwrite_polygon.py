@@ -9,10 +9,10 @@ from UserUtils import UserInput
 
 locgi_url = UserInput.get_locgi_url('staging')
 
-sk_id = 20004311
+process_level = 0
 
 pair_info_list = []
-pair_info_file = 'l1_pair_info.json'
+pair_info_file = 'pair_info.json'
 with open(pair_info_file, 'r') as file:
     pair_info_list = json.load(file)
 
@@ -22,7 +22,7 @@ with open(new_region_file, 'r') as file:
     new_regions = json.load(file)
 
 hier_dict = {}
-hier_dict_file = 'hier_dict_test.json'
+hier_dict_file = 'hier_dict.json'
 with open(hier_dict_file, 'r') as file:
     hier_dict = json.load(file)
 
@@ -72,23 +72,22 @@ def add_new_regions(name, region_type, parentId, center_lng, center_lat, geojson
     }
     res = GeoDataService.upsert_geo_with_geometry(data, locgi_url)
 
-for pair_info in pair_info_list:
+for pair_info in pair_info_list[process_level]:
     geoId = pair_info[1]
     admcode = pair_info[0]
-    geojson_file = f'./geojson/area1/{admcode}_polygon.json'
+    geojson_file = f'./geojson/area{process_level}/{admcode}_polygon.json'
     with open(geojson_file, 'r') as file:
         geojson = json.load(file).get('features')[0].get('geometry')
     print(geoId, admcode)
     res = overrite_geojson(geoId, geojson, locgi_url)
     print(geoId, " polygon overwritten.")
 
-# l1 new region
-for new_region in new_regions:
+for new_region in new_regions[process_level]:
     admcode = new_region[0]
     name = new_region[1]
     naver_code = new_region[2]
-    parentId = sk_id
-    geojson_file = f'./geojson/area1/{admcode}_polygon.json'
+    parentId = new_region[3]
+    geojson_file = f'./geojson/area{process_level}/{admcode}_polygon.json'
     center_lng = hier_dict[naver_code]['coords'][0]
     center_lat = hier_dict[naver_code]['coords'][1]
     with open(geojson_file, 'r') as file:
