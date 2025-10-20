@@ -13,7 +13,8 @@
                     127.730003,
                     37.881374
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Chuncheon city"
             },
             "01130": {
                 "kr_name": "원주시",
@@ -21,7 +22,8 @@
                     127.919969,
                     37.342318
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Wonju city"
             },
             "01150": {
                 "kr_name": "강릉시",
@@ -29,7 +31,8 @@
                     128.875836,
                     37.752175
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gangneung city"
             },
             "01170": {
                 "kr_name": "동해시",
@@ -37,7 +40,8 @@
                     129.114262,
                     37.524758
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Donghae City"
             },
             "01190": {
                 "kr_name": "태백시",
@@ -45,7 +49,8 @@
                     128.985735,
                     37.164132
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Taebaek City"
             },
             "01210": {
                 "kr_name": "속초시",
@@ -53,7 +58,8 @@
                     128.59184,
                     38.207169
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Sokcho city"
             },
             "01230": {
                 "kr_name": "삼척시",
@@ -61,7 +67,8 @@
                     129.165148,
                     37.449935
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Samcheok city"
             },
             "01720": {
                 "kr_name": "홍천군",
@@ -69,7 +76,8 @@
                     127.888518,
                     37.697207
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Hongcheon-gun"
             },
             "01730": {
                 "kr_name": "횡성군",
@@ -77,7 +85,8 @@
                     127.985022,
                     37.491803
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Hoengseong-gun"
             },
             "01750": {
                 "kr_name": "영월군",
@@ -85,7 +94,8 @@
                     128.46185,
                     37.183774
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yeongwol-gun"
             },
             "01760": {
                 "kr_name": "평창군",
@@ -93,7 +103,8 @@
                     128.390193,
                     37.37077
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Pyeongchang-gun"
             },
             "01770": {
                 "kr_name": "정선군",
@@ -101,7 +112,8 @@
                     128.660871,
                     37.380609
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jeongseon-gun"
             },
             "01780": {
                 "kr_name": "철원군",
@@ -109,7 +121,8 @@
                     127.313472,
                     38.146861
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Cheorwon-gun"
             },
             "01790": {
                 "kr_name": "화천군",
@@ -117,7 +130,8 @@
                     127.708216,
                     38.106181
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Hwacheon-gun"
             },
             "01800": {
                 "kr_name": "양구군",
@@ -125,7 +139,8 @@
                     127.99,
                     38.109992
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yanggu-gun"
             },
             "01810": {
                 "kr_name": "인제군",
@@ -133,7 +148,8 @@
                     128.170352,
                     38.069732
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Inje-gun"
             },
             "01820": {
                 "kr_name": "고성군",
@@ -141,7 +157,8 @@
                     128.467862,
                     38.380615
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Goseong-gun"
             },
             "01830": {
                 "kr_name": "양양군",
@@ -149,9 +166,11 @@
                     128.619145,
                     38.075493
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yangyang-gun"
             }
-        }
+        },
+        "en_name": "Gangwon Special Self-Governing Province"
     },
     "02": {
         "admcode": "4100000000",
@@ -167,7 +186,8 @@
                     127.028646,
                     37.263476
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Suwon city"
             },
             "02111": {
                 "kr_name": "수원시 장안구",
@@ -175,7 +195,8 @@
                     127.010123,
                     37.303971
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jangan-gu, Suwon-si"
             },
             "02113": {
                 "kr_name": "수원시 권선구",
@@ -183,7 +204,8 @@
                     126.971911,
                     37.257687
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gwonseon-gu, Suwon-si"
             },
             "02115": {
                 "kr_name": "수원시 팔달구",
@@ -191,7 +213,8 @@
                     127.020098,
                     37.282569
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Paldal-gu, Suwon-si"
             },
             "02117": {
                 "kr_name": "수원시 영통구",
@@ -199,7 +222,8 @@
                     127.046525,
                     37.2596
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yeongtong-gu, Suwon-si"
             },
             "02130": {
                 "kr_name": "성남시",
@@ -207,7 +231,8 @@
                     127.126777,
                     37.420027
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Seongnam city"
             },
             "02131": {
                 "kr_name": "성남시 수정구",
@@ -215,7 +240,8 @@
                     127.145634,
                     37.450396
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Sujeong-gu, Seongnam-si"
             },
             "02133": {
                 "kr_name": "성남시 중원구",
@@ -223,7 +249,8 @@
                     127.13721,
                     37.430523
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jungwon-gu, Seongnam-si"
             },
             "02135": {
                 "kr_name": "성남시 분당구",
@@ -231,7 +258,8 @@
                     127.118925,
                     37.382819
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Bundang-gu, Seongnam-si"
             },
             "02150": {
                 "kr_name": "의정부시",
@@ -239,7 +267,8 @@
                     127.033753,
                     37.738083
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Uijeongbu City"
             },
             "02170": {
                 "kr_name": "안양시",
@@ -247,7 +276,8 @@
                     126.956753,
                     37.39429
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Anyang city"
             },
             "02171": {
                 "kr_name": "안양시 만안구",
@@ -255,7 +285,8 @@
                     126.932325,
                     37.386649
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Anyang-si Manan-gu"
             },
             "02173": {
                 "kr_name": "안양시 동안구",
@@ -263,7 +294,8 @@
                     126.951354,
                     37.392574
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Dongan-gu, Anyang-si"
             },
             "02190": {
                 "kr_name": "부천시",
@@ -271,7 +303,8 @@
                     126.766088,
                     37.503559
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Bucheon city"
             },
             "02192": {
                 "kr_name": "부천시 원미구",
@@ -279,7 +312,8 @@
                     126.787116,
                     37.496601
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Wonmi-gu, Bucheon-si"
             },
             "02194": {
                 "kr_name": "부천시 소사구",
@@ -287,7 +321,8 @@
                     126.799925,
                     37.480074
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Sosa-gu, Bucheon-si"
             },
             "02196": {
                 "kr_name": "부천시 오정구",
@@ -295,7 +330,8 @@
                     126.796021,
                     37.528371
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Ojeong-gu, Bucheon-si"
             },
             "02210": {
                 "kr_name": "광명시",
@@ -303,7 +339,8 @@
                     126.86465,
                     37.478618
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gwangmyeong city"
             },
             "02220": {
                 "kr_name": "평택시",
@@ -311,7 +348,8 @@
                     127.112695,
                     36.992354
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Pyeongtaek City"
             },
             "02250": {
                 "kr_name": "동두천시",
@@ -319,7 +357,8 @@
                     127.060638,
                     37.903664
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Dongducheon City"
             },
             "02270": {
                 "kr_name": "안산시",
@@ -327,7 +366,8 @@
                     126.830818,
                     37.321912
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Ansan city"
             },
             "02271": {
                 "kr_name": "안산시 상록구",
@@ -335,7 +375,8 @@
                     126.846651,
                     37.301081
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Sangnok-gu, Ansan-si"
             },
             "02273": {
                 "kr_name": "안산시 단원구",
@@ -343,7 +384,8 @@
                     126.815264,
                     37.321017
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Danwon-gu, Ansan-si"
             },
             "02280": {
                 "kr_name": "고양시",
@@ -351,7 +393,8 @@
                     126.831983,
                     37.658398
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Goyang city"
             },
             "02281": {
                 "kr_name": "고양시 덕양구",
@@ -359,7 +402,8 @@
                     126.832125,
                     37.63743
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Deokyang-gu, Goyang-si"
             },
             "02285": {
                 "kr_name": "고양시 일산동구",
@@ -367,7 +411,8 @@
                     126.775191,
                     37.658622
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Ilsandong-gu, Goyang-si"
             },
             "02287": {
                 "kr_name": "고양시 일산서구",
@@ -375,7 +420,8 @@
                     126.745289,
                     37.677991
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Ilsanseo-gu, Goyang-si"
             },
             "02290": {
                 "kr_name": "과천시",
@@ -383,7 +429,8 @@
                     126.987675,
                     37.429201
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gwacheon City"
             },
             "02310": {
                 "kr_name": "구리시",
@@ -391,7 +438,8 @@
                     127.129632,
                     37.594266
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Guri city"
             },
             "02360": {
                 "kr_name": "남양주시",
@@ -399,7 +447,8 @@
                     127.216467,
                     37.635985
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Namyangju City"
             },
             "02370": {
                 "kr_name": "오산시",
@@ -407,7 +456,8 @@
                     127.077462,
                     37.149887
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Osan city"
             },
             "02390": {
                 "kr_name": "시흥시",
@@ -415,7 +465,8 @@
                     126.802934,
                     37.380177
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Siheung city"
             },
             "02410": {
                 "kr_name": "군포시",
@@ -423,7 +474,8 @@
                     126.935338,
                     37.361523
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gunpo city"
             },
             "02430": {
                 "kr_name": "의왕시",
@@ -431,7 +483,8 @@
                     126.968279,
                     37.344887
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Uiwang city"
             },
             "02450": {
                 "kr_name": "하남시",
@@ -439,7 +492,8 @@
                     127.214874,
                     37.539301
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Hanam city"
             },
             "02460": {
                 "kr_name": "용인시",
@@ -447,7 +501,8 @@
                     127.177492,
                     37.241252
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yongin city"
             },
             "02461": {
                 "kr_name": "용인시 처인구",
@@ -455,7 +510,8 @@
                     127.201344,
                     37.234346
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Cheoin-gu, Yongin-si"
             },
             "02463": {
                 "kr_name": "용인시 기흥구",
@@ -463,7 +519,8 @@
                     127.114662,
                     37.28045
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Giheung-gu, Yongin-si"
             },
             "02465": {
                 "kr_name": "용인시 수지구",
@@ -471,7 +528,8 @@
                     127.09778,
                     37.322242
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Suji-gu, Yongin-si"
             },
             "02480": {
                 "kr_name": "파주시",
@@ -479,7 +537,8 @@
                     126.779883,
                     37.760186
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Paju City"
             },
             "02500": {
                 "kr_name": "이천시",
@@ -487,7 +546,8 @@
                     127.435034,
                     37.272342
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Icheon city"
             },
             "02550": {
                 "kr_name": "안성시",
@@ -495,7 +555,8 @@
                     127.279773,
                     37.008055
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Anseong city"
             },
             "02570": {
                 "kr_name": "김포시",
@@ -503,7 +564,8 @@
                     126.715544,
                     37.61535
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gimpo City"
             },
             "02590": {
                 "kr_name": "화성시",
@@ -511,7 +573,8 @@
                     126.831405,
                     37.199565
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Hwaseong City"
             },
             "02610": {
                 "kr_name": "광주시",
@@ -519,7 +582,8 @@
                     127.255048,
                     37.429431
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gwangju city"
             },
             "02630": {
                 "kr_name": "양주시",
@@ -527,7 +591,8 @@
                     127.045847,
                     37.785329
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yangju City"
             },
             "02650": {
                 "kr_name": "포천시",
@@ -535,7 +600,8 @@
                     127.20024,
                     37.894867
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Pocheon city"
             },
             "02670": {
                 "kr_name": "여주시",
@@ -543,7 +609,8 @@
                     127.637082,
                     37.298342
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yeoju city"
             },
             "02800": {
                 "kr_name": "연천군",
@@ -551,7 +618,8 @@
                     127.074755,
                     38.096738
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yeoncheon-gun"
             },
             "02820": {
                 "kr_name": "가평군",
@@ -559,7 +627,8 @@
                     127.509541,
                     37.831508
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gapyeong-gun"
             },
             "02830": {
                 "kr_name": "양평군",
@@ -567,9 +636,11 @@
                     127.487597,
                     37.491791
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yangpyeong-gun"
             }
-        }
+        },
+        "en_name": "gyeonggi-do"
     },
     "03": {
         "admcode": "4800000000",
@@ -585,7 +656,8 @@
                     128.681875,
                     35.227877
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "changwon city"
             },
             "03121": {
                 "kr_name": "창원시 의창구",
@@ -593,7 +665,8 @@
                     128.634909,
                     35.255617
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Uichang-gu, Changwon-si"
             },
             "03123": {
                 "kr_name": "창원시 성산구",
@@ -601,7 +674,8 @@
                     128.70294,
                     35.198384
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Seongsan-gu, Changwon-si"
             },
             "03125": {
                 "kr_name": "창원시 마산합포구",
@@ -609,7 +683,8 @@
                     128.567863,
                     35.196874
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Masanhappo-gu, Changwon-si"
             },
             "03127": {
                 "kr_name": "창원시 마산회원구",
@@ -617,7 +692,8 @@
                     128.579706,
                     35.220932
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Masanhoewon-gu, Changwon-si"
             },
             "03129": {
                 "kr_name": "창원시 진해구",
@@ -625,7 +701,8 @@
                     128.710081,
                     35.13306
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jinhae-gu, Changwon-si"
             },
             "03170": {
                 "kr_name": "진주시",
@@ -633,7 +710,8 @@
                     128.107646,
                     35.180325
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jinju city"
             },
             "03220": {
                 "kr_name": "통영시",
@@ -641,7 +719,8 @@
                     128.433112,
                     34.85439
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Tongyeong city"
             },
             "03240": {
                 "kr_name": "사천시",
@@ -649,7 +728,8 @@
                     128.063865,
                     35.003477
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Sacheon city"
             },
             "03250": {
                 "kr_name": "김해시",
@@ -657,7 +737,8 @@
                     128.889322,
                     35.228574
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gimhae City"
             },
             "03270": {
                 "kr_name": "밀양시",
@@ -665,7 +746,8 @@
                     128.746712,
                     35.503856
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Miryang city"
             },
             "03310": {
                 "kr_name": "거제시",
@@ -673,7 +755,8 @@
                     128.62117,
                     34.880457
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Geoje city"
             },
             "03330": {
                 "kr_name": "양산시",
@@ -681,7 +764,8 @@
                     129.037339,
                     35.335049
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yangsan City"
             },
             "03720": {
                 "kr_name": "의령군",
@@ -689,7 +773,8 @@
                     128.261676,
                     35.322224
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Uiryeong-gun"
             },
             "03730": {
                 "kr_name": "함안군",
@@ -697,7 +782,8 @@
                     128.406595,
                     35.272315
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Haman-gun"
             },
             "03740": {
                 "kr_name": "창녕군",
@@ -705,7 +791,8 @@
                     128.492346,
                     35.544611
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Changnyeong-gun"
             },
             "03820": {
                 "kr_name": "고성군",
@@ -713,7 +800,8 @@
                     128.322264,
                     34.973097
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Goseong-gun"
             },
             "03840": {
                 "kr_name": "남해군",
@@ -721,7 +809,8 @@
                     127.892475,
                     34.837707
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Namhae-gun"
             },
             "03850": {
                 "kr_name": "하동군",
@@ -729,7 +818,8 @@
                     127.751275,
                     35.067333
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Hadong-gun"
             },
             "03860": {
                 "kr_name": "산청군",
@@ -737,7 +827,8 @@
                     127.873458,
                     35.415557
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Sancheong-gun"
             },
             "03870": {
                 "kr_name": "함양군",
@@ -745,7 +836,8 @@
                     127.725245,
                     35.520536
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Hamyang-gun"
             },
             "03880": {
                 "kr_name": "거창군",
@@ -753,7 +845,8 @@
                     127.909538,
                     35.686698
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Geochang-gun"
             },
             "03890": {
                 "kr_name": "합천군",
@@ -761,9 +854,11 @@
                     128.165799,
                     35.56666
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Hapcheon-gun"
             }
-        }
+        },
+        "en_name": "Gyeongsangnam-do"
     },
     "04": {
         "admcode": "4700000000",
@@ -779,7 +874,8 @@
                     129.34339,
                     36.019033
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Pohang city"
             },
             "04111": {
                 "kr_name": "포항시 남구",
@@ -787,7 +883,8 @@
                     129.359398,
                     36.008482
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Nam-gu, Pohang-si"
             },
             "04113": {
                 "kr_name": "포항시 북구",
@@ -795,7 +892,8 @@
                     129.368534,
                     36.043872
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Buk-gu, Pohang"
             },
             "04130": {
                 "kr_name": "경주시",
@@ -803,7 +901,8 @@
                     129.224784,
                     35.856242
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gyeongju city"
             },
             "04150": {
                 "kr_name": "김천시",
@@ -811,7 +910,8 @@
                     128.113615,
                     36.139771
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gimcheon City"
             },
             "04170": {
                 "kr_name": "안동시",
@@ -819,7 +919,8 @@
                     128.729538,
                     36.568425
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Andong city"
             },
             "04190": {
                 "kr_name": "구미시",
@@ -827,7 +928,8 @@
                     128.3443,
                     36.119599
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gumi city"
             },
             "04210": {
                 "kr_name": "영주시",
@@ -835,7 +937,8 @@
                     128.624063,
                     36.805667
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yeongju city"
             },
             "04230": {
                 "kr_name": "영천시",
@@ -843,7 +946,8 @@
                     128.938613,
                     35.97326
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yeongcheon city"
             },
             "04250": {
                 "kr_name": "상주시",
@@ -851,7 +955,8 @@
                     128.159229,
                     36.411002
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Sangju city"
             },
             "04280": {
                 "kr_name": "문경시",
@@ -859,7 +964,8 @@
                     128.186787,
                     36.586522
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Mungyeong-si"
             },
             "04290": {
                 "kr_name": "경산시",
@@ -867,7 +973,8 @@
                     128.741201,
                     35.82509
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gyeongsan city"
             },
             "04730": {
                 "kr_name": "의성군",
@@ -875,7 +982,8 @@
                     128.697171,
                     36.352716
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Uiseong-gun"
             },
             "04750": {
                 "kr_name": "청송군",
@@ -883,7 +991,8 @@
                     129.057126,
                     36.436279
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Cheongsong-gun"
             },
             "04760": {
                 "kr_name": "영양군",
@@ -891,7 +1000,8 @@
                     129.112384,
                     36.666717
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yeongyang-gun"
             },
             "04770": {
                 "kr_name": "영덕군",
@@ -899,7 +1009,8 @@
                     129.365267,
                     36.415034
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yeongdeok-gun"
             },
             "04820": {
                 "kr_name": "청도군",
@@ -907,7 +1018,8 @@
                     128.733988,
                     35.647399
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Cheongdo-gun"
             },
             "04830": {
                 "kr_name": "고령군",
@@ -915,7 +1027,8 @@
                     128.263074,
                     35.726177
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Goryeong-gun"
             },
             "04840": {
                 "kr_name": "성주군",
@@ -923,7 +1036,8 @@
                     128.282959,
                     35.919175
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Seongju-gun"
             },
             "04850": {
                 "kr_name": "칠곡군",
@@ -931,7 +1045,8 @@
                     128.401679,
                     35.995575
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Chilgok-gun"
             },
             "04900": {
                 "kr_name": "예천군",
@@ -939,7 +1054,8 @@
                     128.437355,
                     36.646884
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yecheon-gun"
             },
             "04920": {
                 "kr_name": "봉화군",
@@ -947,7 +1063,8 @@
                     128.732503,
                     36.893114
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Bonghwa-gun"
             },
             "04930": {
                 "kr_name": "울진군",
@@ -955,7 +1072,8 @@
                     129.400394,
                     36.993087
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Uljin-gun"
             },
             "04940": {
                 "kr_name": "울릉군",
@@ -963,9 +1081,11 @@
                     130.905697,
                     37.484455
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Ulleung-gun"
             }
-        }
+        },
+        "en_name": "Gyeongsangbuk-do"
     },
     "05": {
         "admcode": "2900000000",
@@ -981,7 +1101,8 @@
                     126.923286,
                     35.146082
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Dong-gu"
             },
             "05140": {
                 "kr_name": "서구",
@@ -989,7 +1110,8 @@
                     126.890272,
                     35.151969
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "western"
             },
             "05155": {
                 "kr_name": "남구",
@@ -997,7 +1119,8 @@
                     126.902402,
                     35.133004
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Nam-gu"
             },
             "05170": {
                 "kr_name": "북구",
@@ -1005,7 +1128,8 @@
                     126.911963,
                     35.17406
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Northern District"
             },
             "05200": {
                 "kr_name": "광산구",
@@ -1013,9 +1137,11 @@
                     126.793683,
                     35.139508
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gwangsan-gu"
             }
-        }
+        },
+        "en_name": "Gwangju Metropolitan City"
     },
     "06": {
         "admcode": "2700000000",
@@ -1031,7 +1157,8 @@
                     128.6062,
                     35.86934
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jung-gu"
             },
             "06140": {
                 "kr_name": "동구",
@@ -1039,7 +1166,8 @@
                     128.635609,
                     35.886664
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Dong-gu"
             },
             "06170": {
                 "kr_name": "서구",
@@ -1047,7 +1175,8 @@
                     128.559175,
                     35.871757
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "western"
             },
             "06200": {
                 "kr_name": "남구",
@@ -1055,7 +1184,8 @@
                     128.597486,
                     35.846
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Nam-gu"
             },
             "06230": {
                 "kr_name": "북구",
@@ -1063,7 +1193,8 @@
                     128.582947,
                     35.885684
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Northern District"
             },
             "06260": {
                 "kr_name": "수성구",
@@ -1071,7 +1202,8 @@
                     128.630625,
                     35.858165
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Suseong-gu"
             },
             "06290": {
                 "kr_name": "달서구",
@@ -1079,7 +1211,8 @@
                     128.532737,
                     35.829867
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Dalseo-gu"
             },
             "06710": {
                 "kr_name": "달성군",
@@ -1087,7 +1220,8 @@
                     128.431445,
                     35.7746
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Dalseong-gun"
             },
             "06720": {
                 "kr_name": "군위군",
@@ -1095,9 +1229,11 @@
                     128.572657,
                     36.242945
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gunwi-gun"
             }
-        }
+        },
+        "en_name": "Daegu Metropolitan City"
     },
     "07": {
         "admcode": "3000000000",
@@ -1113,7 +1249,8 @@
                     127.454884,
                     36.312169
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Dong-gu"
             },
             "07140": {
                 "kr_name": "중구",
@@ -1121,7 +1258,8 @@
                     127.421546,
                     36.325659
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jung-gu"
             },
             "07170": {
                 "kr_name": "서구",
@@ -1129,7 +1267,8 @@
                     127.383844,
                     36.355504
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "western"
             },
             "07200": {
                 "kr_name": "유성구",
@@ -1137,7 +1276,8 @@
                     127.356268,
                     36.362322
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yuseong-gu"
             },
             "07230": {
                 "kr_name": "대덕구",
@@ -1145,9 +1285,11 @@
                     127.415502,
                     36.346735
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Daedeok-gu"
             }
-        }
+        },
+        "en_name": "Daejeon Metropolitan City"
     },
     "08": {
         "admcode": "2600000000",
@@ -1163,7 +1305,8 @@
                     129.032352,
                     35.106214
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jung-gu"
             },
             "08140": {
                 "kr_name": "서구",
@@ -1171,7 +1314,8 @@
                     129.024413,
                     35.097932
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "western"
             },
             "08170": {
                 "kr_name": "동구",
@@ -1179,7 +1323,8 @@
                     129.045325,
                     35.129274
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Dong-gu"
             },
             "08200": {
                 "kr_name": "영도구",
@@ -1187,7 +1332,8 @@
                     129.067875,
                     35.091199
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yeongdo-gu"
             },
             "08230": {
                 "kr_name": "부산진구",
@@ -1195,7 +1341,8 @@
                     129.053157,
                     35.162913
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Busanjin-gu"
             },
             "08260": {
                 "kr_name": "동래구",
@@ -1203,7 +1350,8 @@
                     129.08369,
                     35.205155
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Dongrae-gu"
             },
             "08290": {
                 "kr_name": "남구",
@@ -1211,7 +1359,8 @@
                     129.084163,
                     35.136577
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Nam-gu"
             },
             "08320": {
                 "kr_name": "북구",
@@ -1219,7 +1368,8 @@
                     128.990438,
                     35.197185
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Northern District"
             },
             "08350": {
                 "kr_name": "해운대구",
@@ -1227,7 +1377,8 @@
                     129.163634,
                     35.163177
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Haeundae-gu"
             },
             "08380": {
                 "kr_name": "사하구",
@@ -1235,7 +1386,8 @@
                     128.974817,
                     35.104585
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Saha-gu"
             },
             "08410": {
                 "kr_name": "금정구",
@@ -1243,7 +1395,8 @@
                     129.0921,
                     35.243068
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Geumjeong-gu"
             },
             "08440": {
                 "kr_name": "강서구",
@@ -1251,7 +1404,8 @@
                     128.98045,
                     35.212218
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gangseo-gu"
             },
             "08470": {
                 "kr_name": "연제구",
@@ -1259,7 +1413,8 @@
                     129.079764,
                     35.176242
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yeonje-gu"
             },
             "08500": {
                 "kr_name": "수영구",
@@ -1267,7 +1422,8 @@
                     129.113186,
                     35.145694
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Suyeong-gu"
             },
             "08530": {
                 "kr_name": "사상구",
@@ -1275,7 +1431,8 @@
                     128.99125,
                     35.152624
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Sasang-gu"
             },
             "08710": {
                 "kr_name": "기장군",
@@ -1283,9 +1440,11 @@
                     129.222312,
                     35.244498
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gijang-gun"
             }
-        }
+        },
+        "en_name": "Busan Metropolitan City"
     },
     "09": {
         "admcode": "1100000000",
@@ -1301,7 +1460,8 @@
                     126.978834,
                     37.573521
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jongno-gu"
             },
             "09140": {
                 "kr_name": "중구",
@@ -1309,7 +1469,8 @@
                     126.997602,
                     37.563843
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jung-gu"
             },
             "09170": {
                 "kr_name": "용산구",
@@ -1317,7 +1478,8 @@
                     126.99049,
                     37.532527
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yongsan-gu"
             },
             "09200": {
                 "kr_name": "성동구",
@@ -1325,7 +1487,8 @@
                     127.036821,
                     37.563456
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Seongdong-gu"
             },
             "09215": {
                 "kr_name": "광진구",
@@ -1333,7 +1496,8 @@
                     127.087722,
                     37.53629
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gwangjin-gu"
             },
             "09230": {
                 "kr_name": "동대문구",
@@ -1341,7 +1505,8 @@
                     127.03965,
                     37.574524
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Dongdaemun-gu"
             },
             "09260": {
                 "kr_name": "중랑구",
@@ -1349,7 +1514,8 @@
                     127.092584,
                     37.606324
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jungnang-gu"
             },
             "09290": {
                 "kr_name": "성북구",
@@ -1357,7 +1523,8 @@
                     127.016749,
                     37.5894
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Seongbuk-gu"
             },
             "09305": {
                 "kr_name": "강북구",
@@ -1365,7 +1532,8 @@
                     127.025614,
                     37.639782
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gangbuk-gu"
             },
             "09320": {
                 "kr_name": "도봉구",
@@ -1373,7 +1541,8 @@
                     127.047163,
                     37.668768
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Dobong-gu"
             },
             "09350": {
                 "kr_name": "노원구",
@@ -1381,7 +1550,8 @@
                     127.056473,
                     37.654358
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Nowon-gu"
             },
             "09380": {
                 "kr_name": "은평구",
@@ -1389,7 +1559,8 @@
                     126.929164,
                     37.602784
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Eunpyeong-gu"
             },
             "09410": {
                 "kr_name": "서대문구",
@@ -1397,7 +1568,8 @@
                     126.9368,
                     37.579225
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Seodaemun-gu"
             },
             "09440": {
                 "kr_name": "마포구",
@@ -1405,7 +1577,8 @@
                     126.901491,
                     37.566324
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Mapo-gu"
             },
             "09470": {
                 "kr_name": "양천구",
@@ -1413,7 +1586,8 @@
                     126.866642,
                     37.517016
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yangcheon-gu"
             },
             "09500": {
                 "kr_name": "강서구",
@@ -1421,7 +1595,8 @@
                     126.849642,
                     37.550937
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gangseo-gu"
             },
             "09530": {
                 "kr_name": "구로구",
@@ -1429,7 +1604,8 @@
                     126.887536,
                     37.495472
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Guro-gu"
             },
             "09545": {
                 "kr_name": "금천구",
@@ -1437,7 +1613,8 @@
                     126.89551,
                     37.456864
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Geumcheon-gu"
             },
             "09560": {
                 "kr_name": "영등포구",
@@ -1445,7 +1622,8 @@
                     126.896004,
                     37.526436
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yeongdeungpo-gu"
             },
             "09590": {
                 "kr_name": "동작구",
@@ -1453,7 +1631,8 @@
                     126.940347,
                     37.504311
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Dongjak-gu"
             },
             "09620": {
                 "kr_name": "관악구",
@@ -1461,7 +1640,8 @@
                     126.951485,
                     37.478155
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gwanak-gu"
             },
             "09650": {
                 "kr_name": "서초구",
@@ -1469,7 +1649,8 @@
                     127.032598,
                     37.483569
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Seocho-gu"
             },
             "09680": {
                 "kr_name": "강남구",
@@ -1477,7 +1658,8 @@
                     127.047502,
                     37.517305
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gangnam-gu"
             },
             "09710": {
                 "kr_name": "송파구",
@@ -1485,7 +1667,8 @@
                     127.105919,
                     37.514563
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Songpa-gu"
             },
             "09740": {
                 "kr_name": "강동구",
@@ -1493,9 +1676,11 @@
                     127.123771,
                     37.530126
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gangdong-gu"
             }
-        }
+        },
+        "en_name": "Seoul special city"
     },
     "10": {
         "admcode": "3100000000",
@@ -1511,7 +1696,8 @@
                     129.3327,
                     35.56945
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jung-gu"
             },
             "10140": {
                 "kr_name": "남구",
@@ -1519,7 +1705,8 @@
                     129.330109,
                     35.543798
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Nam-gu"
             },
             "10170": {
                 "kr_name": "동구",
@@ -1527,7 +1714,8 @@
                     129.416632,
                     35.504844
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Dong-gu"
             },
             "10200": {
                 "kr_name": "북구",
@@ -1535,7 +1723,8 @@
                     129.361313,
                     35.582709
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Northern District"
             },
             "10710": {
                 "kr_name": "울주군",
@@ -1543,9 +1732,11 @@
                     129.242229,
                     35.522089
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Ulju-gun"
             }
-        }
+        },
+        "en_name": "Ulsan Metropolitan City"
     },
     "11": {
         "admcode": "2800000000",
@@ -1561,7 +1752,8 @@
                     126.621588,
                     37.473781
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jung-gu"
             },
             "11140": {
                 "kr_name": "동구",
@@ -1569,7 +1761,8 @@
                     126.643212,
                     37.473885
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Dong-gu"
             },
             "11177": {
                 "kr_name": "미추홀구",
@@ -1577,7 +1770,8 @@
                     126.650584,
                     37.463523
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Michuhol-gu"
             },
             "11185": {
                 "kr_name": "연수구",
@@ -1585,7 +1779,8 @@
                     126.67828,
                     37.410167
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yeonsu-gu"
             },
             "11200": {
                 "kr_name": "남동구",
@@ -1593,7 +1788,8 @@
                     126.731488,
                     37.447342
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Namdong-gu"
             },
             "11237": {
                 "kr_name": "부평구",
@@ -1601,7 +1797,8 @@
                     126.721838,
                     37.507056
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Bupyeong-gu"
             },
             "11245": {
                 "kr_name": "계양구",
@@ -1609,7 +1806,8 @@
                     126.737776,
                     37.537415
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gyeyang-gu"
             },
             "11260": {
                 "kr_name": "서구",
@@ -1617,7 +1815,8 @@
                     126.675994,
                     37.545449
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "western"
             },
             "11710": {
                 "kr_name": "강화군",
@@ -1625,7 +1824,8 @@
                     126.488052,
                     37.746498
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Ganghwa-gun"
             },
             "11720": {
                 "kr_name": "옹진군",
@@ -1633,9 +1833,11 @@
                     126.490925,
                     37.263033
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Ongjin-gun"
             }
-        }
+        },
+        "en_name": "Incheon Metropolitan City"
     },
     "12": {
         "admcode": "4600000000",
@@ -1651,7 +1853,8 @@
                     126.392337,
                     34.811875
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Mokpo city"
             },
             "12130": {
                 "kr_name": "여수시",
@@ -1659,7 +1862,8 @@
                     127.662313,
                     34.760425
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yeosu city"
             },
             "12150": {
                 "kr_name": "순천시",
@@ -1667,7 +1871,8 @@
                     127.487243,
                     34.950698
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Suncheon city"
             },
             "12170": {
                 "kr_name": "나주시",
@@ -1675,7 +1880,8 @@
                     126.710814,
                     35.015814
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Naju city"
             },
             "12230": {
                 "kr_name": "광양시",
@@ -1683,7 +1889,8 @@
                     127.695899,
                     34.940657
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gwangyang city"
             },
             "12710": {
                 "kr_name": "담양군",
@@ -1691,7 +1898,8 @@
                     126.988175,
                     35.321175
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Damyang-gun"
             },
             "12720": {
                 "kr_name": "곡성군",
@@ -1699,7 +1907,8 @@
                     127.291978,
                     35.282017
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gokseong-gun"
             },
             "12730": {
                 "kr_name": "구례군",
@@ -1707,7 +1916,8 @@
                     127.462938,
                     35.20251
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gurye-gun"
             },
             "12770": {
                 "kr_name": "고흥군",
@@ -1715,7 +1925,8 @@
                     127.275507,
                     34.604705
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Goheung-gun"
             },
             "12780": {
                 "kr_name": "보성군",
@@ -1723,7 +1934,8 @@
                     127.080088,
                     34.771458
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Boseong-gun"
             },
             "12790": {
                 "kr_name": "화순군",
@@ -1731,7 +1943,8 @@
                     126.986477,
                     35.064524
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Hwasun-gun"
             },
             "12800": {
                 "kr_name": "장흥군",
@@ -1739,7 +1952,8 @@
                     126.907051,
                     34.681622
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jangheung-gun"
             },
             "12810": {
                 "kr_name": "강진군",
@@ -1747,7 +1961,8 @@
                     126.7672,
                     34.64209
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gangjin-gun"
             },
             "12820": {
                 "kr_name": "해남군",
@@ -1755,7 +1970,8 @@
                     126.599435,
                     34.57404
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Haenam-gun"
             },
             "12830": {
                 "kr_name": "영암군",
@@ -1763,7 +1979,8 @@
                     126.696796,
                     34.800164
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yeongam-gun"
             },
             "12840": {
                 "kr_name": "무안군",
@@ -1771,7 +1988,8 @@
                     126.481712,
                     34.990489
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Muan-gun"
             },
             "12860": {
                 "kr_name": "함평군",
@@ -1779,7 +1997,8 @@
                     126.516582,
                     35.065929
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Hampyeong-gun"
             },
             "12870": {
                 "kr_name": "영광군",
@@ -1787,7 +2006,8 @@
                     126.512014,
                     35.277213
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yeonggwang-gun"
             },
             "12880": {
                 "kr_name": "장성군",
@@ -1795,7 +2015,8 @@
                     126.784814,
                     35.301943
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jangseong-gun"
             },
             "12890": {
                 "kr_name": "완도군",
@@ -1803,7 +2024,8 @@
                     126.754852,
                     34.311039
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Wando-gun"
             },
             "12900": {
                 "kr_name": "진도군",
@@ -1811,7 +2033,8 @@
                     126.263475,
                     34.486818
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jindo-gun"
             },
             "12910": {
                 "kr_name": "신안군",
@@ -1819,9 +2042,11 @@
                     126.351124,
                     34.833626
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Shinan-gun"
             }
-        }
+        },
+        "en_name": "Jeollanam-do"
     },
     "13": {
         "admcode": "5200000000",
@@ -1837,7 +2062,8 @@
                     127.14805,
                     35.824171
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jeonju city"
             },
             "13111": {
                 "kr_name": "전주시 완산구",
@@ -1845,7 +2071,8 @@
                     127.119813,
                     35.8122
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Wansan-gu, Jeonju-si"
             },
             "13113": {
                 "kr_name": "전주시 덕진구",
@@ -1853,7 +2080,8 @@
                     127.134362,
                     35.8294
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Deokjin-gu, Jeonju-si"
             },
             "13130": {
                 "kr_name": "군산시",
@@ -1861,7 +2089,8 @@
                     126.736875,
                     35.967626
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gunsan city"
             },
             "13140": {
                 "kr_name": "익산시",
@@ -1869,7 +2098,8 @@
                     126.957786,
                     35.948295
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Iksan city"
             },
             "13180": {
                 "kr_name": "정읍시",
@@ -1877,7 +2107,8 @@
                     126.856038,
                     35.569867
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jeongeup-si"
             },
             "13190": {
                 "kr_name": "남원시",
@@ -1885,7 +2116,8 @@
                     127.390438,
                     35.416432
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Namwon City"
             },
             "13210": {
                 "kr_name": "김제시",
@@ -1893,7 +2125,8 @@
                     126.880838,
                     35.803592
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gimje City"
             },
             "13710": {
                 "kr_name": "완주군",
@@ -1901,7 +2134,8 @@
                     127.162019,
                     35.904708
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Wanju-gun"
             },
             "13720": {
                 "kr_name": "진안군",
@@ -1909,7 +2143,8 @@
                     127.424875,
                     35.791762
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jinan-gun"
             },
             "13730": {
                 "kr_name": "무주군",
@@ -1917,7 +2152,8 @@
                     127.660818,
                     36.00681
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Muju-gun"
             },
             "13740": {
                 "kr_name": "장수군",
@@ -1925,7 +2161,8 @@
                     127.5215208,
                     35.647366
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jangsu-gun"
             },
             "13750": {
                 "kr_name": "임실군",
@@ -1933,7 +2170,8 @@
                     127.289077,
                     35.617828
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Imsil-gun"
             },
             "13770": {
                 "kr_name": "순창군",
@@ -1941,7 +2179,8 @@
                     127.137489,
                     35.374476
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Sunchang-gun"
             },
             "13790": {
                 "kr_name": "고창군",
@@ -1949,7 +2188,8 @@
                     126.701973,
                     35.435836
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gochang-gun"
             },
             "13800": {
                 "kr_name": "부안군",
@@ -1957,9 +2197,11 @@
                     126.733199,
                     35.731755
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Buan-gun"
             }
-        }
+        },
+        "en_name": "Jeonbuk Special Self-Governing Province"
     },
     "14": {
         "admcode": "5000000000",
@@ -1975,7 +2217,8 @@
                     126.531138,
                     33.499568
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jeju City"
             },
             "14130": {
                 "kr_name": "서귀포시",
@@ -1983,9 +2226,11 @@
                     126.559787,
                     33.253925
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Seogwipo City"
             }
-        }
+        },
+        "en_name": "Jeju Special Self-Governing Province"
     },
     "15": {
         "admcode": "4400000000",
@@ -2001,7 +2246,8 @@
                     127.113892,
                     36.815147
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Cheonan city"
             },
             "15131": {
                 "kr_name": "천안시 동남구",
@@ -2009,7 +2255,8 @@
                     127.151636,
                     36.80685
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Dongnam-gu, Cheonan-si"
             },
             "15133": {
                 "kr_name": "천안시 서북구",
@@ -2017,7 +2264,8 @@
                     127.154648,
                     36.878467
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Seobuk-gu, Cheonan-si"
             },
             "15150": {
                 "kr_name": "공주시",
@@ -2025,7 +2273,8 @@
                     127.11904,
                     36.446556
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "princess city"
             },
             "15180": {
                 "kr_name": "보령시",
@@ -2033,7 +2282,8 @@
                     126.612803,
                     36.333452
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Boryeong City"
             },
             "15200": {
                 "kr_name": "아산시",
@@ -2041,7 +2291,8 @@
                     127.002474,
                     36.790013
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Asan city"
             },
             "15210": {
                 "kr_name": "서산시",
@@ -2049,7 +2300,8 @@
                     126.450277,
                     36.784921
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Seosan City"
             },
             "15230": {
                 "kr_name": "논산시",
@@ -2057,7 +2309,8 @@
                     127.098623,
                     36.18724
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Nonsan city"
             },
             "15250": {
                 "kr_name": "계룡시",
@@ -2065,7 +2318,8 @@
                     127.248633,
                     36.274554
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Gyeryong City"
             },
             "15270": {
                 "kr_name": "당진시",
@@ -2073,7 +2327,8 @@
                     126.6459,
                     36.889974
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Dangjin city"
             },
             "15710": {
                 "kr_name": "금산군",
@@ -2081,7 +2336,8 @@
                     127.488213,
                     36.108857
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Geumsan-gun"
             },
             "15760": {
                 "kr_name": "부여군",
@@ -2089,7 +2345,8 @@
                     126.909775,
                     36.275658
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Buyeo-gun"
             },
             "15770": {
                 "kr_name": "서천군",
@@ -2097,7 +2354,8 @@
                     126.703096,
                     36.0779636
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Seocheon-gun"
             },
             "15790": {
                 "kr_name": "청양군",
@@ -2105,7 +2363,8 @@
                     126.802238,
                     36.459151
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Cheongyang-gun"
             },
             "15800": {
                 "kr_name": "홍성군",
@@ -2113,7 +2372,8 @@
                     126.660775,
                     36.601324
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Hongseong-gun"
             },
             "15810": {
                 "kr_name": "예산군",
@@ -2121,7 +2381,8 @@
                     126.844738,
                     36.680899
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yesan-gun"
             },
             "15825": {
                 "kr_name": "태안군",
@@ -2129,9 +2390,11 @@
                     126.297913,
                     36.74561
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Taean-gun"
             }
-        }
+        },
+        "en_name": "Chungcheongnam-do"
     },
     "16": {
         "admcode": "4300000000",
@@ -2147,7 +2410,8 @@
                     127.488601,
                     36.634745
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Cheongju city"
             },
             "16111": {
                 "kr_name": "청주시 상당구",
@@ -2155,7 +2419,8 @@
                     127.505123,
                     36.589755
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Sangdang-gu, Cheongju-si"
             },
             "16112": {
                 "kr_name": "청주시 서원구",
@@ -2163,7 +2428,8 @@
                     127.469488,
                     36.63769
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Seowon-gu, Cheongju-si"
             },
             "16113": {
                 "kr_name": "청주시 흥덕구",
@@ -2171,7 +2437,8 @@
                     127.375864,
                     36.628967
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Heungdeok-gu, Cheongju-si"
             },
             "16114": {
                 "kr_name": "청주시 청원구",
@@ -2179,7 +2446,8 @@
                     127.486671,
                     36.651581
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Cheongwon-gu, Cheongju-si"
             },
             "16130": {
                 "kr_name": "충주시",
@@ -2187,7 +2455,8 @@
                     127.926012,
                     36.991105
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Chungju city"
             },
             "16150": {
                 "kr_name": "제천시",
@@ -2195,7 +2464,8 @@
                     128.191037,
                     37.132646
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jecheon city"
             },
             "16720": {
                 "kr_name": "보은군",
@@ -2203,7 +2473,8 @@
                     127.729485,
                     36.489455
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Boeun-gun"
             },
             "16730": {
                 "kr_name": "옥천군",
@@ -2211,7 +2482,8 @@
                     127.571419,
                     36.306437
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Okcheon-gun"
             },
             "16740": {
                 "kr_name": "영동군",
@@ -2219,7 +2491,8 @@
                     127.783423,
                     36.175047
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Yeongdong-gun"
             },
             "16745": {
                 "kr_name": "증평군",
@@ -2227,7 +2500,8 @@
                     127.581507,
                     36.785345
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jeungpyeong-gun"
             },
             "16750": {
                 "kr_name": "진천군",
@@ -2235,7 +2509,8 @@
                     127.435602,
                     36.85542
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Jincheon-gun"
             },
             "16760": {
                 "kr_name": "괴산군",
@@ -2243,7 +2518,8 @@
                     127.786704,
                     36.815381
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Goesan-gun"
             },
             "16770": {
                 "kr_name": "음성군",
@@ -2251,7 +2527,8 @@
                     127.690487,
                     36.940282
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Eumseong-gun"
             },
             "16800": {
                 "kr_name": "단양군",
@@ -2259,9 +2536,11 @@
                     128.365589,
                     36.984539
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Danyang-gun"
             }
-        }
+        },
+        "en_name": "Chungcheongbuk-do"
     },
     "17": {
         "admcode": "3600000000",
@@ -2277,8 +2556,10 @@
                     127.289069,
                     36.480012
                 ],
-                "sub_regions": {}
+                "sub_regions": {},
+                "en_name": "Sejong Special Self-Governing City"
             }
-        }
+        },
+        "en_name": "Sejong Special Self-Governing City"
     }
 }
