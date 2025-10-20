@@ -45,10 +45,10 @@ def pairing_ids(level, parentId, all_sub_info):
         if idx == -1:
             new_regions.append([admcode, naver_name, naver_code, parentId])
         elif idx < len(db_names):
-            paired_ids[level - 1].append([admcode, db_active_ids[idx].get('geoId'), naver_name, db_names[idx], level])
+            paired_ids[level - 1].append([admcode, db_active_ids[idx][0], naver_name, db_names[idx], level])
         else:
             print(f"Wrong output with idx: {idx}")
-        pairing_ids(level + 1, db_active_ids[idx].get('geoId'), all_sub_info[naver_code]['sub_regions'])
+        pairing_ids(level + 1, db_active_ids[idx][0], all_sub_info[naver_code]['sub_regions'])
 
 paired_ids = [[], [], [], []]  # level 1 to level 4
 new_regions = []
