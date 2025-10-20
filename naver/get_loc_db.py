@@ -29,12 +29,15 @@ def query_llm(name_naver, list_db_name) -> int:
     response = GeoDataService.get_response_by_prompt(prompt, locgi_url)
     return int(response)
 
-def pairing_ids(level, parentId, all_sub_info, hier_info=""):
+def pairing_ids(level, parent_name, parentId, all_sub_info, hier_info=""):
     if level == 4:
         return
     db_info = GeoDataService.get_children_geo_by_id(parentId, locgi_url)
     if not db_info:
         db_info = []
+    if len(db_info) == 1 and db_info[0].get('name') == parent_name:
+        parentId = db_info[0].get('geoId')
+        db_info = GeoDataService.get_children_geo_by_id(parentId, locgi_url)
     db_active_ids = []
     for info in db_info:
         if info.get('isActive') == False:
@@ -51,7 +54,7 @@ def pairing_ids(level, parentId, all_sub_info, hier_info=""):
             paired_ids[level - 1].append([admcode, db_active_ids[idx][0], naver_name, db_names[idx], level, parentId, hier_info])
         else:
             print(f"Wrong output with idx: {idx}")
-        pairing_ids(level + 1, db_active_ids[idx][0], all_sub_info[naver_code]['sub_regions'], f"{hier_info}/{db_names[idx]}")
+        pairing_ids(level + 1, db_names[idx], db_active_ids[idx][0], all_sub_info[naver_code]['sub_regions'], f"{hier_info}/{db_names[idx]}")
 
 paired_ids = [[], [], [], []]  # level 1 to level 4
 new_regions = []
@@ -77,8 +80,8 @@ for naver_code in hier_dict:
         paired_ids[0].append([admcode, db_active_l1_ids[idx][0], naver_name, db_names[idx], 1, ""])
     else:
         print(f"Wrong output with idx: {idx}")
-    pairing_ids(2, db_active_l1_ids[idx][0], hier_dict[naver_code]['sub_regions'], f"{db_names[idx]}")
-    
+    pairing_ids(2, db_names[idx], db_active_l1_ids[idx][0], hier_dict[naver_code]['sub_regions'], f"{db_names[idx]}")
+
 with open('pair_info.csv', 'w', newline='') as csvfile:
     spamwriter = csv.writer(csvfile, delimiter=',',
                             quotechar='"', quoting=csv.QUOTE_MINIMAL)
