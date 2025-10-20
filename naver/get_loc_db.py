@@ -1,5 +1,6 @@
 import sys
 import os
+import csv
 
 parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, parent_dir)
@@ -32,6 +33,8 @@ def pairing_ids(level, parentId, all_sub_info):
     if level == 4:
         return
     db_info = GeoDataService.get_children_geo_by_id(parentId, locgi_url)
+    if not db_info:
+        db_info = []
     db_active_ids = []
     for info in db_info:
         if info.get('isActive') == False:
@@ -48,7 +51,7 @@ def pairing_ids(level, parentId, all_sub_info):
             paired_ids[level - 1].append([admcode, db_active_ids[idx][0], naver_name, db_names[idx], level])
         else:
             print(f"Wrong output with idx: {idx}")
-        pairing_ids(level + 1, db_active_ids[idx][0], all_sub_info[naver_code]['sub_regions'])
+        # pairing_ids(level + 1, db_active_ids[idx][0], all_sub_info[naver_code]['sub_regions'])
 
 paired_ids = [[], [], [], []]  # level 1 to level 4
 new_regions = []
@@ -76,11 +79,16 @@ for naver_code in hier_dict:
         print(f"Wrong output with idx: {idx}")
     pairing_ids(2, db_active_l1_ids[idx][0], hier_dict[naver_code]['sub_regions'])
     
-print("paired ids:")
-for pair in paired_ids:
-    print(pair)
-json.dump(paired_ids, open('pair_info.json', 'w', encoding='utf-8'), indent=4, ensure_ascii=False)
+with open('pair_info.csv', 'w', newline='') as csvfile:
+    spamwriter = csv.writer(csvfile, delimiter=' ',
+                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+    spamwriter.writerow(['admcode', 'geoId', 'naver_name', 'db_name', 'level'])
+    for pair in paired_ids:
+        spamwriter.writerow(pair)
 
-print("new regions:")
-print(new_regions)
-json.dump(new_regions, open('new_region_id_list.json', 'w', encoding='utf-8'), indent=4, ensure_ascii=False)
+with open('new_region_id_list.csv', 'w', newline='') as csvfile:
+    spamwriter = csv.writer(csvfile, delimiter=' ',
+                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+    spamwriter.writerow(['admcode', 'naver_name', 'naver_code', 'level'])
+    for pair in new_regions:
+        spamwriter.writerow(pair)

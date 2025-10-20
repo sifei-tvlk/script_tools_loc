@@ -4,6 +4,7 @@ import os
 parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, parent_dir)
 import json
+import csv
 from LocgiApi import GeoDataService
 from UserUtils import UserInput
 
@@ -12,14 +13,16 @@ locgi_url = UserInput.get_locgi_url('staging')
 process_level = 0
 
 pair_info_list = []
-pair_info_file = 'pair_info.json'
-with open(pair_info_file, 'r') as file:
-    pair_info_list = json.load(file)
+with open('pair_info.csv', newline='') as csvfile:
+    spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+    for row in spamreader:
+        pair_info_list.append(row.split(','))
 
 new_regions = []
-new_region_file = 'new_region_id_list.json'
-with open(new_region_file, 'r') as file:
-    new_regions = json.load(file)
+with open('new_region_id_list.csv', newline='') as csvfile:
+    spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+    for row in spamreader:
+        new_regions.append(row.split(','))
 
 hier_dict = {}
 hier_dict_file = 'hier_dict.json'
