@@ -14,13 +14,13 @@ process_level = 0
 
 pair_info_list = []
 with open('pair_info.csv', newline='') as csvfile:
-    spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+    spamreader = csv.reader(csvfile, delimiter=',', quotechar='"')
     for row in spamreader:
         pair_info_list.append(row.split(','))
 
 new_regions = []
 with open('new_region_id_list.csv', newline='') as csvfile:
-    spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+    spamreader = csv.reader(csvfile, delimiter=',', quotechar='"')
     for row in spamreader:
         new_regions.append(row.split(','))
 

@@ -29,7 +29,7 @@ def query_llm(name_naver, list_db_name) -> int:
     response = GeoDataService.get_response_by_prompt(prompt, locgi_url)
     return int(response)
 
-def pairing_ids(level, parentId, all_sub_info):
+def pairing_ids(level, parentId, all_sub_info, hier_info=""):
     if level == 4:
         return
     db_info = GeoDataService.get_children_geo_by_id(parentId, locgi_url)
@@ -46,12 +46,12 @@ def pairing_ids(level, parentId, all_sub_info):
         admcode = all_sub_info[naver_code]['admcode']
         idx = query_llm(naver_name, db_names)
         if idx == -1:
-            new_regions.append([admcode, naver_name, naver_code, parentId])
+            new_regions.append([admcode, naver_name, naver_code, parentId, hier_info])
         elif idx < len(db_names):
-            paired_ids[level - 1].append([admcode, db_active_ids[idx][0], naver_name, db_names[idx], level])
+            paired_ids[level - 1].append([admcode, db_active_ids[idx][0], naver_name, db_names[idx], level, parentId, hier_info])
         else:
             print(f"Wrong output with idx: {idx}")
-        # pairing_ids(level + 1, db_active_ids[idx][0], all_sub_info[naver_code]['sub_regions'])
+        pairing_ids(level + 1, db_active_ids[idx][0], all_sub_info[naver_code]['sub_regions'], f"{hier_info}/{db_names[idx]}")
 
 paired_ids = [[], [], [], []]  # level 1 to level 4
 new_regions = []
@@ -71,24 +71,24 @@ for naver_code in hier_dict:
     idx = query_llm(naver_name, db_names)
     if idx == -1:
         # print(f"No match for {naver_name}")
-        new_regions.append([admcode, naver_name, naver_code, sk_id])
+        new_regions.append([admcode, naver_name, naver_code, sk_id, ""])
     elif idx < len(db_names):
         # print(f"{naver_name} find match in db: {db_names[idx]}")
-        paired_ids[0].append([admcode, db_active_l1_ids[idx][0], naver_name, db_names[idx], 1])
+        paired_ids[0].append([admcode, db_active_l1_ids[idx][0], naver_name, db_names[idx], 1, ""])
     else:
         print(f"Wrong output with idx: {idx}")
-    pairing_ids(2, db_active_l1_ids[idx][0], hier_dict[naver_code]['sub_regions'])
+    pairing_ids(2, db_active_l1_ids[idx][0], hier_dict[naver_code]['sub_regions'], f"{db_names[idx]}")
     
 with open('pair_info.csv', 'w', newline='') as csvfile:
-    spamwriter = csv.writer(csvfile, delimiter=' ',
-                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+    spamwriter = csv.writer(csvfile, delimiter=',',
+                            quotechar='"', quoting=csv.QUOTE_MINIMAL)
     spamwriter.writerow(['admcode', 'geoId', 'naver_name', 'db_name', 'level'])
     for pair in paired_ids:
         spamwriter.writerow(pair)
 
 with open('new_region_id_list.csv', 'w', newline='') as csvfile:
-    spamwriter = csv.writer(csvfile, delimiter=' ',
-                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+    spamwriter = csv.writer(csvfile, delimiter=',',
+                            quotechar='"', quoting=csv.QUOTE_MINIMAL)
     spamwriter.writerow(['admcode', 'naver_name', 'naver_code', 'level'])
     for pair in new_regions:
         spamwriter.writerow(pair)
