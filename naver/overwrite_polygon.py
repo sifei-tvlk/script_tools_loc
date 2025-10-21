@@ -16,13 +16,13 @@ pair_info_list = []
 with open('pair_info.csv', newline='') as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',', quotechar='"')
     for row in spamreader:
-        pair_info_list.append(row.split(','))
+        pair_info_list.append(row)
 
 new_regions = []
 with open('new_region_id_list.csv', newline='') as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',', quotechar='"')
     for row in spamreader:
-        new_regions.append(row.split(','))
+        new_regions.append(row)
 
 hier_dict = {}
 hier_dict_file = 'hier_dict.json'
@@ -75,9 +75,11 @@ def add_new_regions(name, region_type, parentId, center_lng, center_lat, geojson
     }
     res = GeoDataService.upsert_geo_with_geometry(data, locgi_url)
 
-for pair_info in pair_info_list[process_level]:
+for pair_info in pair_info_list:
     geoId = pair_info[1]
     admcode = pair_info[0]
+    if pair_info[4] != str(process_level + 1):
+        continue
     geojson_file = f'./geojson/area{process_level}/{admcode}_polygon.json'
     with open(geojson_file, 'r') as file:
         geojson = json.load(file).get('features')[0].get('geometry')
@@ -85,7 +87,7 @@ for pair_info in pair_info_list[process_level]:
     res = overrite_geojson(geoId, geojson, locgi_url)
     print(geoId, " polygon overwritten.")
 
-for new_region in new_regions[process_level]:
+for new_region in new_regions:
     admcode = new_region[0]
     name = new_region[1]
     naver_code = new_region[2]
