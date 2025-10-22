@@ -9,8 +9,6 @@ from LocgiApi import GeoDataService
 from UserUtils import UserInput
 import json
 
-locgi_url = UserInput.get_locgi_url('staging')
-
 hier_dict = {}
 hier_dict_file = 'hier_dict.json'
 with open(hier_dict_file, 'r') as file:
@@ -59,6 +57,9 @@ def pairing_ids(level, parent_name, parentId, all_sub_info, hier_info=""):
 paired_ids = [[], [], [], []]  # level 1 to level 4
 new_regions = []
 db_active_l1_ids = []
+
+choose = UserInput.choose_env()
+locgi_url = UserInput.get_locgi_url(choose)
 
 db_l1_info = GeoDataService.get_children_geo_by_id(sk_id, locgi_url)
 for l1 in db_l1_info:

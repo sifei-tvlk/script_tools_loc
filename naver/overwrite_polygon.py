@@ -8,9 +8,16 @@ import csv
 from LocgiApi import GeoDataService
 from UserUtils import UserInput
 
-locgi_url = UserInput.get_locgi_url('staging')
+choose = UserInput.choose_env()
+locgi_url = UserInput.get_locgi_url(choose)
 
 process_level = 0
+
+input_message = "Pick an process level:\n"
+user_input = ""
+while user_input not in map(str, range(0, 4)):
+    user_input = input(input_message)
+process_level = int(user_input)
 
 pair_info_list = []
 with open('pair_info.csv', newline='') as csvfile:
