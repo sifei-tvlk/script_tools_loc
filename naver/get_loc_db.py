@@ -14,8 +14,6 @@ hier_dict_file = 'hier_dict.json'
 with open(hier_dict_file, 'r') as file:
     hier_dict = json.load(file)
 
-sk_id = 20004311
-
 def query_llm(name_naver, list_db_name) -> int:
     prompt = f"You are an expert in korean administrative geography. \
     I give you a korean first level administrative region, \
@@ -37,6 +35,8 @@ def pairing_ids(level, parent_name, parentId, all_sub_info, hier_info=""):
         parentId = db_info[0].get('geoId')
         db_info = GeoDataService.get_children_geo_by_id(parentId, locgi_url)
     db_active_ids = []
+    if not db_info:
+        return
     for info in db_info:
         if info.get('isActive') == False:
             continue
@@ -52,7 +52,7 @@ def pairing_ids(level, parent_name, parentId, all_sub_info, hier_info=""):
             paired_ids[level - 1].append([admcode, db_active_ids[idx][0], naver_name, db_names[idx], level, parentId, hier_info])
         else:
             print(f"Wrong output with idx: {idx}")
-        pairing_ids(level + 1, db_names[idx], db_active_ids[idx][0], all_sub_info[naver_code]['sub_regions'], f"{hier_info}/{db_names[idx]}")
+        # pairing_ids(level + 1, db_names[idx], db_active_ids[idx][0], all_sub_info[naver_code]['sub_regions'], f"{hier_info}/{db_names[idx]}")
 
 paired_ids = [[], [], [], []]  # level 1 to level 4
 new_regions = []
@@ -60,12 +60,17 @@ db_active_l1_ids = []
 
 choose = UserInput.choose_env()
 locgi_url = UserInput.get_locgi_url(choose)
+if choose == 'staging':
+    sk_id = 20004311
+elif choose == 'production':
+    sk_id = 20004311
 
 db_l1_info = GeoDataService.get_children_geo_by_id(sk_id, locgi_url)
 for l1 in db_l1_info:
     if l1.get('isActive') == False:
         continue
     db_active_l1_ids.append([l1.get('geoId'), l1.get('name')])
+print(db_active_l1_ids)
 
 for naver_code in hier_dict:
     db_names = [x[1] for x in db_active_l1_ids]
