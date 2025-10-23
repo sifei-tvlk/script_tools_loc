@@ -83,7 +83,7 @@ def fetch_children(parent_geo_id, country_code, locgi_url):
                 if local_name.endswith(suffix):
                     result.append((geo_id, local_name))
                     print(f"Updated geoId {geo_id} name from {local_name} to {new_name}")
-        region['children'] = fetch_children(region.get('geoId'), locgi_url)
+        region['children'] = fetch_children(region.get('geoId'), country_code, locgi_url)
 
 def main():
     env = UserInput.choose_env()
