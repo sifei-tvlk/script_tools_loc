@@ -244,15 +244,15 @@ class GeoDataService:
         return get_result(response)
 
     @staticmethod
-    def get_geo_theme(id, url):
+    def get_geo_theme(geoId, local, url):
         req_body = {
             "jsonrpc": "2.0",
             "id": "123",
             "source": "localhost",
             "method": "getGeoThemeInfo",
             "params": [
-                "ko_ko",
-                id,
+                local,
+                geoId,
                 "DEFAULT"
             ]
         }

@@ -66,12 +66,12 @@ modify_dict = {
 }
 
 def fetch_children(parent_geo_id, country_code, locgi_url):
-    geo_regions = GeoDataService.get_children_geo_by_id(parenparent_geo_idt_geo_id, locgi_url)
+    geo_regions = GeoDataService.get_children_geo_by_id(parent_geo_id, locgi_url)
     if not geo_regions:
         return
     for region in geo_regions:
         geo_id = region.get('geoId')
-        local_name = get_geo_theme(geo_id, modify_dict[country_code]['locale'], locgi_url).get('localName', '')
+        local_name = GeoDataService.get_geo_theme(geo_id, modify_dict[country_code]['locale'], locgi_url).get('localName', '')
 
         if modify_dict[country_code]['type'] == 'prefix':
             for prefix in modify_dict[country_code]['prefix']:
