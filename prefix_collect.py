@@ -71,19 +71,24 @@ def fetch_children(parent_geo_id, country_code, locgi_url):
         return
     for region in geo_regions:
         geo_id = region.get('geoId')
-        local_name = GeoDataService.get_geo_theme(geo_id, modify_dict[country_code]['locale'], locgi_url).get('localName', '')
-
+        res = GeoDataService.get_geo_theme(geo_id, modify_dict[country_code]['locale'], locgi_url)
+        if not res:
+            result.append([country_code, geo_id, 'NO_THEME_NAME', ''])
+            continue
+        locale_name = res.get('locale_name', '')
         if modify_dict[country_code]['type'] == 'prefix':
             for prefix in modify_dict[country_code]['prefix']:
                 if local_name.startswith(prefix):
-                    result.append((geo_id, local_name))
-                    print(f"Updated geoId {geo_id} name from {local_name} to {new_name}")
+                    result.append([country_code, geo_id, local_name, prefix])
+                    print(f"Updated geoId {geo_id} name from {local_name}")
+                    break
         elif modify_dict[country_code]['type'] == 'suffix':
             for suffix in modify_dict[country_code]['suffix']:
                 if local_name.endswith(suffix):
-                    result.append((geo_id, local_name))
-                    print(f"Updated geoId {geo_id} name from {local_name} to {new_name}")
-        region['children'] = fetch_children(region.get('geoId'), country_code, locgi_url)
+                    result.append([country_code, geo_id, local_name, suffix])
+                    print(f"Updated geoId {geo_id} name from {local_name}")
+                    break
+        fetch_children(region.get('geoId'), country_code, locgi_url)
 
 def main():
     env = UserInput.choose_env()
@@ -91,6 +96,13 @@ def main():
     for country_code in modify_dict:
         geo_id = modify_dict[country_code]['id']
         fetch_children(geo_id, country_code, locgi_url)
+
+    with open('suffix-prefix_check.csv', 'w', newline='') as csvfile:
+        spamwriter = csv.writer(csvfile, delimiter=',',
+                                quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        spamwriter.writerow(['admcode', 'geoId', 'naver_name', 'db_name', 'level'])
+        for row in result:
+            spamwriter.writerow(row)
 
 if __name__ == "__main__":
     main()
