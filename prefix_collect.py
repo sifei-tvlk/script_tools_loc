@@ -75,12 +75,12 @@ def fetch_children(parent_geo_id, country_code, locgi_url):
 
         if modify_dict[country_code]['type'] == 'prefix':
             for prefix in modify_dict[country_code]['prefix']:
-                if geo_name.startswith(prefix):
+                if local_name.startswith(prefix):
                     result.append((geo_id, local_name))
                     print(f"Updated geoId {geo_id} name from {local_name} to {new_name}")
         elif modify_dict[country_code]['type'] == 'suffix':
             for suffix in modify_dict[country_code]['suffix']:
-                if geo_name.endswith(suffix):
+                if local_name.endswith(suffix):
                     result.append((geo_id, local_name))
                     print(f"Updated geoId {geo_id} name from {local_name} to {new_name}")
         region['children'] = fetch_children(region.get('geoId'), locgi_url)
