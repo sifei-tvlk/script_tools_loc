@@ -42,7 +42,7 @@ def fetch_children(parent_geo_id, country_code, locgi_url):
                 print(f"id: {geo_id} name {name}")
             continue
         local_name = res.get('localName', '')
-        if local_name.find('(') != -1 or local_name.find(')') != -1:
+        if local_name.find('(') != -1 or local_name.find(')') != -1 or local_name.find('（') != -1 or local_name.find('）') != -1: 
             print(f"id: {geo_id}, name {name}, local name {local_name}")
             result.append([country_code, geo_id, name, local_name])
         fetch_children(region.get('geoId'), country_code, locgi_url)
