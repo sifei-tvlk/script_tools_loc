@@ -74,20 +74,21 @@ def fetch_children(parent_geo_id, country_code, locgi_url):
         name = region.get('name')
         res = GeoDataService.get_geo_theme(geo_id, modify_dict[country_code]['locale'], locgi_url)
         if not res:
-            # result.append([country_code, geo_id, name, 'NO_THEME_NAME', ''])
-            print(f"NO THEME for {country_code} geoId {geo_id} name {name}")
+            # print(f"NO THEME for {country_code} geoId {geo_id} name {name}")
             continue
         local_name = res.get('localName', '')
         if modify_dict[country_code]['type'] == 'prefix':
             for prefix in modify_dict[country_code]['prefix']:
                 if local_name.startswith(prefix):
-                    result.append([country_code, geo_id, name, local_name, prefix])
+                    trimmed_name = local_name[len(prefix):].strip()
+                    result.append([country_code, geo_id, name, local_name, prefix, trimmed_name])
                     print(f"Updated geoId {geo_id} name from {local_name}")
                     break
         elif modify_dict[country_code]['type'] == 'suffix':
             for suffix in modify_dict[country_code]['suffix']:
                 if local_name.endswith(suffix):
-                    result.append([country_code, geo_id, name, local_name, suffix])
+                    trimmed_name = local_name[:-len(suffix)].strip()
+                    result.append([country_code, geo_id, name, local_name, suffix, trimmed_name])
                     print(f"Updated geoId {geo_id} name from {local_name}")
                     break
         fetch_children(region.get('geoId'), country_code, locgi_url)
