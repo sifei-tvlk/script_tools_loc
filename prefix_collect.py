@@ -74,7 +74,7 @@ def fetch_children(parent_geo_id, country_code, locgi_url):
         name = region.get('name')
         res = GeoDataService.get_geo_theme(geo_id, modify_dict[country_code]['locale'], locgi_url)
         if not res:
-            result.append([country_code, geo_id, name, 'NO_THEME_NAME', ''])
+            # result.append([country_code, geo_id, name, 'NO_THEME_NAME', ''])
             print(f"NO THEME for {country_code} geoId {geo_id} name {name}")
             continue
         local_name = res.get('localName', '')
