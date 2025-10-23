@@ -82,14 +82,14 @@ def fetch_children(parent_geo_id, country_code, locgi_url):
                 if local_name.startswith(prefix):
                     trimmed_name = local_name[len(prefix):].strip()
                     result.append([country_code, geo_id, name, local_name, prefix, trimmed_name])
-                    print(f"Updated geoId {geo_id} name from {local_name}")
+                    print(f"geoId {geo_id} name {local_name}")
                     break
         elif modify_dict[country_code]['type'] == 'suffix':
             for suffix in modify_dict[country_code]['suffix']:
                 if local_name.endswith(suffix):
                     trimmed_name = local_name[:-len(suffix)].strip()
                     result.append([country_code, geo_id, name, local_name, suffix, trimmed_name])
-                    print(f"Updated geoId {geo_id} name from {local_name}")
+                    print(f"geoId {geo_id} name {local_name}")
                     break
         fetch_children(region.get('geoId'), country_code, locgi_url)
 
@@ -103,7 +103,7 @@ def main():
     with open('suffix-prefix_check.csv', 'w', newline='') as csvfile:
         spamwriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        spamwriter.writerow(['admcode', 'geoId', 'naver_name', 'db_name', 'level'])
+        spamwriter.writerow(['country-code', 'geoId', 'name', 'local-name', 'prefix', 'trimmed-name'])
         for row in result:
             spamwriter.writerow(row)
 
