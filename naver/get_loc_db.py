@@ -49,12 +49,12 @@ def pairing_ids(level, parent_name, parentId, all_sub_info, hier_info=""):
         if idx == -1:
             new_regions.append([admcode, naver_name, naver_code, parentId, hier_info])
         elif idx < len(db_names):
-            paired_ids[level - 1].append([admcode, db_active_ids[idx][0], naver_name, db_names[idx], level, parentId, hier_info])
+            paired_ids.append([admcode, db_active_ids[idx][0], naver_name, db_names[idx], level, parentId, hier_info])
         else:
             print(f"Wrong output with idx: {idx}")
         # pairing_ids(level + 1, db_names[idx], db_active_ids[idx][0], all_sub_info[naver_code]['sub_regions'], f"{hier_info}/{db_names[idx]}")
 
-paired_ids = [[], [], [], []]  # level 1 to level 4
+paired_ids = []  # level 1 to level 4
 new_regions = []
 db_active_l1_ids = []
 
@@ -83,7 +83,7 @@ for naver_code in hier_dict:
         new_regions.append([admcode, naver_name, naver_code, sk_id, ""])
     elif idx < len(db_names):
         # print(f"{naver_name} find match in db: {db_names[idx]}")
-        paired_ids[0].append([admcode, db_active_l1_ids[idx][0], naver_name, db_names[idx], 1, ""])
+        paired_ids.append([admcode, db_active_l1_ids[idx][0], naver_name, db_names[idx], 1, ""])
     else:
         print(f"Wrong output with idx: {idx}")
     pairing_ids(2, db_names[idx], db_active_l1_ids[idx][0], hier_dict[naver_code]['sub_regions'], f"{db_names[idx]}")
