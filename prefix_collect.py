@@ -71,7 +71,7 @@ def fetch_children(parent_geo_id, language, locgi_url):
     for region in geo_regions:
         geo_id = region.get('geoId')
         name = region.get('name')
-        country_code = region.get('countryCode')
+        country_code = region.get('countryISO')
         res = GeoDataService.get_geo_theme(geo_id, modify_dict[language]['locale'], locgi_url)
         if not res:
             continue
