@@ -33,7 +33,8 @@ suffix_jp = [
     "郡",
     "町",
     "島",
-    "区"
+    "区",
+    "村"
 ]
 
 modify_dict = {
@@ -101,7 +102,7 @@ def main():
         with open(f'{modify_dict[country_code]["type"]}_check_{modify_dict[country_code]["locale"]}.csv', 'w', newline='') as csvfile:
             spamwriter = csv.writer(csvfile, delimiter=',',
                                     quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            spamwriter.writerow(['country-code', 'geoId', 'name', 'local-name', 'prefix', 'trimmed-name'])
+            spamwriter.writerow(['language', 'country-code', 'geoId', 'name', 'local-name', 'trimmed-name'])
             for row in result:
                 spamwriter.writerow(row)
 
