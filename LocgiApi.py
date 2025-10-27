@@ -436,8 +436,9 @@ class LandmarkDataService:
         return get_result(response)
 
 class LLMService:
+
     @staticmethod
-    def get_llm_response(prompt, url):
+    def ask_llm_with_prompt(prompt, url):
         req_body = {
             "jsonrpc": "2.0",
             "id": "123",
