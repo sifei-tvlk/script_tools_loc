@@ -1,5 +1,11 @@
 import pymongo
 import pandas as pd
+import getpass
+
+host = input("Please Enter host info to connect MongoDB...")
+username = input("Please Enter username...")
+password = getpass.getpass("Please Enter password...")
+
 
 def match_landmarks_simple(limit=100):
     """
@@ -9,10 +15,10 @@ def match_landmarks_simple(limit=100):
     """
     # MongoDB connection
     client = pymongo.MongoClient(
-        host="",
+        host=host,
         port=27017,
-        username="",
-        password="",
+        username=username,
+        password=password,
         authSource="admin"
     )
     
