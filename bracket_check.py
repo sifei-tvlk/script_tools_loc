@@ -4,11 +4,11 @@ from UserUtils import UserInput
 
 result = []
 
-geo_id_asia = 30019581
+geo_id_world = 100001
 
 modify_dict = {
     'jp': {
-        'id': geo_id_jp,
+        'id': geo_id_world,
         'locale': 'ja_jp',
     # },
     # 'kr': {
@@ -25,7 +25,7 @@ modify_dict = {
     }
 }
 
-def fetch_children(parent_geo_id, language, locgi_url):
+def fetch_children(parent_geo_id, language, locgi_url, level):
     geo_regions = GeoDataService.get_children_geo_by_id(parent_geo_id, locgi_url)
     if not geo_regions:
         return
@@ -36,26 +36,27 @@ def fetch_children(parent_geo_id, language, locgi_url):
         res = GeoDataService.get_geo_theme(geo_id, modify_dict[language]['locale'], locgi_url)
         if not res:
             if name.find('(') != -1 or name.find(')') != -1:
-                result.append([language, geo_id, name, '-'])
-                print(f"id: {geo_id} name {name}")
+                result.append([language, country_code, geo_id, name, '-'])
+                # print(f"id: {geo_id} name {name}")
             continue
         local_name = res.get('localName', '')
         if local_name.find('(') != -1 or local_name.find(')') != -1 or local_name.find('（') != -1 or local_name.find('）') != -1: 
-            print(f"id: {geo_id}, name {name}, local name {local_name}")
-            result.append([language, geo_id, name, local_name])
-        fetch_children(region.get('geoId'), language, locgi_url)
+            # print(f"id: {geo_id}, name {name}, local name {local_name}")
+            result.append([language, country_code, geo_id, name, local_name])
+        fetch_children(region.get('geoId'), language, locgi_url, level + 1)
+
 
 def main():
     env = UserInput.choose_env()
     locgi_url = UserInput.get_locgi_url(env)
     for language in modify_dict:
         geo_id = modify_dict[language]['id']
-        fetch_children(geo_id, language, locgi_url)
+        fetch_children(geo_id, language, locgi_url, 0)
 
-        with open(f'bracket_check_{language}.csv', 'w', newline='') as csvfile:
+        with open(f'bracket_check_{language}_withISO.csv', 'w', newline='') as csvfile:
             spamwriter = csv.writer(csvfile, delimiter=',',
                                     quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            spamwriter.writerow(['country-code', 'geoId', 'name', 'local-name', 'is-synonym'])
+            spamwriter.writerow(['language', 'country-ISO', 'geoId', 'name', 'local-name', 'is-synonym'])
             for row in result:
                 spamwriter.writerow(row)
 
