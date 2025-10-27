@@ -2,12 +2,16 @@ import pymongo
 import csv
 from datetime import datetime, timedelta
 
+host = input("Please Enter host info to connect MongoDB...")
+username = input("Please Enter username...")
+password = input("Please Enter password...")
+
 # Simple connection
 client = pymongo.MongoClient(
-    host="",           # e.g., "localhost" or "mongodb://localhost:27017"
+    host=host,           # e.g., "localhost" or "mongodb://localhost:27017"
     port=27017,                 # MongoDB port
-    username="",   # Your MongoDB username
-    password="",   # Your MongoDB password
+    username=username,   # Your MongoDB username
+    password=password,   # Your MongoDB password
     authSource="admin"          # Database where user is defined (usually "admin")
 )
 db = client["traveloka-data"]
