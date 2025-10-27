@@ -434,3 +434,19 @@ class LandmarkDataService:
         req_body_json = json.dumps(req_body)
         response = requests.post(url=url + "/landmarkData", data=req_body_json, headers={"Content-Type": "application/json"})
         return get_result(response)
+
+class LLMService:
+    @staticmethod
+    def get_llm_response(prompt, url):
+        req_body = {
+            "jsonrpc": "2.0",
+            "id": "123",
+            "source": "localhost",
+            "method": "askLLMWithPrompt",
+            "params": [
+                prompt
+            ]
+        }
+        req_body_json = json.dumps(req_body)
+        response = requests.post(url=url + "/geoData", data=req_body_json, headers={"Content-Type": "application/json"})
+        return get_result(response)
