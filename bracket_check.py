@@ -51,6 +51,7 @@ def main():
     locgi_url = UserInput.get_locgi_url(env)
     for language in modify_dict:
         geo_id = modify_dict[language]['id']
+        continents = GeoDataService.get_children_geo_by_id(geo_id, locgi_url)
         for continent in continents:
             continent_id = continent.get('geoId')
             continent_name = continent.get('name')
