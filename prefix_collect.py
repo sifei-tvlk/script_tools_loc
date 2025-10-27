@@ -4,7 +4,7 @@ from UserUtils import UserInput
 
 result = []
 
-geo_id_asia = 30019581
+geo_id_world = 100001
 
 prefix_thai = ["อำเภอ",
                "ตำบล",
@@ -38,26 +38,26 @@ suffix_jp = [
 ]
 
 modify_dict = {
-    'jp': {
-        'id': geo_id_asia,
-        'locale': 'ja_jp',
-        "type": 'suffix',
-        "suffix": suffix_jp
-    },
+    # 'jp': {
+    #     'id': geo_id_asia,
+    #     'locale': 'ja_jp',
+    #     "type": 'suffix',
+    #     "suffix": suffix_jp
+    # },
     'kr': {
-        'id': geo_id_asia,
+        'id': geo_id_world,
         'locale': 'ko_ko',
         "type": 'suffix',
         "suffix": suffix_kr
     },
     'vi': {
-        'id': geo_id_asia,
+        'id': geo_id_world,
         'locale': 'vi_vn',
         "type": 'prefix',
         "prefix": prefix_viet
     },
     'th': {
-        'id': geo_id_asia,
+        'id': geo_id_world,
         'locale': 'th_th',
         "type": 'prefix',
         "prefix": prefix_thai
@@ -95,16 +95,20 @@ def fetch_children(parent_geo_id, language, locgi_url):
 def main():
     env = UserInput.choose_env()
     locgi_url = UserInput.get_locgi_url(env)
-    for country_code in modify_dict:
-        geo_id = modify_dict[country_code]['id']
-        fetch_children(geo_id, country_code, locgi_url)
+    for language_code in modify_dict:
+        geo_id = modify_dict[language_code]['id']
+        continents = GeoDataService.get_children_geo_by_id(geo_id, locgi_url)
+        for continent in continents:
+            geo_id = continent.get('geoId')
+            name = continent.get('name')
+            fetch_children(geo_id, language_code, locgi_url)
 
-        with open(f'{modify_dict[country_code]["type"]}_check_{modify_dict[country_code]["locale"]}.csv', 'w', newline='') as csvfile:
-            spamwriter = csv.writer(csvfile, delimiter=',',
-                                    quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            spamwriter.writerow(['language', 'country-code', 'geoId', 'name', 'local-name', 'trimmed-name'])
-            for row in result:
-                spamwriter.writerow(row)
+            with open(f'{modify_dict[language_code]["type"]}_check_{modify_dict[language_code]["locale"]}.csv', 'w', newline='') as csvfile:
+                spamwriter = csv.writer(csvfile, delimiter=',',
+                                        quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                spamwriter.writerow(['language', 'country-code', 'geoId', 'name', 'local-name', 'trimmed-name'])
+                for row in result:
+                    spamwriter.writerow(row)
 
 if __name__ == "__main__":
     main()
