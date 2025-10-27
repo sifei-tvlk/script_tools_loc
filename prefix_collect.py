@@ -81,14 +81,14 @@ def fetch_children(parent_geo_id, language, locgi_url):
                 if local_name.startswith(prefix):
                     trimmed_name = local_name[len(prefix):].strip()
                     result.append([language, country_code, geo_id, name, local_name, trimmed_name])
-                    print(f"geoId {geo_id} name {local_name}")
+                    # print(f"geoId {geo_id} name {local_name}")
                     break
         elif modify_dict[language]['type'] == 'suffix':
             for suffix in modify_dict[language]['suffix']:
                 if local_name.endswith(suffix):
                     trimmed_name = local_name[:-len(suffix)].strip()
                     result.append([language, country_code, geo_id, name, local_name, trimmed_name])
-                    print(f"geoId {geo_id} name {local_name}")
+                    # print(f"geoId {geo_id} name {local_name}")
                     break
         fetch_children(region.get('geoId'), language, locgi_url)
 
@@ -103,7 +103,7 @@ def main():
             name = continent.get('name')
             fetch_children(geo_id, language_code, locgi_url)
 
-            with open(f'{modify_dict[language_code]["type"]}_check_{modify_dict[language_code]["locale"]}.csv', 'w', newline='') as csvfile:
+            with open(f'check_{language_code}_{name}.csv', 'w', newline='') as csvfile:
                 spamwriter = csv.writer(csvfile, delimiter=',',
                                         quotechar='"', quoting=csv.QUOTE_MINIMAL)
                 spamwriter.writerow(['language', 'country-code', 'geoId', 'name', 'local-name', 'trimmed-name'])
