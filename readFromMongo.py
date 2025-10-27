@@ -1,10 +1,11 @@
 import pymongo
 import csv
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
+import getpass
 
 host = input("Please Enter host info to connect MongoDB...")
 username = input("Please Enter username...")
-password = input("Please Enter password...")
+password = getpass.getpass("Please Enter password...")
 
 # Simple connection
 client = pymongo.MongoClient(
@@ -19,9 +20,10 @@ collection = db["landmark.sourcing.history"]
 
 # One month ago timestamp
 one_month_ago = int((datetime.now() - timedelta(days=30)).timestamp() * 1000)
+july = datetime(2025, 7, 1, 0, 0, 0).timestamp() * 1000
 
 # Query and save
-query = {"country": "BQ", "__lut": {"$gte": one_month_ago}}
+query = {"country": "BQ", "__lut": {"$gte": july}}
 cursor = collection.find(query)
 
 with open("bigquery_landmarks.csv", "w", newline="", encoding="utf-8") as csvfile:
