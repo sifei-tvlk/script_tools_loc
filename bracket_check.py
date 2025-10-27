@@ -25,7 +25,7 @@ modify_dict = {
     }
 }
 
-def fetch_children(parent_geo_id, language, locgi_url, level):
+def fetch_children(parent_geo_id, language, locgi_url):
     geo_regions = GeoDataService.get_children_geo_by_id(parent_geo_id, locgi_url)
     if not geo_regions:
         return
@@ -43,7 +43,7 @@ def fetch_children(parent_geo_id, language, locgi_url, level):
         if local_name.find('(') != -1 or local_name.find(')') != -1 or local_name.find('（') != -1 or local_name.find('）') != -1: 
             # print(f"id: {geo_id}, name {name}, local name {local_name}")
             result.append([language, country_code, geo_id, name, local_name])
-        fetch_children(region.get('geoId'), language, locgi_url, level + 1)
+        fetch_children(region.get('geoId'), language, locgi_url)
 
 
 def main():
@@ -51,14 +51,17 @@ def main():
     locgi_url = UserInput.get_locgi_url(env)
     for language in modify_dict:
         geo_id = modify_dict[language]['id']
-        fetch_children(geo_id, language, locgi_url, 0)
+        for continent in continents:
+            continent_id = continent.get('geoId')
+            continent_name = continent.get('name')
+            fetch_children(continent_id, language, locgi_url)
 
-        with open(f'bracket_check_{language}_withISO.csv', 'w', newline='') as csvfile:
-            spamwriter = csv.writer(csvfile, delimiter=',',
-                                    quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            spamwriter.writerow(['language', 'country-ISO', 'geoId', 'name', 'local-name', 'is-synonym'])
-            for row in result:
-                spamwriter.writerow(row)
+            with open(f'bracket_check_{language}_{continent_name}.csv', 'w', newline='') as csvfile:
+                spamwriter = csv.writer(csvfile, delimiter=',',
+                                        quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                spamwriter.writerow(['language', 'country-ISO', 'geoId', 'name', 'local-name', 'is-synonym'])
+                for row in result:
+                    spamwriter.writerow(row)
 
 if __name__ == "__main__":
     main()
