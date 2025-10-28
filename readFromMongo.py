@@ -21,9 +21,10 @@ collection = db["landmark.sourcing.history"]
 # One month ago timestamp
 one_month_ago = int((datetime.now() - timedelta(days=30)).timestamp() * 1000)
 july = datetime(2025, 7, 1, 0, 0, 0).timestamp() * 1000
+august = datetime(2025, 8, 1, 0, 0, 0).timestamp() * 1000
 
 # Query and save
-query = {"country": "BQ", "__lut": {"$gte": july}}
+query = {"country": "BQ", "__lut": {"$gte": july, '$lte': august}}
 cursor = collection.find(query)
 
 with open("bigquery_landmarks.csv", "w", newline="", encoding="utf-8") as csvfile:
