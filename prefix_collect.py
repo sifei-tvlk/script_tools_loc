@@ -2,7 +2,6 @@ import csv
 from LocgiApi import GeoDataService
 from UserUtils import UserInput
 
-result = []
 
 geo_id_world = 100001
 
@@ -65,6 +64,7 @@ modify_dict = {
 }
 
 def fetch_children(parent_geo_id, language, locgi_url):
+    country_result = []
     geo_regions = GeoDataService.get_children_geo_by_id(parent_geo_id, locgi_url)
     if not geo_regions:
         return
@@ -80,17 +80,18 @@ def fetch_children(parent_geo_id, language, locgi_url):
             for prefix in modify_dict[language]['prefix']:
                 if local_name.startswith(prefix):
                     trimmed_name = local_name[len(prefix):].strip()
-                    result.append([language, country_code, geo_id, name, local_name, trimmed_name])
+                    country_result.append([language, country_code, geo_id, name, local_name, trimmed_name])
                     # print(f"geoId {geo_id} name {local_name}")
                     break
         elif modify_dict[language]['type'] == 'suffix':
             for suffix in modify_dict[language]['suffix']:
                 if local_name.endswith(suffix):
                     trimmed_name = local_name[:-len(suffix)].strip()
-                    result.append([language, country_code, geo_id, name, local_name, trimmed_name])
+                    country_result.append([language, country_code, geo_id, name, local_name, trimmed_name])
                     # print(f"geoId {geo_id} name {local_name}")
                     break
-        fetch_children(region.get('geoId'), language, locgi_url)
+        country_result.extend(fetch_children(region.get('geoId'), language, locgi_url))
+        return country_result
 
 def main():
     env = UserInput.choose_env()
@@ -99,16 +100,20 @@ def main():
         geo_id = modify_dict[language_code]['id']
         continents = GeoDataService.get_children_geo_by_id(geo_id, locgi_url)
         for continent in continents:
-            geo_id = continent.get('geoId')
-            name = continent.get('name')
-            fetch_children(geo_id, language_code, locgi_url)
-
-            with open(f'check_{language_code}_{name}.csv', 'w', newline='') as csvfile:
-                spamwriter = csv.writer(csvfile, delimiter=',',
-                                        quotechar='"', quoting=csv.QUOTE_MINIMAL)
-                spamwriter.writerow(['language', 'country-code', 'geoId', 'name', 'local-name', 'trimmed-name'])
-                for row in result:
-                    spamwriter.writerow(row)
+            continent_id = continent.get('geoId')
+            continent_name = continent.get('name')
+            countries = GeoDataService.get_children_geo_by_id(continent_id, locgi_url)
+            for country in countries:
+                name = country.get('name')
+                country_id = country.get('geoId')
+                country_code = country.get('countryISO')
+                result = fetch_children(continent_id, language_code, locgi_url)
+                with open(f"./{language_code}_check/check_{language_code}_{country_code}.csv", 'w', newline='') as csvfile:
+                    spamwriter = csv.writer(csvfile, delimiter=',',
+                                            quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                    spamwriter.writerow(['language', 'country-code', 'geoId', 'name', 'local-name', 'trimmed-name'])
+                    for row in result:
+                        spamwriter.writerow(row)
 
 if __name__ == "__main__":
     main()
