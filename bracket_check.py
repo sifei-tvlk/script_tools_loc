@@ -53,7 +53,7 @@ def main():
             continent_id = continent.get('geoId')
             continent_name = continent.get('name')
             countries = GeoDataService.get_children_geo_by_id(continent_id, locgi_url)
-            print(f"Starting country {country_code} for language {language}")
+            print(f"Starting country {continent_name} for language {language}")
             if not countries:
                 continue
             for country in countries:
@@ -68,7 +68,7 @@ def main():
                     spamwriter.writerow(['language', 'country-ISO', 'geoId', 'name', 'local-name', 'is-synonym'])
                     for row in result:
                         spamwriter.writerow(row)
-            print(f"Finished country {country_code} for language {language}")
+            print(f"Finished country {continent_name} for language {language}")
 
 if __name__ == "__main__":
     main()
