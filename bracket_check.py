@@ -35,9 +35,6 @@ def fetch_children(parent_geo_id, language, locgi_url):
         country_code = region.get('countryISO')
         res = GeoDataService.get_geo_theme(geo_id, modify_dict[language]['locale'], locgi_url)
         if not res:
-            if name.find('(') != -1 or name.find(')') != -1:
-                result.append([language, country_code, geo_id, name, '-'])
-                # print(f"id: {geo_id} name {name}")
             continue
         local_name = res.get('localName', '')
         if local_name.find('(') != -1 or local_name.find(')') != -1 or local_name.find('（') != -1 or local_name.find('）') != -1: 
