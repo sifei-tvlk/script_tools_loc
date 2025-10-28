@@ -73,25 +73,23 @@ def fetch_children(parent_geo_id, language, locgi_url):
         name = region.get('name')
         country_code = region.get('countryISO')
         res = GeoDataService.get_geo_theme(geo_id, modify_dict[language]['locale'], locgi_url)
-        if not res:
-            continue
-        local_name = res.get('localName', '')
-        if not local_name:
-            continue
-        if modify_dict[language]['type'] == 'prefix':
-            for prefix in modify_dict[language]['prefix']:
-                if local_name.startswith(prefix):
-                    trimmed_name = local_name[len(prefix):].strip()
-                    country_result.append([language, country_code, geo_id, name, local_name, trimmed_name])
-                    # print(f"geoId {geo_id} name {local_name}")
-                    break
-        elif modify_dict[language]['type'] == 'suffix':
-            for suffix in modify_dict[language]['suffix']:
-                if local_name.endswith(suffix):
-                    trimmed_name = local_name[:-len(suffix)].strip()
-                    country_result.append([language, country_code, geo_id, name, local_name, trimmed_name])
-                    # print(f"geoId {geo_id} name {local_name}")
-                    break
+        if res:
+            local_name = res.get('localName', '')
+            if local_name:
+                if modify_dict[language]['type'] == 'prefix':
+                    for prefix in modify_dict[language]['prefix']:
+                        if local_name.startswith(prefix):
+                            trimmed_name = local_name[len(prefix):].strip()
+                            country_result.append([language, country_code, geo_id, name, local_name, trimmed_name])
+                            # print(f"geoId {geo_id} name {local_name}")
+                            break
+                elif modify_dict[language]['type'] == 'suffix':
+                    for suffix in modify_dict[language]['suffix']:
+                        if local_name.endswith(suffix):
+                            trimmed_name = local_name[:-len(suffix)].strip()
+                            country_result.append([language, country_code, geo_id, name, local_name, trimmed_name])
+                            # print(f"geoId {geo_id} name {local_name}")
+                            break
         result = fetch_children(region.get('geoId'), language, locgi_url)
         if result:
             country_result.extend(result)
