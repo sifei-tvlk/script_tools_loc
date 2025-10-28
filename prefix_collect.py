@@ -76,6 +76,8 @@ def fetch_children(parent_geo_id, language, locgi_url):
         if not res:
             continue
         local_name = res.get('localName', '')
+        if not local_name:
+            continue
         if modify_dict[language]['type'] == 'prefix':
             for prefix in modify_dict[language]['prefix']:
                 if local_name.startswith(prefix):
@@ -90,10 +92,7 @@ def fetch_children(parent_geo_id, language, locgi_url):
                     country_result.append([language, country_code, geo_id, name, local_name, trimmed_name])
                     # print(f"geoId {geo_id} name {local_name}")
                     break
-        sub_result = fetch_children(region.get('geoId'), language, locgi_url)
-        if sub_result:
-            country_result.extend(sub_result)
-        return country_result
+        return country_result.extend(fetch_children(region.get('geoId'), language, locgi_url))
 
 def main():
     env = UserInput.choose_env()
