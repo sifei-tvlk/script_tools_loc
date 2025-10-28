@@ -52,14 +52,23 @@ def main():
         for continent in continents:
             continent_id = continent.get('geoId')
             continent_name = continent.get('name')
-            fetch_children(continent_id, language, locgi_url)
+            countries = GeoDataService.get_children_geo_by_id(continent_id, locgi_url)
+            print(f"Starting country {country_code} for language {language}")
+            if not countries:
+                continue
+            for country in countries:
+                name = country.get('name')
+                country_id = country.get('geoId')
+                country_code = country.get('countryISO')
+                result = fetch_children(continent_id, language_code, locgi_url)
 
-            with open(f'bracket_check_{language}_{continent_name}.csv', 'w', newline='') as csvfile:
-                spamwriter = csv.writer(csvfile, delimiter=',',
-                                        quotechar='"', quoting=csv.QUOTE_MINIMAL)
-                spamwriter.writerow(['language', 'country-ISO', 'geoId', 'name', 'local-name', 'is-synonym'])
-                for row in result:
-                    spamwriter.writerow(row)
+                with open(f"./bracket_check/bracket_check_{country_code}_{language}.csv", 'w', newline='') as csvfile:
+                    spamwriter = csv.writer(csvfile, delimiter=',',
+                                            quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                    spamwriter.writerow(['language', 'country-ISO', 'geoId', 'name', 'local-name', 'is-synonym'])
+                    for row in result:
+                        spamwriter.writerow(row)
+            print(f"Finished country {country_code} for language {language}")
 
 if __name__ == "__main__":
     main()

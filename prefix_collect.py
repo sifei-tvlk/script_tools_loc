@@ -92,7 +92,10 @@ def fetch_children(parent_geo_id, language, locgi_url):
                     country_result.append([language, country_code, geo_id, name, local_name, trimmed_name])
                     # print(f"geoId {geo_id} name {local_name}")
                     break
-        return country_result.extend(fetch_children(region.get('geoId'), language, locgi_url))
+        result = fetch_children(region.get('geoId'), language, locgi_url)
+        if result:
+            country_result.extend(result)
+        return country_result
 
 def main():
     env = UserInput.choose_env()
@@ -104,6 +107,7 @@ def main():
             continent_id = continent.get('geoId')
             continent_name = continent.get('name')
             countries = GeoDataService.get_children_geo_by_id(continent_id, locgi_url)
+            print(f"Starting country {country_code} for language {language_code}")
             if not countries:
                 continue
             for country in countries:
@@ -117,6 +121,7 @@ def main():
                     spamwriter.writerow(['language', 'country-code', 'geoId', 'name', 'local-name', 'trimmed-name'])
                     for row in result:
                         spamwriter.writerow(row)
+            print(f"Finished country {country_code} for language {language_code}")
 
 if __name__ == "__main__":
     main()
