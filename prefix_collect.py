@@ -67,7 +67,7 @@ def fetch_children(parent_geo_id, language, locgi_url):
     country_result = []
     geo_regions = GeoDataService.get_children_geo_by_id(parent_geo_id, locgi_url)
     if not geo_regions:
-        return
+        return []
     for region in geo_regions:
         geo_id = region.get('geoId')
         name = region.get('name')
@@ -90,7 +90,9 @@ def fetch_children(parent_geo_id, language, locgi_url):
                     country_result.append([language, country_code, geo_id, name, local_name, trimmed_name])
                     # print(f"geoId {geo_id} name {local_name}")
                     break
-        country_result.extend(fetch_children(region.get('geoId'), language, locgi_url))
+        sub_result = fetch_children(region.get('geoId'), language, locgi_url)
+        if sub_result:
+            country_result.extend(sub_result)
         return country_result
 
 def main():
@@ -103,6 +105,8 @@ def main():
             continent_id = continent.get('geoId')
             continent_name = continent.get('name')
             countries = GeoDataService.get_children_geo_by_id(continent_id, locgi_url)
+            if not countries:
+                continue
             for country in countries:
                 name = country.get('name')
                 country_id = country.get('geoId')
