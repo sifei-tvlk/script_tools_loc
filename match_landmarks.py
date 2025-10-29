@@ -1,14 +1,13 @@
 import pymongo
 import pandas as pd
 import getpass
-import asyncio
 
 host = input("Please Enter host info to connect MongoDB...")
 username = input("Please Enter username...")
 password = getpass.getpass("Please Enter password...")
 
-all_results = []
-async def match_landmarks_simple(limit=1000, offset=0):
+
+def match_landmarks_simple(limit=100):
     """
     Simple matching: get landmark by name from MongoDB and compare lat/lon
     Args:
@@ -33,7 +32,7 @@ async def match_landmarks_simple(limit=1000, offset=0):
     print(f"Loaded {len(df)} records from CSV")
     
     # Limit the number of records to process
-    df = df[offset:offset + limit]
+    df = df.head(limit)
     print(f"Processing top {len(df)} records")
     
     # Add new columns
@@ -45,7 +44,7 @@ async def match_landmarks_simple(limit=1000, offset=0):
     print("Starting matching process...")
     
     # Create a list to store all results (one CSV row can have multiple matches)
-    # all_results = []
+    all_results = []
     
     for index, row in df.iterrows():
         if index % 1 == 0:
@@ -73,6 +72,7 @@ async def match_landmarks_simple(limit=1000, offset=0):
                 result_row['aliases'] = ', '.join(landmark.get('aliases', []))
                 all_results.append(result_row)
                 matched_count += 1
+                break
     
     print(f"\nMatching completed!")
     print(f"Original CSV records: {len(df)}")
@@ -93,5 +93,4 @@ async def match_landmarks_simple(limit=1000, offset=0):
     return output_file
 
 if __name__ == "__main__":
-    for i in range(1, 59):
-        asyncio.run(match_landmarks_simple(offset = i * 1000))
+    match_landmarks_simple()
