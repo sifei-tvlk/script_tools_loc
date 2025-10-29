@@ -1,7 +1,8 @@
 import csv
 from LocgiApi import GeoDataService
 from UserUtils import UserInput
-
+import re
+import os
 
 geo_id_world = 100001
 
@@ -70,7 +71,7 @@ modify_dict = {
 
 def extract_suffixes(language):
     directory = f"{language}_check"
-    pattern = re.compile(r'^check_{language}_([A-Z]+)\.csv$')
+    pattern = re.compile(rf'^check_{language}_([A-Z]+)\.csv$')
     suffixes = []
 
     for filename in os.listdir(directory):
