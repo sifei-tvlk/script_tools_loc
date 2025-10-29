@@ -28,15 +28,26 @@ end_time = int((datetime.now()).timestamp() * 1000)
 query = {"user": "landmarkSourcingFromBQ", "__lut": {"$gte": start_time, '$lte': end_time}}
 cursor = collection.find(query)
 
+query_data = []
+
 with open("landmark_updated_by_BQ.csv", "w", newline="", encoding="utf-8") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(["landmarkId", "before", "created_date"])
 
     for doc in cursor:
-        writer.writerow([
+        row = [
             doc.get("landmarkId", ""),
             doc.get("before", {}),
             datetime.fromtimestamp(doc.get("__lut", 0) / 1000).strftime('%Y-%m-%d %H:%M:%S') if doc.get("__lut") else ""
-        ])
+        ]
+        writer.writerow(row)
+        query_data.append(row)
 
+query_data.sort(key=lambda x: x[0])
+with open(f"./landmark_updated_by_BQ_sorted.csv", 'w', newline='') as csvfile:
+    spamwriter = csv.writer(csvfile, delimiter=',',
+                            quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    spamwriter.writerow(['language', 'country-code', 'geoId', 'name', 'local-name', 'trimmed-name'])
+    for row in query_data:
+        spamwriter.writerow(row)
 print("CSV file created successfully!")
