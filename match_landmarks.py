@@ -73,6 +73,8 @@ def match_landmarks_simple(limit=100):
                 all_results.append(result_row)
                 matched_count += 1
                 break
+        with open('./match_progress.txt', 'w') as progress_file:
+            progress_file.write(f"Processed {index + 1} of {len(df)} records. Matches found: {matched_count}\n")
     
     print(f"\nMatching completed!")
     print(f"Original CSV records: {len(df)}")
