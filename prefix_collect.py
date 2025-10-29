@@ -17,14 +17,19 @@ prefix_viet = ["Tỉnh",
                "Thị trấn",
                "Đảo"]
 suffix_kr = [
+    "광역시",
     "특별시",
+    "제도",
     "시",
     "섬",
     "주",
     "도",
     "군",
     "구",
-    "광역시"
+    "읍",
+    "면",
+    "동",
+    "리"
 ]
 suffix_jp = [
     "県",
@@ -43,12 +48,12 @@ modify_dict = {
     #     "type": 'suffix',
     #     "suffix": suffix_jp
     # },
-    # 'kr': {
-    #     'id': geo_id_world,
-    #     'locale': 'ko_ko',
-    #     "type": 'suffix',
-    #     "suffix": suffix_kr
-    # },
+    'kr': {
+        'id': geo_id_world,
+        'locale': 'ko_ko',
+        "type": 'suffix',
+        "suffix": suffix_kr
+    },
     'vi': {
         'id': geo_id_world,
         'locale': 'vi_vn',
