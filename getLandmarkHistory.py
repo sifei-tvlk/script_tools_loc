@@ -25,7 +25,7 @@ start_time = int(datetime(2025, 6, 1, 0, 0, 0).timestamp() * 1000)
 end_time = int((datetime.now()).timestamp() * 1000)
 
 # Query and save
-query = {"country": "BQ", "__lut": {"$gte": start_time, '$lte': end_time}}
+query = {"user": "landmarkSourcingFromBQ", "__lut": {"$gte": start_time, '$lte': end_time}}
 cursor = collection.find(query)
 
 with open("landmark_updated_by_BQ.csv", "w", newline="", encoding="utf-8") as csvfile:
