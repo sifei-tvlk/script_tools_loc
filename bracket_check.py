@@ -2,8 +2,6 @@ import csv
 from LocgiApi import GeoDataService
 from UserUtils import UserInput
 
-result = []
-
 geo_id_world = 100001
 
 modify_dict = {
@@ -26,9 +24,10 @@ modify_dict = {
 }
 
 def fetch_children(parent_geo_id, language, locgi_url):
+    result = []
     geo_regions = GeoDataService.get_children_geo_by_id(parent_geo_id, locgi_url)
     if not geo_regions:
-        return
+        return []
     for region in geo_regions:
         geo_id = region.get('geoId')
         name = region.get('name')
@@ -39,7 +38,10 @@ def fetch_children(parent_geo_id, language, locgi_url):
             if local_name.find('(') != -1 or local_name.find(')') != -1 or local_name.find('（') != -1 or local_name.find('）') != -1: 
                 # print(f"id: {geo_id}, name {name}, local name {local_name}")
                 result.append([language, country_code, geo_id, name, local_name])
-        fetch_children(region.get('geoId'), language, locgi_url)
+        sub_result = fetch_children(region.get('geoId'), language, locgi_url)
+    if sub_result:
+        result.extend(sub_result)
+    return result
 
 
 def main():
@@ -59,8 +61,9 @@ def main():
                 name = country.get('name')
                 country_id = country.get('geoId')
                 country_code = country.get('countryISO')
-                result = fetch_children(continent_id, language_code, locgi_url)
-
+                result = fetch_children(continent_id, language, locgi_url)
+                if not result:
+                    continue
                 with open(f"./bracket_check/bracket_check_{country_code}_{language}.csv", 'w', newline='') as csvfile:
                     spamwriter = csv.writer(csvfile, delimiter=',',
                                             quotechar='"', quoting=csv.QUOTE_MINIMAL)
