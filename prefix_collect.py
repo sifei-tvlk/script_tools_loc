@@ -43,12 +43,12 @@ modify_dict = {
     #     "type": 'suffix',
     #     "suffix": suffix_jp
     # },
-    'kr': {
-        'id': geo_id_world,
-        'locale': 'ko_ko',
-        "type": 'suffix',
-        "suffix": suffix_kr
-    },
+    # 'kr': {
+    #     'id': geo_id_world,
+    #     'locale': 'ko_ko',
+    #     "type": 'suffix',
+    #     "suffix": suffix_kr
+    # },
     'vi': {
         'id': geo_id_world,
         'locale': 'vi_vn',
@@ -89,8 +89,7 @@ def fetch_children(parent_geo_id, language, locgi_url):
                             country_result.append([language, country_code, geo_id, name, local_name, trimmed_name])
                             break
         result = fetch_children(geo_id, language, locgi_url)
-        if result:
-            country_result.extend(result)
+        country_result.extend(result)
     return country_result
 
 def main():
@@ -110,7 +109,7 @@ def main():
                 name = country.get('name')
                 country_id = country.get('geoId')
                 country_code = country.get('countryISO')
-                result = fetch_children(continent_id, language_code, locgi_url)
+                result = fetch_children(country_id, language_code, locgi_url)
                 with open(f"./{language_code}_check/check_{language_code}_{country_code}.csv", 'w', newline='') as csvfile:
                     spamwriter = csv.writer(csvfile, delimiter=',',
                                             quotechar='"', quoting=csv.QUOTE_MINIMAL)
