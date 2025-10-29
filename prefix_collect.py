@@ -81,19 +81,17 @@ def fetch_children(parent_geo_id, language, locgi_url):
                         if local_name.startswith(prefix):
                             trimmed_name = local_name[len(prefix):].strip()
                             country_result.append([language, country_code, geo_id, name, local_name, trimmed_name])
-                            # print(f"geoId {geo_id} name {local_name}")
                             break
                 elif modify_dict[language]['type'] == 'suffix':
                     for suffix in modify_dict[language]['suffix']:
                         if local_name.endswith(suffix):
                             trimmed_name = local_name[:-len(suffix)].strip()
                             country_result.append([language, country_code, geo_id, name, local_name, trimmed_name])
-                            # print(f"geoId {geo_id} name {local_name}")
                             break
-        result = fetch_children(region.get('geoId'), language, locgi_url)
+        result = fetch_children(geo_id, language, locgi_url)
         if result:
             country_result.extend(result)
-        return country_result
+    return country_result
 
 def main():
     env = UserInput.choose_env()

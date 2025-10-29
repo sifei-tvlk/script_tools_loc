@@ -1,13 +1,14 @@
 import pymongo
 import pandas as pd
 import getpass
+import asyncio
 
 host = input("Please Enter host info to connect MongoDB...")
 username = input("Please Enter username...")
 password = getpass.getpass("Please Enter password...")
 
-
-def match_landmarks_simple(limit=100):
+all_results = []
+async def match_landmarks_simple(limit=1000, offset=0):
     """
     Simple matching: get landmark by name from MongoDB and compare lat/lon
     Args:
@@ -32,7 +33,7 @@ def match_landmarks_simple(limit=100):
     print(f"Loaded {len(df)} records from CSV")
     
     # Limit the number of records to process
-    df = df.head(limit)
+    df = df[offset:offset + limit]
     print(f"Processing top {len(df)} records")
     
     # Add new columns
@@ -44,7 +45,7 @@ def match_landmarks_simple(limit=100):
     print("Starting matching process...")
     
     # Create a list to store all results (one CSV row can have multiple matches)
-    all_results = []
+    # all_results = []
     
     for index, row in df.iterrows():
         if index % 1 == 0:
@@ -92,4 +93,5 @@ def match_landmarks_simple(limit=100):
     return output_file
 
 if __name__ == "__main__":
-    match_landmarks_simple()
+    for i in range(1, 59):
+        asyncio.run(match_landmarks_simple(offset = i * 1000))
