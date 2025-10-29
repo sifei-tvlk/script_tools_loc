@@ -68,6 +68,17 @@ modify_dict = {
     }
 }
 
+def extract_suffixes(language):
+    directory = f"{language}_check"
+    pattern = re.compile(r'^check_{language}_([A-Z]+)\.csv$')
+    suffixes = []
+
+    for filename in os.listdir(directory):
+        match = pattern.match(filename)
+        if match:
+            suffixes.append(match.group(1))
+    return suffixes
+
 def fetch_children(parent_geo_id, language, locgi_url):
     country_result = []
     geo_regions = GeoDataService.get_children_geo_by_id(parent_geo_id, locgi_url)
@@ -103,6 +114,7 @@ def main():
     for language_code in modify_dict:
         geo_id = modify_dict[language_code]['id']
         continents = GeoDataService.get_children_geo_by_id(geo_id, locgi_url)
+        countries_gotten = extract_suffixes(language_code)
         for continent in continents:
             continent_id = continent.get('geoId')
             continent_name = continent.get('name')
@@ -114,6 +126,9 @@ def main():
                 name = country.get('name')
                 country_id = country.get('geoId')
                 country_code = country.get('countryISO')
+                if country_code in countries_gotten:
+                    print(f"Skipping country {name} ({country_code}) as it has been processed.")
+                    continue
                 result = fetch_children(country_id, language_code, locgi_url)
                 with open(f"./{language_code}_check/check_{language_code}_{country_code}.csv", 'w', newline='') as csvfile:
                     spamwriter = csv.writer(csvfile, delimiter=',',
