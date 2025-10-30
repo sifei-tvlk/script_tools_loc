@@ -43,11 +43,25 @@ with open("landmark_updated_by_BQ.csv", "w", newline="", encoding="utf-8") as cs
         writer.writerow(row)
         query_data.append(row)
 
-query_data.sort(key=lambda x: x[0])
+query_data.sort(key=lambda x: (x[0], x[2]))
+query_dict = {}
 with open(f"./landmark_updated_by_BQ_sorted.csv", 'w', newline='') as csvfile:
     spamwriter = csv.writer(csvfile, delimiter=',',
                             quotechar='"', quoting=csv.QUOTE_MINIMAL)
-    spamwriter.writerow(['language', 'country-code', 'geoId', 'name', 'local-name', 'trimmed-name'])
+    spamwriter.writerow(['landmarkId', 'before', 'created_date'])
     for row in query_data:
+        if row[0] not in query_dict:
+            query_dict[row[0]] = row
         spamwriter.writerow(row)
+        key, value, final = row
+        if key not in query_dict:
+            query_dict[key] = (value, final)
+        else:
+            existing_value, _ = query_dict[key]
+            if value < existing_value:
+                query_dict[key] = (value, final)
+    # Strip out the second column, keeping only the final value
+    query_dict = {k: v[1] for k, v in query_dict.items()}
+with open("landmark_updated_by_BQ_sorted.json", "w") as f:
+    json.dump(query_dict, f, indent=4)
 print("CSV file created successfully!")
