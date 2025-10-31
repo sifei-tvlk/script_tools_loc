@@ -18,7 +18,7 @@ with open('bracket_check_jp_alias_fixed.csv', mode='r', encoding='utf-8') as fil
         geoId = row['geoId']
         alias = row['alias'].split(",")
         for i, a in enumerate(alias):
-            alias[i] = a.strip(" ").strip("[]'\"")
+            alias[i] = alias[i].strip(" ").strip("[]'\"")
         if geoId and alias:
             geo_alias_map[geoId] = alias
             print(geoId, alias)
