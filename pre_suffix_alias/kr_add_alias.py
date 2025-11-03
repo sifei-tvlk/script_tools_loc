@@ -17,6 +17,8 @@ with open('combined_korea_files.csv', mode='r', encoding='utf-8') as file:
     for i, row in enumerate(reader):
         if i == 0:
             continue
+        if row['is-exclude'].lower() != 'false':
+            continue
         geoId = row['geoId']
         alias = row['trimmed-name']
         if geoId and alias:
