@@ -103,7 +103,7 @@ def save_batch_results(results, batch_num, total_processed, output_filename):
     
     # Check if file exists to determine if we need headers
     file_exists = os.path.exists(output_filename)
-    
+
     # Append to the same file
     result_df.to_csv(output_filename, mode='a', header=not file_exists, index=False)
     log_message(f"Batch {batch_num} saved: {len(results)} landmarks appended to {output_filename}")
@@ -112,7 +112,7 @@ def save_batch_results(results, batch_num, total_processed, output_filename):
 def main():
     # Choose environment
     env = 'production'
-    locgi_url = UserInput.get_locgi_url('production')
+    locgi_url = UserInput.get_locgi_url(env)
     
     # Read the CSV file
     df = pd.read_csv("withLandmarkId.csv")

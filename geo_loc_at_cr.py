@@ -1,12 +1,12 @@
-from LocgsApi import GeoSearchService
-
+from LocgiApi import GeoDataService
+from UserUtils import UserInput
 world_id = 100001
 
 result = []
 
 def fetch_children(parent_geo, iso, locgi_url):
     parent_id = parent_geo.get('geoId')
-    geo_info = GeoDataService.get_geo_region_by_id(parent_id, modify_dict[language]['locale'], locgi_url)
+    geo_info = GeoDataService.get_geo_region_by_id(parent_id, locgi_url)
     if geo_info:
         name = geo_info.get('name')
         if name.find('AT') != -1: 
