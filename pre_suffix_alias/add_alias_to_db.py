@@ -14,7 +14,9 @@ locgi_url = UserInput.get_locgi_url("production")
 geo_alias_map = {}
 with open('bracket_check_jp_alias_fixed.csv', mode='r', encoding='utf-8') as file:
     reader = csv.DictReader(file)
-    for row in reader:
+    for i, row in enumerate(reader):
+        if i == 0:
+            continue
         geoId = row['geoId']
         alias = row['alias'].split(",")
         for i, a in enumerate(alias):
@@ -25,11 +27,17 @@ with open('bracket_check_jp_alias_fixed.csv', mode='r', encoding='utf-8') as fil
 
 # Step 2: Loop through the dictionary and update via API
 for geoId, new_aliases in geo_alias_map.items():
-    data = GeoDataService.get_geo_with_geometry_by_id(geoId, locgi_url)
+    data = GeoDataService.get_geo_region_by_id(geoId, locgi_url)
     existing_aliases = data.get('alias', [])
-    combined_aliases = list(set(existing_aliases + new_aliases))  # Avoid duplicates
+    print(existing_aliases)
+    print(new_aliases)
+    if existing_aliases:
+        existing_aliases.extend(new_aliases)
+    else:
+        existing_aliases = new_aliases
+    combined_aliases = list(set(existing_aliases))  # Avoid duplicates
     data['alias'] = combined_aliases
-    GeoDataService.upsert_geo_with_geometry(data, locgi_url)
-    new_data = GeoDataService.get_geo_with_geometry_by_id(geoId, locgi_url)
+    GeoDataService.upsert_geo_region(data, locgi_url)
+    new_data = GeoDataService.get_geo_region_by_id(geoId, locgi_url)
     print(geoId, new_data.get('alias', []))
     break

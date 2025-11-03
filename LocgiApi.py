@@ -185,7 +185,7 @@ class GeoDataService:
             "method": "upsertGeoRegionWithGeometry",
             "params": [
                 geo,
-                "Andri",
+                "Sifei",
             ]
         }
 
@@ -202,7 +202,7 @@ class GeoDataService:
             "method": "upsertGeoRegion",
             "params": [
                 geo,
-                "Deft",
+                "Sifei",
             ]
         }
 
@@ -271,7 +271,7 @@ class GeoDataService:
             "params": [
                 "ko_ko",
                 geo_theme_,
-                "Deft"
+                "Sifei"
             ]
         }
         req_body_json = json.dumps(req_body)
@@ -320,7 +320,7 @@ class LandmarkEnrichmentService:
             "method": "addLandmarkFromExternal",
             "params": [
                 landmark_provider_list,
-                "Andri",
+                "Sifei",
             ]
         }
 
@@ -390,7 +390,7 @@ class LandmarkDataService:
             "method": "upsertLandmark",
             "params": [
                 landmark,
-                "Andri"
+                "Sifei"
             ]
         }
 
@@ -409,7 +409,7 @@ class LandmarkDataService:
             "params": [
                 locale,
                 locale_info,
-                "Andri"
+                "Sifei"
             ]
         }
 

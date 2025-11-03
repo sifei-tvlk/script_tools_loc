@@ -14,7 +14,9 @@ locgi_url = UserInput.get_locgi_url("production")
 geo_alias_map = {}
 with open('combined_korea_files.csv', mode='r', encoding='utf-8') as file:
     reader = csv.DictReader(file)
-    for row in reader:
+    for i, row in enumerate(reader):
+        if i == 0:
+            continue
         geoId = row['geoId']
         alias = row['trimmed-name']
         if geoId and alias:
