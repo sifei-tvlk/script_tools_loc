@@ -1,4 +1,6 @@
 import csv
+parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.insert(0, parent_dir)
 from LocgiApi import LandmarkDataService
 from UserUtils import UserInput
 
@@ -39,7 +41,7 @@ cursor = collection.find({"_id": {"$in": list(landmark_dict.keys())}})
 for doc in cursor:
     landmark_dict[doc.get("_id")]['before'] = set(doc.get("alias", []))
 
-for landmark_id in landmark_dict::
+for landmark_id in landmark_dict:
     before_aliases = landmark_dict[landmark_id]['before']
     after_aliases = landmark_dict[landmark_id]['after']
     added_aliases = after_aliases - before_aliases
