@@ -1,0 +1,2194 @@
+language,country-code,geoId,name,local-name,trimmed-name,is-exclude
+vi,AE,30067890,Abu Dhabi Island,Đảo Abu Dhabi,Abu Dhabi,TRUE
+vi,AE,30067893,Al Jubail Island,Đảo Al Jubail,Al Jubail,TRUE
+vi,AE,30067898,Al Reem,Đảo Al Reem,Al Reem,TRUE
+vi,AE,30067900,Al Suwwah,Đảo Al Suwwah,Al Suwwah,TRUE
+vi,AE,30067901,Al Weheil Island,Đảo Al Weheil,Al Weheil,TRUE
+vi,AE,30067902,Bairimayd Island,Đảo Bairimayd,Bairimayd,TRUE
+vi,AE,30067903,Balghelam Island,Đảo Balghelam,Balghelam,TRUE
+vi,AE,30067871,Flag Island,Đảo Cờ,Cờ,TRUE
+vi,AE,30068002,Dalma Island,Đảo Dalma,Dalma,TRUE
+vi,AE,30067910,Hudayriat Island,Đảo Hudayriyat,Hudayriyat,TRUE
+vi,AE,30067914,Lulu Island,Đảo Lulu,Lulu,TRUE
+vi,AE,30067920,Ramhan Island,Đảo Ramhan,Ramhan,TRUE
+vi,AE,30067921,Ras Ghurab Island,Đảo Ras Ghurab,Ras Ghurab,TRUE
+vi,AE,30067922,Saadiyat Island,Đảo Saadiyat,Saadiyat,TRUE
+vi,AE,30068009,Sir Baniyas,Đảo Sir Bani Yas,Sir Bani Yas,TRUE
+vi,AE,30067925,Umm Yifenah Island,Đảo Umm Yifenah,Umm Yifenah,TRUE
+vi,AE,30067926,Yas Island,Đảo Yas,Yas,TRUE
+vi,AE,30067928,Zeraa Island,Đảo Zeraa,Zeraa,TRUE
+vi,AE,30067912,Khalifa City A,Thành phố Khalifa A,Khalifa A,TRUE
+vi,AE,30067917,Mohamed Bin Zayet City,Thành phố Mohamed Bin Zayed,Mohamed Bin Zayed,TRUE
+vi,AF,30020827,Badakhshan Province,Tỉnh Badakhshan,Badakhshan,TRUE
+vi,AF,30020845,Badghis Province,Tỉnh Badghis,Badghis,TRUE
+vi,AF,30020839,Baghlan Province,Tỉnh Baghlan,Baghlan,TRUE
+vi,AF,30020841,Balkh Province,Tỉnh Balkh,Balkh,TRUE
+vi,AF,30020850,Bamyan Province,Tỉnh Bamyan,Bamyan,TRUE
+vi,AF,30020848,Daykundi Province,Tỉnh Daykundi,Daykundi,TRUE
+vi,AF,30020843,Farah Province,Tỉnh Farah,Farah,TRUE
+vi,AF,30020846,Faryab Province,Tỉnh Faryab,Faryab,TRUE
+vi,AF,30020859,Ghazni Province,Tỉnh Ghazni,Ghazni,TRUE
+vi,AF,30020847,Ghor Province,Tỉnh Ghor,Ghor,TRUE
+vi,AF,30020832,Helmand Province,Tỉnh Helmand,Helmand,TRUE
+vi,AF,30020844,Herat Province,Tỉnh Herat,Herat,TRUE
+vi,AF,30020842,Jowzjan Province,Tỉnh Jowzjan,Jowzjan,TRUE
+vi,AF,30020852,Kabul Province,Tỉnh Kabul,Kabul,TRUE
+vi,AF,30020831,Kandahar Province,Tỉnh Kandahar,Kandahar,TRUE
+vi,AF,30020836,Kapisa Province,Tỉnh Kapisa,Kapisa,TRUE
+vi,AF,30020853,Khost Province,Tỉnh Khost,Khost,TRUE
+vi,AF,30020833,Kunar Province,Tỉnh Kunar,Kunar,TRUE
+vi,AF,30020830,Kunduz Province,Tỉnh Kunduz,Kunduz,TRUE
+vi,AF,30020835,Laghman Province,Tỉnh Laghman,Laghman,TRUE
+vi,AF,30020851,Logar Province,Tỉnh Logar,Logar,TRUE
+vi,AF,30020837,Nangarhar Province,Tỉnh Nangarhar,Nangarhar,TRUE
+vi,AF,30020834,Nimruz Province,Tỉnh Nimruz,Nimruz,TRUE
+vi,AF,30020829,Nuristan Province,Tỉnh Nuristan,Nuristan,TRUE
+vi,AF,30020854,Paktia Province,Tỉnh Paktia,Paktia,TRUE
+vi,AF,30020858,Paktika Province,Tỉnh Paktika,Paktika,TRUE
+vi,AF,30020857,Panjshir Province,Tỉnh Panjshir,Panjshir,TRUE
+vi,AF,30020838,Parwan Province,Tỉnh Parwan,Parwan,TRUE
+vi,AF,30020840,Samangan Province,Tỉnh Samangan,Samangan,TRUE
+vi,AF,30020856,Sar-e Pol Province,Tỉnh Sar-e Pol,Sar-e Pol,TRUE
+vi,AF,30020828,Takhar Province,Tỉnh Takhar,Takhar,TRUE
+vi,AF,30020855,Uruzgan Province,Tỉnh Uruzgan,Uruzgan,TRUE
+vi,AF,30020860,Maidan Wardak Province,Tỉnh Wardak,Wardak,TRUE
+vi,AF,30020849,Zabul Province,Tỉnh Zabul,Zabul,TRUE
+vi,AL,4003315069,Rrethi i Kuçovës,Huyện Kuçovë,Kuçovë,TRUE
+vi,AL,4000782345,Rrethi i Matit,Huyện Mat,Mat,TRUE
+vi,AL,4003186185,Komuna e Armenit,Xã Armen,Armen,TRUE
+vi,AL,4003183766,Komuna e Velipojës,Xã Velipoja,Velipoja,TRUE
+vi,AM,30070697,Gegharkunik,Tỉnh Gegharkunik,Gegharkunik,TRUE
+vi,AM,30070699,Lori,Tỉnh Lori,Lori,TRUE
+vi,AM,30070700,Shirak,Tỉnh Shirak,Shirak,TRUE
+vi,AM,30070701,Syunik,Tỉnh Syunik,Syunik,TRUE
+vi,AM,30070702,Tavush,Tỉnh Tavush,Tavush,TRUE
+vi,AM,30070703,Vayots Dzor,Tỉnh Vayots Dzor,Vayots Dzor,TRUE
+vi,AO,30020867,Bengo Province,Tỉnh Bengo,Bengo,TRUE
+vi,AO,30020868,Benguela Province,Tỉnh Benguela,Benguela,TRUE
+vi,AO,30020869,Bié Province,Tỉnh Bié,Bié,TRUE
+vi,AO,30020862,Cabinda Province,Tỉnh Cabinda,Cabinda,TRUE
+vi,AO,30020866,Cuando Cubango Province,Tỉnh Cuando Cubango,Cuando Cubango,TRUE
+vi,AO,30020870,Cuanza Norte Province,Tỉnh Cuanza Norte,Cuanza Norte,TRUE
+vi,AO,30020871,Cuanza Sul Province,Tỉnh Cuanza Sul,Cuanza Sul,TRUE
+vi,AO,30020861,Cunene Province,Tỉnh Cunene,Cunene,TRUE
+vi,AO,30020872,Huambo Province,Tỉnh Huambo,Huambo,TRUE
+vi,AO,30020873,Huíla Province,Tỉnh Huíla,Huíla,TRUE
+vi,AO,30020874,Luanda Province,Tỉnh Luanda,Luanda,TRUE
+vi,AO,30020875,Lunda Norte Province,Tỉnh Lunda Norte,Lunda Norte,TRUE
+vi,AO,30020876,Lunda Sul Province,Tỉnh Lunda Sul,Lunda Sul,TRUE
+vi,AO,30020865,Malanje Province,Tỉnh Malanje,Malanje,TRUE
+vi,AO,30020877,Moxico Province,Tỉnh Moxico,Moxico,TRUE
+vi,AO,30020878,Namibe Province,Tỉnh Namibe,Namibe,TRUE
+vi,AO,30020864,Uíge Province,Tỉnh Uíge,Uíge,TRUE
+vi,AO,30020863,Zaire Province,Tỉnh Zaire,Zaire,TRUE
+vi,AR,4003430804,Martín García,Đảo Martín García,Martín García,TRUE
+vi,AR,4003435907,Provincia de Buenos Aires,Tỉnh Buenos Aires,Buenos Aires,TRUE
+vi,AR,4003862286,Catamarca Province,Tỉnh Catamarca,Catamarca,TRUE
+vi,AR,4003861887,Chaco Province,Tỉnh Chaco,Chaco,TRUE
+vi,AR,4003861244,Chubut Province,Tỉnh Chubut,Chubut,TRUE
+vi,AR,4003860255,Córdoba Province,Tỉnh Córdoba,Córdoba,TRUE
+vi,AR,4003435214,Corrientes Province,Tỉnh Corrientes,Corrientes,TRUE
+vi,AR,4003434137,Entre Ríos Province,Tỉnh Entre Ríos,Entre Ríos,TRUE
+vi,AR,4003433896,Formosa Province,Tỉnh Formosa,Formosa,TRUE
+vi,AR,4003853404,Jujuy Province,Tỉnh Jujuy,Jujuy,TRUE
+vi,AR,4003849574,La Pampa Province,Tỉnh La Pampa,La Pampa,TRUE
+vi,AR,4003848949,La Rioja Province,Tỉnh La Rioja,La Rioja,TRUE
+vi,AR,4003844419,Mendoza Province,Tỉnh Mendoza,Mendoza,TRUE
+vi,AR,4003430657,Misiones Province,Tỉnh Misiones,Misiones,TRUE
+vi,AR,4003843122,Neuquén Province,Tỉnh Neuquén,Neuquén,TRUE
+vi,AR,4003838830,Río Negro Province,Tỉnh Río Negro,Río Negro,TRUE
+vi,AR,4003838231,Salta Province,Tỉnh Salta,Salta,TRUE
+vi,AR,4003837152,San Juan Province,Tỉnh San Juan,San Juan,TRUE
+vi,AR,4003837029,San Luis Province,Tỉnh San Luis,San Luis,TRUE
+vi,AR,4003836350,Santa Cruz Province,Tỉnh Santa Cruz,Santa Cruz,TRUE
+vi,AR,4003836276,Santa Fe Province,Tỉnh Santa Fe,Santa Fe,TRUE
+vi,AR,4003835868,Santiago del Estero Province,Tỉnh Santiago del Estero,Santiago del Estero,TRUE
+vi,AR,4003834450,Tierra del Fuego Province,Tỉnh Tierra del Fuego,Tierra del Fuego,TRUE
+vi,AR,4003833578,Tucumán Province,Tỉnh Tucumán,Tucumán,TRUE
+vi,AT,4002782554,Politischer Bezirk Amstetten,Huyện Amstetten,Amstetten,TRUE
+vi,AT,4002782066,Politischer Bezirk Baden,Huyện Baden,Baden,TRUE
+vi,AT,4002781679,Politischer Bezirk Bludenz,Huyện Bludenz,Bludenz,TRUE
+vi,AT,4002781502,Politischer Bezirk Bregenz,Huyện Bregenz,Bregenz,TRUE
+vi,AT,4002781372,Politischer Bezirk Bruck an der Leitha,Huyện Bruck an der Leitha,Bruck an der Leitha,TRUE
+vi,AT,4002781022,Politischer Bezirk Deutschlandsberg,Huyện Deutschlandsberg,Deutschlandsberg,TRUE
+vi,AT,4002780740,Politischer Bezirk Dornbirn,Huyện Dornbirn,Dornbirn,TRUE
+vi,AT,4002779673,Politischer Bezirk Feldkirch,Huyện Feldkirch,Feldkirch,TRUE
+vi,AT,4002778876,Politischer Bezirk Gänserndorf,Huyện Gänserndorf,Gänserndorf,TRUE
+vi,AT,4002778438,Politischer Bezirk Gmünd,Huyện Gmünd,Gmünd,TRUE
+vi,AT,4002775635,Politischer Bezirk Hollabrunn,Huyện Hollabrunn,Hollabrunn,TRUE
+vi,AT,4002775515,Politischer Bezirk Horn,Huyện Horn,Horn,TRUE
+vi,AT,4002775306,Politischer Bezirk Imst,Huyện Imst,Imst,TRUE
+vi,AT,4002775219,Politischer Bezirk Innsbruck Land,Huyện Innsbruck-Land,Innsbruck-Land,TRUE
+vi,AT,4002775088,Politischer Bezirk Jennersdorf,Huyện Jennersdorf,Jennersdorf,TRUE
+vi,AT,4002774346,Politischer Bezirk Kitzbühel,Huyện Kitzbühel,Kitzbühel,TRUE
+vi,AT,4002774323,Politischer Bezirk Klagenfurt Land,Huyện Klagenfurt-Land,Klagenfurt-Land,TRUE
+vi,AT,4002773548,Politischer Bezirk Krems,Huyện Krems,Krems,TRUE
+vi,AT,4002773069,Politischer Bezirk Landeck,Huyện Landeck,Landeck,TRUE
+vi,AT,4002772504,Politischer Bezirk Lienz,Huyện Lienz,Lienz,TRUE
+vi,AT,4002772469,Politischer Bezirk Lilienfeld,Huyện Lilienfeld,Lilienfeld,TRUE
+vi,AT,4002771680,Politischer Bezirk Melk,Huyện Melk,Melk,TRUE
+vi,AT,4002771556,Politischer Bezirk Mistelbach,Huyện Mistelbach,Mistelbach,TRUE
+vi,AT,4002771333,Politischer Bezirk Mödling,Huyện Mödling,Mödling,TRUE
+vi,AT,4002770710,Politischer Bezirk Neunkirchen,Huyện Neunkirchen,Neunkirchen,TRUE
+vi,AT,4002770682,Politischer Bezirk Neusiedl am See,Huyện Neusiedl am See,Neusiedl am See,TRUE
+vi,AT,4002769811,Politischer Bezirk Oberpullendorf,Huyện Oberpullendorf,Oberpullendorf,TRUE
+vi,AT,4002769104,Politischer Bezirk Perg,Huyện Perg,Perg,TRUE
+vi,AT,4002767510,Politischer Bezirk Reutte,Huyện Reutte,Reutte,TRUE
+vi,AT,4002766817,Politischer Bezirk Salzburg-Umgebung,Huyện Salzburg-Umgebung,Salzburg-Umgebung,TRUE
+vi,AT,4002766428,Politischer Bezirk Sankt Pölten,Huyện Sankt Pölten,Sankt Pölten,TRUE
+vi,AT,4002766358,Politischer Bezirk Sankt Veit an der Glan,Huyện Sankt Veit an der Glan,Sankt Veit an der Glan,TRUE
+vi,AT,4002766154,Politischer Bezirk Schärding,Huyện Schärding,Schärding,TRUE
+vi,AT,4002766079,Politischer Bezirk Scheibbs,Huyện Scheibbs,Scheibbs,TRUE
+vi,AT,4002765389,Politischer Bezirk Schwaz,Huyện Schwaz,Schwaz,TRUE
+vi,AT,4002764785,Politischer Bezirk Spittal an der Drau,Huyện Spittal an der Drau,Spittal an der Drau,TRUE
+vi,AT,4002764357,Politischer Bezirk Steyr-Land,Huyện Steyr-Land,Steyr-Land,TRUE
+vi,AT,4002763265,Politischer Bezirk Tulln,Huyện Tulln,Tulln,TRUE
+vi,AT,4002762367,Politischer Bezirk Villach Land,Huyện Villach-Land,Villach-Land,TRUE
+vi,AT,4002762326,Politischer Bezirk Voitsberg,Huyện Voitsberg,Voitsberg,TRUE
+vi,AT,4002762314,Politischer Bezirk Völkermarkt,Huyện Völkermarkt,Völkermarkt,TRUE
+vi,AT,4002762078,Politischer Bezirk Waidhofen an der Thaya,Huyện Waidhofen an der Thaya,Waidhofen an der Thaya,TRUE
+vi,AT,4002761530,Politischer Bezirk Weiz,Huyện Weiz,Weiz,TRUE
+vi,AT,4002761352,Politischer Bezirk Wiener Neustadt,Huyện Wiener Neustadt,Wiener Neustadt,TRUE
+vi,AT,4002760908,Politischer Bezirk Wolfsberg,Huyện Wolfsberg,Wolfsberg,TRUE
+vi,AT,4002760633,Politischer Bezirk Zell am See,Huyện Zell am See,Zell am See,TRUE
+vi,AT,4002760421,Politischer Bezirk Zwettl,Huyện Zwettl,Zwettl,TRUE
+vi,AU,30018819,Fitzroy Island,Đảo Fitzroy,Fitzroy,TRUE
+vi,AU,4002207253,Gibson Island,Đảo Gibson,Gibson,TRUE
+vi,AU,4007839426,Kangaroo Island,Đảo Kangaroo,Kangaroo,TRUE
+vi,AU,4007839675,King Island,Đảo King,King,TRUE
+vi,AU,30018467,Moreton Island,Đảo Moreton,Moreton,TRUE
+vi,AU,4007839383,Palm Island,Đảo Palm,Palm,TRUE
+vi,AU,30073067,Rottnest Island,Đảo Rottnest,Rottnest,TRUE
+vi,AU,4007839398,Torres Strait Island Region,Đảo Torres Strait,Torres Strait,TRUE
+vi,AU,30018482,Canberra City,Thành phố Canberra,Canberra,FALSE
+vi,AU,30018483,Canberra City,Thành phố Canberra,Canberra,FALSE
+vi,BD,4011286051,St.Martin Dwip,Đảo Saint Martin,Saint Martin,TRUE
+vi,BE,4006693370,City of Brussels,Thành phố Bruxelles,Bruxelles,FALSE
+vi,BE,4003337389,City of Brussels,Thành phố Bruxelles,Bruxelles,FALSE
+vi,BE,4002791993,Province du Luxembourg,Tỉnh Luxembourg,Luxembourg,TRUE
+vi,BE,4002790469,Province de Namur,Tỉnh Namur,Namur,TRUE
+vi,BE,4002789733,Provincie Oost-Vlaanderen,Tỉnh Oost-Vlaanderen,Oost-Vlaanderen,TRUE
+vi,BE,4002783770,Provincie West-Vlaanderen,Tỉnh Tây Flanders,Tây Flanders,TRUE
+vi,BE,4003333250,Provincie Vlaams-Brabant,Tỉnh Vlaams-Brabant,Vlaams-Brabant,TRUE
+vi,BE,4003333251,Province du Brabant Wallon,Tỉnh Walloon Brabant,Walloon Brabant,TRUE
+vi,BF,30056867,Boulkiemde,Tỉnh Boulkiemdé,Boulkiemdé,TRUE
+vi,BF,30056885,Zondoma,Tỉnh Zondoma,Zondoma,TRUE
+vi,BF,30056873,Zoundweogo,Tỉnh Zoundwéogo,Zoundwéogo,TRUE
+vi,BG,4000726419,Oblast Dobrich,Tỉnh Dobrich,Dobrich,TRUE
+vi,BG,4000864553,Oblast Kardzhali,Tỉnh Kardzhali,Kardzhali,TRUE
+vi,BG,4000864554,Oblast Kyustendil,Tỉnh Kyustendil,Kyustendil,TRUE
+vi,BG,4000453753,Oblast Montana,Tỉnh Montana,Montana,TRUE
+vi,BG,4000728204,Oblast Pleven,Tỉnh Pleven,Pleven,TRUE
+vi,BG,4000453751,Oblast Razgrad,Tỉnh Razgrad,Razgrad,TRUE
+vi,BG,4000727524,Oblast Ruse,Tỉnh Ruse,Ruse,TRUE
+vi,BG,4000864555,Oblast Shumen,Tỉnh Shumen,Shumen,TRUE
+vi,BG,4000864556,Oblast Silistra,Tỉnh Silistra,Silistra,TRUE
+vi,BG,4000864557,Oblast Sliven,Tỉnh Sliven,Sliven,TRUE
+vi,BG,4000864558,Oblast Smolyan,Tỉnh Smolyan,Smolyan,TRUE
+vi,BG,4000864559,Oblast Stara Zagora,Tỉnh Stara Zagora,Stara Zagora,TRUE
+vi,BG,4000864560,Oblast Targovishte,Tỉnh Targovishte,Targovishte,TRUE
+vi,BG,4000864561,Oblast Veliko Tarnovo,Tỉnh Veliko Tarnovo,Veliko Tarnovo,TRUE
+vi,BG,4000864562,Oblast Vidin,Tỉnh Vidin,Vidin,TRUE
+vi,BG,4000725713,Oblast Vratsa,Tỉnh Vratsa,Vratsa,TRUE
+vi,BG,4000864563,Oblast Yambol,Tỉnh Yambol,Yambol,TRUE
+vi,BH,30020703,Muharraq Governorate,Tỉnh Muharraq,Muharraq,TRUE
+vi,BI,30020963,Bujumbura Rural,Tỉnh Bujumbura Rural,Bujumbura Rural,TRUE
+vi,BO,30057282,Abel Iturralde,Tỉnh Abel Iturralde,Abel Iturralde,TRUE
+vi,BO,30057324,Antonio Quijarro,Tỉnh Antonio Quijarro,Antonio Quijarro,TRUE
+vi,BO,30057347,Manuel Maria Caballero,Tỉnh Manuel María Caballero,Manuel María Caballero,TRUE
+vi,BO,30057333,Nor Chichas,Tỉnh Nor Chichas,Nor Chichas,TRUE
+vi,BO,30057334,Nor Lipez,Tỉnh Nor Lípez,Nor Lípez,TRUE
+vi,BO,30057299,Omasuyos,Tỉnh Omasuyos,Omasuyos,TRUE
+vi,BO,30057300,Pacajes,Tỉnh Pacajes,Pacajes,TRUE
+vi,BO,30057254,Vaca Diez,Tỉnh Vaca Díez,Vaca Díez,TRUE
+vi,BR,4006320523,Ilha de Itamaracá,Đảo Itamaracá,Itamaracá,TRUE
+vi,BY,30020887,Minsk Region,Tỉnh Minsk,Minsk,TRUE
+vi,CA,4008673432,L'Île-d'Anticosti,Đảo Anticosti,Anticosti,TRUE
+vi,CA,4006113358,Prince Edward Island,Đảo Hoàng tử Edward,Hoàng tử Edward,TRUE
+vi,CG,30021040,Plateaux,Tỉnh Plateaux,Plateaux,TRUE
+vi,CH,4006458846,Bezirk Aarau,Huyện Aarau,Aarau,TRUE
+vi,CH,4006458818,Bezirk Affoltern,Huyện Affoltern,Affoltern,TRUE
+vi,CH,4006458827,Albula District,Huyện Albula,Albula,TRUE
+vi,CH,4006458843,Bezirk Arlesheim,Huyện Arlesheim,Arlesheim,TRUE
+vi,CH,4006458813,Bezirk Baden,Huyện Baden,Baden,TRUE
+vi,CH,4006458870,Bellinzona District,Huyện Bellinzona,Bellinzona,TRUE
+vi,CH,4006458851,Bernina District,Huyện Bernina,Bernina,TRUE
+vi,CH,4006458784,Blenio District,Huyện Blenio,Blenio,TRUE
+vi,CH,4006458825,Boudry District,Huyện Boudry,Boudry,TRUE
+vi,CH,4006458774,Bezirk Bremgarten,Huyện Bremgarten,Bremgarten,TRUE
+vi,CH,4006458821,Brig District,Huyện Brig,Brig,TRUE
+vi,CH,4006458754,Broye District,Huyện Broye,Broye,TRUE
+vi,CH,4006458826,Bezirk Brugg,Huyện Brugg,Brugg,TRUE
+vi,CH,4006458841,Bezirk Bucheggberg,Huyện Bucheggberg,Bucheggberg,TRUE
+vi,CH,4006458867,Bezirk Bülach,Huyện Bülach,Bülach,TRUE
+vi,CH,4006458850,Conthey District,Huyện Conthey,Conthey,TRUE
+vi,CH,4006458865,Bezirk Dielsdorf,Huyện Dielsdorf,Dielsdorf,TRUE
+vi,CH,4006458760,Bezirk Dietikon,Huyện Dietikon,Dietikon,TRUE
+vi,CH,4006458904,Bezirk Dorneck,Huyện Dorneck,Dorneck,TRUE
+vi,CH,4006458878,Bezirk Einsiedeln,Huyện Einsiedeln,Einsiedeln,TRUE
+vi,CH,4008740968,Entlebuch District,Huyện Entlebuch,Entlebuch,TRUE
+vi,CH,4006458768,Entremont District,Huyện Entremont,Entremont,TRUE
+vi,CH,4006458790,Franches-Montagnes District,Huyện Franches-Montagnes,Franches-Montagnes,TRUE
+vi,CH,4006458742,Bezirk Gäu,Huyện Gäu,Gäu,TRUE
+vi,CH,4006458810,Bezirk Gersau,Huyện Gersau,Gersau,TRUE
+vi,CH,4002660598,Glâne District,Huyện Glâne,Glâne,TRUE
+vi,CH,4006458766,Goms District,Huyện Goms,Goms,TRUE
+vi,CH,4006458874,Bezirk Gösgen,Huyện Gösgen,Gösgen,TRUE
+vi,CH,4006458872,Hérens District,Huyện Hérens,Hérens,TRUE
+vi,CH,4006458797,Bezirk Hinwil,Huyện Hinwil,Hinwil,TRUE
+vi,CH,4008740969,Hochdorf District,Huyện Hochdorf,Hochdorf,TRUE
+vi,CH,4006458848,Bezirk Höfe,Huyện Höfe,Höfe,TRUE
+vi,CH,4006458847,Bezirk Horgen,Huyện Horgen,Horgen,TRUE
+vi,CH,4006458905,Imboden District,Huyện Imboden,Imboden,TRUE
+vi,CH,4007285004,Jura-Nord vaudois District,Huyện Jura-Nord vaudois,Jura-Nord vaudois,TRUE
+vi,CH,4006458772,Bezirk Kulm,Huyện Kulm,Kulm,TRUE
+vi,CH,4006458839,Bezirk Küssnacht,Huyện Küssnacht,Küssnacht,TRUE
+vi,CH,4007284995,Landquart District,Huyện Landquart,Landquart,TRUE
+vi,CH,4006458860,Bezirk Laufenburg,Huyện Laufenburg,Laufenburg,TRUE
+vi,CH,4006458866,Lausanne District,Huyện Lausanne,Lausanne,TRUE
+vi,CH,4007285005,Lavaux-Oron District,Huyện Lavaux-Oron,Lavaux-Oron,TRUE
+vi,CH,4006458809,Le Locle District,Huyện Le Locle,Le Locle,TRUE
+vi,CH,4006458829,Bezirk Lebern,Huyện Lebern,Lebern,TRUE
+vi,CH,4006458806,Bezirk Lenzburg,Huyện Lenzburg,Lenzburg,TRUE
+vi,CH,4006458753,Leuk District,Huyện Leuk,Leuk,TRUE
+vi,CH,4006458903,Leventina District,Huyện Leventina,Leventina,TRUE
+vi,CH,4006458854,Bezirk Liestal,Huyện Liestal,Liestal,TRUE
+vi,CH,4006458750,Locarno District,Huyện Locarno,Locarno,TRUE
+vi,CH,4006458771,Lugano District,Huyện Lugano,Lugano,TRUE
+vi,CH,4007284997,Maloja District,Huyện Maloja,Maloja,TRUE
+vi,CH,4006458781,Bezirk March,Huyện March,March,TRUE
+vi,CH,4002659702,Bezirk Meilen,Huyện Meilen,Meilen,TRUE
+vi,CH,4006458894,Mendrisio District,Huyện Mendrisio,Mendrisio,TRUE
+vi,CH,4007284998,Moesa District,Huyện Moesa,Moesa,TRUE
+vi,CH,4006458845,Monthey District,Huyện Monthey,Monthey,TRUE
+vi,CH,4006458855,Morges District,Huyện Morges,Morges,TRUE
+vi,CH,4006458902,Bezirk Muri,Huyện Muri,Muri,TRUE
+vi,CH,4006458886,Neuchâtel District,Huyện Neuchâtel,Neuchâtel,TRUE
+vi,CH,4006458893,Bezirk Olten,Huyện Olten,Olten,TRUE
+vi,CH,4007285007,Ouest Lausannois District,Huyện Ouest Lausannois,Ouest Lausannois,TRUE
+vi,CH,4006458852,Bezirk Pfäffikon,Huyện Pfäffikon,Pfäffikon,TRUE
+vi,CH,4006458884,Plessur District,Huyện Plessur,Plessur,TRUE
+vi,CH,4006458776,Porrentruy District,Huyện Porrentruy,Porrentruy,TRUE
+vi,CH,4002659097,Raron District,Huyện Raron,Raron,TRUE
+vi,CH,4006458853,Bezirk Rheinfelden,Huyện Rheinfelden,Rheinfelden,TRUE
+vi,CH,4006458756,Riviera District,Huyện Riviera,Riviera,TRUE
+vi,CH,4006458881,Bezirk Schaffhausen,Huyện Schaffhausen,Schaffhausen,TRUE
+vi,CH,4006458775,Bezirk Schwyz,Huyện Schwyz,Schwyz,TRUE
+vi,CH,4006458823,Bezirk Sissach,Huyện Sissach,Sissach,TRUE
+vi,CH,4006458779,Bezirk Solothurn,Huyện Solothurn,Solothurn,TRUE
+vi,CH,4008740970,Sursee District,Huyện Sursee,Sursee,TRUE
+vi,CH,4006458869,Bezirk Thal,Huyện Thal,Thal,TRUE
+vi,CH,4002658380,Bezirk Thierstein,Huyện Thierstein,Thierstein,TRUE
+vi,CH,4006458836,Bezirk Unterklettgau,Huyện Unterklettgau,Unterklettgau,TRUE
+vi,CH,4006458751,Bezirk Uster,Huyện Uster,Uster,TRUE
+vi,CH,4006458812,Val-de-Ruz District,Huyện Val-de-Ruz,Val-de-Ruz,TRUE
+vi,CH,4002658196,Vallemaggia District,Huyện Vallemaggia,Vallemaggia,TRUE
+vi,CH,4006458862,Veveyse District,Huyện Veveyse,Veveyse,TRUE
+vi,CH,4006458844,Visp District,Huyện Visp,Visp,TRUE
+vi,CH,4006458748,Bezirk Waldenburg,Huyện Waldenburg,Waldenburg,TRUE
+vi,CH,4008740971,Willisau District,Huyện Willisau,Willisau,TRUE
+vi,CH,4006458808,Bezirk Winterthur,Huyện Winterthur,Winterthur,TRUE
+vi,CH,4006458746,Bezirk Zofingen,Huyện Zofingen,Zofingen,TRUE
+vi,CH,4006458798,Bezirk Zürich,Huyện Zürich,Zürich,TRUE
+vi,CH,4006458788,Bezirk Zurzach,Huyện Zurzach,Zurzach,TRUE
+vi,CL,4003899538,Provincia de Antofagasta,Tỉnh Antofagasta,Antofagasta,TRUE
+vi,CL,4003899459,Provincia de Arauco,Tỉnh Arauco,Arauco,TRUE
+vi,CL,4003899358,Provincia de Arica,Tỉnh Arica,Arica,TRUE
+vi,CL,4003900336,Provincia de Aisén,Tỉnh Aysén,Aysén,TRUE
+vi,CL,4003898381,Provincia de Biobío,Tỉnh Biobío,Biobío,TRUE
+vi,CL,4003897525,Provincia de Cachapoal,Tỉnh Cachapoal,Cachapoal,TRUE
+vi,CL,4003896095,Provincia de Cautín,Tỉnh Cautín,Cautín,TRUE
+vi,CL,4003895547,Provincia de Chañaral,Tỉnh Chañaral,Chañaral,TRUE
+vi,CL,4003895070,Provincia de Chiloé,Tỉnh Chiloé,Chiloé,TRUE
+vi,CL,4003894914,Provincia de Choapa,Tỉnh Choapa,Choapa,TRUE
+vi,CL,4003894310,Provincia de Colchagua,Tỉnh Colchagua,Colchagua,TRUE
+vi,CL,4003893889,Provincia de Concepción,Tỉnh Concepción,Concepción,TRUE
+vi,CL,4003893653,Provincia de Copiapó,Tỉnh Copiapó,Copiapó,TRUE
+vi,CL,4003892868,Provincia de Curicó,Tỉnh Curicó,Curicó,TRUE
+vi,CL,4004030752,Provincia de Isla de Pascua,Tỉnh Đảo Phục Sinh,Đảo Phục Sinh,TRUE
+vi,CL,4003891149,Provincia de El Loa,Tỉnh El Loa,El Loa,TRUE
+vi,CL,4003890620,Provincia de Elqui,Tỉnh Elqui,Elqui,TRUE
+vi,CL,4003887756,Provincia de Huasco,Tỉnh Huasco,Huasco,TRUE
+vi,CL,4003887125,Provincia de Iquique,Tỉnh Iquique,Iquique,TRUE
+vi,CL,4003883200,Provincia de Limarí,Tỉnh Limarí,Limarí,TRUE
+vi,CL,4003883166,Provincia de Linares,Tỉnh Linares,Linares,TRUE
+vi,CL,4003882955,Provincia de Llanquihue,Tỉnh Llanquihue,Llanquihue,TRUE
+vi,CL,4003882432,Provincia de Los Andes,Tỉnh Los Andes,Los Andes,TRUE
+vi,CL,4003881037,Provincia de Magallanes,Tỉnh Magallanes,Magallanes,TRUE
+vi,CL,4003880987,Provincia de Maipo,Tỉnh Maipo,Maipo,TRUE
+vi,CL,4003880842,Provincia de Malleco,Tỉnh Malleco,Malleco,TRUE
+vi,CL,4003880106,Provincia de Melipilla,Tỉnh Melipilla,Melipilla,TRUE
+vi,CL,4004036651,Provincia Antártica Chilena,Tỉnh Nam Cực thuộc Chile,Nam Cực thuộc Chile,TRUE
+vi,CL,4003878472,Provincia de Ñuble,Tỉnh Ñuble,Ñuble,TRUE
+vi,CL,4003877946,Provincia de Osorno,Tỉnh Osorno,Osorno,TRUE
+vi,CL,4003876415,Petorca Province,Tỉnh Petorca,Petorca,TRUE
+vi,CL,4003874118,Provincia de Quillota,Tỉnh Quillota,Quillota,TRUE
+vi,CL,4003872374,San Antonio Province,Tỉnh San Antonio,San Antonio,TRUE
+vi,CL,4003872251,Provincia de San Felipe,Tỉnh San Felipe,San Felipe,TRUE
+vi,CL,4003871332,Provincia de Santiago,Tỉnh Santiago,Santiago,TRUE
+vi,CL,4003870304,Provincia de Talagante,Tỉnh Talagante,Talagante,TRUE
+vi,CL,4003869875,Provincia de Tierra del Fuego,Tỉnh Tierra del Fuego,Tierra del Fuego,TRUE
+vi,CL,4003869715,Provincia de Tocopilla,Tỉnh Tocopilla,Tocopilla,TRUE
+vi,CL,4003868829,Provincia de Última Esperanza,Tỉnh Última Esperanza,Última Esperanza,TRUE
+vi,CL,4003868703,Provincia de Valdivia,Tỉnh Valdivia,Valdivia,TRUE
+vi,CL,4003868623,Provincia de Valparaíso,Tỉnh Valparaíso,Valparaíso,TRUE
+vi,CN,20001893,Jinggangshan Shi,Tỉnh Cương Sơn,Cương Sơn,TRUE
+vi,CN,20001901,Jingjingkuang Qu,Tỉnh Hình,Hình,TRUE
+vi,CN,20001900,Jingxing Xian,Tỉnh Hình,Hình,TRUE
+vi,CN,20001910,Jingyan Xian,Tỉnh Nghiên,Nghiên,TRUE
+vi,CN,20004078,Sheqi Xian,Xã Kỳ,Kỳ,TRUE
+vi,CO,4003688536,Departamento de Boyacá,Tỉnh Boyacá,Boyacá,TRUE
+vi,CO,4003687479,Departamento del Caquetá,Tỉnh Caquetá,Caquetá,TRUE
+vi,CO,4003687173,Departamento de Casanare,Tỉnh Casanare,Casanare,TRUE
+vi,CO,4003687029,Departamento del Cauca,Tỉnh Cauca,Cauca,TRUE
+vi,CO,4003680692,Departamento del Huila,Tỉnh Huila,Huila,TRUE
+vi,CO,4003678847,Departamento de La Guajira,Tỉnh La Guajira,La Guajira,TRUE
+vi,CO,4003674021,Departamento de Nariño,Tỉnh Nariño,Nariño,TRUE
+vi,CO,4003673798,Departamento de Norte de Santander,Tỉnh Norte de Santander,Norte de Santander,TRUE
+vi,CO,4003671178,Departamento del Putumayo,Tỉnh Putumayo,Putumayo,TRUE
+vi,CO,4003671087,Quindío Department,Tỉnh Quindío,Quindío,TRUE
+vi,CO,4003668578,Departamento de Santander,Tỉnh Santander,Santander,TRUE
+vi,CO,4003667725,Departamento de Sucre,Tỉnh Sucre,Sucre,TRUE
+vi,CO,4003666254,Departamento del Vaupés,Tỉnh Vaupés,Vaupés,TRUE
+vi,CR,4011239504,Chira,Đảo Chira,Chira,TRUE
+vi,CR,4011239190,Isla Del Coco,Đảo Cocos,Cocos,TRUE
+vi,CR,4003624953,Alajuela Province,Tỉnh Alajuela,Alajuela,TRUE
+vi,CR,4003624368,Provincia de Cartago,Tỉnh Cartago,Cartago,TRUE
+vi,CR,4003623582,Provincia de Guanacaste,Tỉnh Guanacaste,Guanacaste,TRUE
+vi,CR,4003623484,Provincia de Heredia,Tỉnh Heredia,Heredia,TRUE
+vi,CR,4003623064,Provincia de Limón,Tỉnh Limón,Limón,TRUE
+vi,CR,4003622226,Puntarenas Province,Tỉnh Puntarenas,Puntarenas,TRUE
+vi,CR,4003621837,Provincia de San José,Tỉnh San José,San José,TRUE
+vi,CZ,4003079506,Okres Benešov,Huyện Benešov,Benešov,TRUE
+vi,CZ,4003079466,Okres Beroun,Huyện Beroun,Beroun,TRUE
+vi,CZ,4003078772,Okres Břeclav,Huyện Břeclav,Břeclav,TRUE
+vi,CZ,4003078607,Okres Brno-Venkov,Huyện Brno-Venkov,Brno-Venkov,TRUE
+vi,CZ,4003077928,Okres Česká Lípa,Huyện Česká Lípa,Česká Lípa,TRUE
+vi,CZ,4003077915,Okres České Budějovice,Huyện České Budějovice,České Budějovice,TRUE
+vi,CZ,4003077888,Okres Český Krumlov,Huyện Český Krumlov,Český Krumlov,TRUE
+vi,CZ,4003077834,Okres Cheb,Huyện Cheb,Cheb,TRUE
+vi,CZ,4003077684,Okres Chomutov,Huyện Chomutov,Chomutov,TRUE
+vi,CZ,4003077243,Okres Děčín,Huyện Děčín,Děčín,TRUE
+vi,CZ,4003076586,Okres Domažlice,Huyện Domažlice,Domažlice,TRUE
+vi,CZ,4003076125,Okres Frýdek-Místek,Huyện Frýdek-Místek,Frýdek-Místek,TRUE
+vi,CZ,4003075918,Okres Havlíčkův Brod,Huyện Havlíčkův Brod,Havlíčkův Brod,TRUE
+vi,CZ,4003075651,Okres Hodonín,Huyện Hodonín,Hodonín,TRUE
+vi,CZ,4003074966,Okres Hradec Králové,Huyện Hradec Králové,Hradec Králové,TRUE
+vi,CZ,4003337501,Okres Jeseník,Huyện Jeseník,Jeseník,TRUE
+vi,CZ,4003074148,Okres Jindřichův Hradec,Huyện Jindřichův Hradec,Jindřichův Hradec,TRUE
+vi,CZ,4003073802,Okres Karlovy Vary,Huyện Karlovy Vary,Karlovy Vary,TRUE
+vi,CZ,4003073790,Okres Karviná,Huyện Karviná,Karviná,TRUE
+vi,CZ,4003073370,Okres Kolín,Huyện Kolín,Kolín,TRUE
+vi,CZ,4003072648,Okres Kroměříž,Huyện Kroměříž,Kroměříž,TRUE
+vi,CZ,4003072462,Okres Kutná Hora,Huyện Kutná Hora,Kutná Hora,TRUE
+vi,CZ,4003070861,Okres Mělník,Huyện Mělník,Mělník,TRUE
+vi,CZ,4003070290,Okres Most,Huyện Most,Most,TRUE
+vi,CZ,4003068925,Okres Opava,Huyện Opava,Opava,TRUE
+vi,CZ,4003068581,Okres Pardubice,Huyện Pardubice,Pardubice,TRUE
+vi,CZ,4003068444,Okres Pelhřimov,Huyện Pelhřimov,Pelhřimov,TRUE
+vi,CZ,4003067712,Okres Prachatice,Huyện Prachatice,Prachatice,TRUE
+vi,CZ,4003067693,Okres Praha-Východ,Huyện Praha-Đông,Praha-Đông,TRUE
+vi,CZ,4003067578,Okres Přerov,Huyện Přerov,Přerov,TRUE
+vi,CZ,4003067420,Okres Prostějov,Huyện Prostějov,Prostějov,TRUE
+vi,CZ,4003067050,Okres Rakovník,Huyện Rakovník,Rakovník,TRUE
+vi,CZ,4003066793,Okres Rokycany,Huyện Rokycany,Rokycany,TRUE
+vi,CZ,4003066502,Okres Rychnov nad Kněžnou,Huyện Rychnov nad Kněžnou,Rychnov nad Kněžnou,TRUE
+vi,CZ,4003065616,Okres Sokolov,Huyện Sokolov,Sokolov,TRUE
+vi,CZ,4003065066,Okres Strakonice,Huyện Strakonice,Strakonice,TRUE
+vi,CZ,4003064672,Okres Šumperk,Huyện Šumperk,Šumperk,TRUE
+vi,CZ,4003064370,Okres Tachov,Huyện Tachov,Tachov,TRUE
+vi,CZ,4003064103,Okres Třebíč,Huyện Třebíč,Třebíč,TRUE
+vi,CZ,4003063738,Okres Uherské Hradiště,Huyện Uherské Hradiště,Uherské Hradiště,TRUE
+vi,CZ,4003063545,Okres Ústí nad Orlicí,Huyện Ústí nad Orlicí,Ústí nad Orlicí,TRUE
+vi,CZ,4003062338,Okres Vsetín,Huyện Vsetín,Vsetín,TRUE
+vi,CZ,4003062280,Okres Vyškov,Huyện Vyškov,Vyškov,TRUE
+vi,CZ,4003061694,Okres Žďár nad Sázavou,Huyện Žďár nad Sázavou,Žďár nad Sázavou,TRUE
+vi,DE,4002895919,Insel Poel,Đảo Poel,Poel,TRUE
+vi,DE,4003247456,Altenkirchen district,Huyện Altenkirchen,Altenkirchen,TRUE
+vi,DE,4002955470,Arnsberg district,Huyện Arnsberg,Arnsberg,TRUE
+vi,DE,4002955273,Aschaffenburg district,Huyện Aschaffenburg,Aschaffenburg,TRUE
+vi,DE,4003220871,Augsburg district,Huyện Augsburg,Augsburg,TRUE
+vi,DE,4003221059,Aurich district,Huyện Aurich,Aurich,TRUE
+vi,DE,4002953423,Bad Kissingen district,Huyện Bad Kissingen,Bad Kissingen,TRUE
+vi,DE,4002953415,Bad Kreuznach district,Huyện Bad Kreuznach,Bad Kreuznach,TRUE
+vi,DE,4003214113,Baden-Baden district,Huyện Baden-Baden,Baden-Baden,TRUE
+vi,DE,4002951880,Bautzen district,Huyện Bautzen,Bautzen,TRUE
+vi,DE,4003220790,Biberach district,Huyện Biberach,Biberach,TRUE
+vi,DE,4003221125,Bielefeld district,Huyện Bielefeld,Bielefeld,TRUE
+vi,DE,4002948589,Birkenfeld district,Huyện Birkenfeld,Birkenfeld,TRUE
+vi,DE,4003221109,Bochum district,Huyện Bochum,Bochum,TRUE
+vi,DE,4003247441,Borken district,Huyện Borken,Borken,TRUE
+vi,DE,4002945354,Brandenburg an der Havel district,Huyện Brandenburg an der Havel,Brandenburg an der Havel,TRUE
+vi,DE,4002892916,Chemnitz district,Huyện Chemnitz,Chemnitz,TRUE
+vi,DE,4002939950,Coburg district,Huyện Coburg,Coburg,TRUE
+vi,DE,4003220847,Coburg district,Huyện Coburg,Coburg,TRUE
+vi,DE,4002939810,Cottbus district,Huyện Cottbus,Cottbus,TRUE
+vi,DE,4002939657,Cuxhaven district,Huyện Cuxhaven,Cuxhaven,TRUE
+vi,DE,4003220818,Dachau district,Huyện Dachau,Dachau,TRUE
+vi,DE,4003249080,Dahme-Spreewald district,Huyện Dahme-Spreewald,Dahme-Spreewald,TRUE
+vi,DE,4003220807,Deggendorf district,Huyện Deggendorf,Deggendorf,TRUE
+vi,DE,4003221024,Diepholz district,Huyện Diepholz,Diepholz,TRUE
+vi,DE,4002936975,Dillingen an der Donau district,Huyện Dillingen an der Donau,Dillingen an der Donau,TRUE
+vi,DE,4003220808,Dingolfing-Landau district,Huyện Dingolfing-Landau,Dingolfing-Landau,TRUE
+vi,DE,4003249069,Dithmarschen district,Huyện Dithmarschen,Dithmarschen,TRUE
+vi,DE,4002935020,Dresden district,Huyện Dresden,Dresden,TRUE
+vi,DE,4002933937,Ebersberg district,Huyện Ebersberg,Ebersberg,TRUE
+vi,DE,4003249081,Elbe-Elster district,Huyện Elbe-Elster,Elbe-Elster,TRUE
+vi,DE,4003221073,Emsland district,Huyện Emsland,Emsland,TRUE
+vi,DE,4002929668,Erfurt district,Huyện Erfurt,Erfurt,TRUE
+vi,DE,4002926272,Flensburg district,Huyện Flensburg,Flensburg,TRUE
+vi,DE,4003220848,Forchheim district,Huyện Forchheim,Forchheim,TRUE
+vi,DE,4003220993,Fulda district,Huyện Fulda,Fulda,TRUE
+vi,DE,4003220800,Fürth district,Huyện Fürth,Fürth,TRUE
+vi,DE,4002918750,Gotha district,Huyện Gotha,Gotha,TRUE
+vi,DE,4003221075,Grafschaft Bentheim district,Huyện Grafschaft Bentheim,Grafschaft Bentheim,TRUE
+vi,DE,4003221127,Gutersloh district,Huyện Gütersloh,Gütersloh,TRUE
+vi,DE,4003221111,Hamm district,Huyện Hamm,Hamm,TRUE
+vi,DE,4002911664,Harz district,Huyện Harz,Harz,TRUE
+vi,DE,4003249082,Havelland district,Huyện Havelland,Havelland,TRUE
+vi,DE,4002831482,Heidekreis district,Huyện Heidekreis,Heidekreis,TRUE
+vi,DE,4003220720,Heidelberg district,Huyện Heidelberg,Heidelberg,TRUE
+vi,DE,4003220743,Heilbronn district,Huyện Heilbronn,Heilbronn,TRUE
+vi,DE,4003221129,Herford district,Huyện Herford,Herford,TRUE
+vi,DE,4002905434,Herzogtum Lauenburg district,Huyện Herzogtum Lauenburg,Herzogtum Lauenburg,TRUE
+vi,DE,4003220850,Hof district,Huyện Hof,Hof,TRUE
+vi,DE,4003220748,Hohenlohe district,Huyện Hohenlohe,Hohenlohe,TRUE
+vi,DE,4003221036,Holzminden district,Huyện Holzminden,Holzminden,TRUE
+vi,DE,4003231882,Hoxter district,Huyện Höxter,Höxter,TRUE
+vi,DE,4006547391,Ilm district,Huyện Ilm,Ilm,TRUE
+vi,DE,4003220833,Ingolstadt district,Huyện Ingolstadt,Ingolstadt,TRUE
+vi,DE,4002894002,Kaiserslautern district,Huyện Kaiserslautern,Kaiserslautern,TRUE
+vi,DE,4002892791,Karlsruhe district,Huyện Karlsruhe,Karlsruhe,TRUE
+vi,DE,4003220721,Karlsruhe district,Huyện Karlsruhe,Karlsruhe,TRUE
+vi,DE,4003220995,Kassel district,Huyện Kassel,Kassel,TRUE
+vi,DE,4002885678,Konstanz district,Huyện Konstanz,Konstanz,TRUE
+vi,DE,4003231906,Krefeld district,Huyện Krefeld,Krefeld,TRUE
+vi,DE,4002883782,Kronach district,Huyện Kronach,Kronach,TRUE
+vi,DE,4003247901,Kusel district,Huyện Kusel,Kusel,TRUE
+vi,DE,4003220834,Landsberg am Lech district,Huyện Landsberg am Lech,Landsberg am Lech,TRUE
+vi,DE,4002879138,Leipzig district,Huyện Leipzig,Leipzig,TRUE
+vi,DE,4002879137,Leipzig district,Huyện Leipzig,Leipzig,TRUE
+vi,DE,4003220852,Lichtenfels district,Huyện Lichtenfels,Lichtenfels,TRUE
+vi,DE,4003220992,Limburg-Weilburg district,Huyện Limburg-Weilburg,Limburg-Weilburg,TRUE
+vi,DE,4003214108,Lörrach district,Huyện Lörrach,Lörrach,TRUE
+vi,DE,4003221040,Luneburg district,Huyện Lüneburg,Lüneburg,TRUE
+vi,DE,4003220893,Main-Spessart district,Huyện Main-Spessart,Main-Spessart,TRUE
+vi,DE,4002874229,Main-Taunus district,Huyện Main-Taunus,Main-Taunus,TRUE
+vi,DE,4003220722,Mannheim district,Huyện Mannheim,Mannheim,TRUE
+vi,DE,4002872153,Meissen district,Huyện Meissen,Meissen,TRUE
+vi,DE,4003220886,Memmingen district,Huyện Memmingen,Memmingen,TRUE
+vi,DE,4003247430,Mettmann district,Huyện Mettmann,Mettmann,TRUE
+vi,DE,4003220835,Miesbach district,Huyện Miesbach,Miesbach,TRUE
+vi,DE,4003220836,Mühldorf am Inn district,Huyện Mühldorf am Inn,Mühldorf am Inn,TRUE
+vi,DE,4002867539,Münster district,Huyện Münster,Münster,TRUE
+vi,DE,4003249066,Neunkirchen district,Huyện Neunkirchen,Neunkirchen,TRUE
+vi,DE,4003220856,Neustadt an der Waldnaab district,Huyện Neustadt an der Waldnaab,Neustadt an der Waldnaab,TRUE
+vi,DE,4002862622,Nienburg/Weser district,Huyện Nienburg/Weser,Nienburg/Weser,TRUE
+vi,DE,4002861979,Nordhausen district,Huyện Nordhausen,Nordhausen,TRUE
+vi,DE,4003220804,Nürnberger district,Huyện Nürnberger Land,Nürnberger Land,TRUE
+vi,DE,4003247445,Oberbergischer district,Huyện Oberbergischer,Oberbergischer,TRUE
+vi,DE,4003249086,Oder-Spree district,Huyện Oder-Spree,Oder-Spree,TRUE
+vi,DE,4003220978,Offenbach district,Huyện Offenbach,Offenbach,TRUE
+vi,DE,4003220975,Offenbach am Main district,Huyện Offenbach am Main,Offenbach am Main,TRUE
+vi,DE,4003221122,Olpe district,Huyện Olpe,Olpe,TRUE
+vi,DE,4003221098,Osnabruck district,Huyện Osnabrück,Osnabrück,TRUE
+vi,DE,4003221042,Osterholz district,Huyện Osterholz,Osterholz,TRUE
+vi,DE,4003221016,Osterode am Harz district,Huyện Osterode am Harz,Osterode am Harz,TRUE
+vi,DE,4003249074,Ostholstein district,Huyện Ostholstein,Ostholstein,TRUE
+vi,DE,4003220812,Passau district,Huyện Passau,Passau,TRUE
+vi,DE,4002854385,Pfaffenhofen an der Ilm district,Huyện Pfaffenhofen an der Ilm,Pfaffenhofen an der Ilm,TRUE
+vi,DE,4002853657,Pinneberg district,Huyện Pinneberg,Pinneberg,TRUE
+vi,DE,4003249088,Prignitz district,Huyện Prignitz,Prignitz,TRUE
+vi,DE,4003220725,Rastatt district,Huyện Rastatt,Rastatt,TRUE
+vi,DE,4003220791,Ravensburg district,Huyện Ravensburg,Ravensburg,TRUE
+vi,DE,4002849645,Recklinghausen district,Huyện Recklinghausen,Recklinghausen,TRUE
+vi,DE,4003220814,Regen district,Huyện Regen,Regen,TRUE
+vi,DE,4003247446,Rheinisch-Bergischer district,Huyện Rheinisch-Bergischer,Rheinisch-Bergischer,TRUE
+vi,DE,4002844587,Rostock district,Huyện Rostock,Rostock,TRUE
+vi,DE,4003220805,Roth district,Huyện Roth,Roth,TRUE
+vi,DE,4006547394,Saale-Orla district,Huyện Saale-Orla,Saale-Orla,TRUE
+vi,DE,4003249065,Saarlouis district,Huyện Saarlouis,Saarlouis,TRUE
+vi,DE,4003221018,Salzgitter district,Huyện Salzgitter,Salzgitter,TRUE
+vi,DE,4002842111,Salzwedel district,Huyện Salzwedel,Salzwedel,TRUE
+vi,DE,4002841464,Sankt Wendel district,Huyện Sankt Wendel,Sankt Wendel,TRUE
+vi,DE,4002838633,Schleswig-Flensburg district,Huyện Schleswig-Flensburg,Schleswig-Flensburg,TRUE
+vi,DE,4003220806,Schwabach district,Huyện Schwabach,Schwabach,TRUE
+vi,DE,4003220996,Schwalm-Eder district,Huyện Schwalm-Eder,Schwalm-Eder,TRUE
+vi,DE,4003220859,Schwandorf district,Huyện Schwandorf,Schwandorf,TRUE
+vi,DE,4002834685,Schwarzwald-Baar- district,Huyện Schwarzwald-Baar,Schwarzwald-Baar,TRUE
+vi,DE,4003220895,Schweinfurt district,Huyện Schweinfurt,Schweinfurt,TRUE
+vi,DE,4003220896,Schweinfurt district,Huyện Schweinfurt,Schweinfurt,TRUE
+vi,DE,4002834281,Schwerin district,Huyện Schwerin,Schwerin,TRUE
+vi,DE,4003249076,Segeberg district,Huyện Segeberg,Segeberg,TRUE
+vi,DE,4003221124,Soest district,Huyện Soest,Soest,TRUE
+vi,DE,4003221046,Stade district,Huyện Stade,Stade,TRUE
+vi,DE,4002829456,Starnberg district,Huyện Starnberg,Starnberg,TRUE
+vi,DE,4003249077,Steinburg district,Huyện Steinburg,Steinburg,TRUE
+vi,DE,4003247443,Steinfurt district,Huyện Steinfurt,Steinfurt,TRUE
+vi,DE,4002827478,Stendal district,Huyện Stendal,Stendal,TRUE
+vi,DE,4002825001,Südliche Weinstraße district,Huyện Südliche Weinstraße,Südliche Weinstraße,TRUE
+vi,DE,4003249090,Teltow-Fläming district,Huyện Teltow-Fläming,Teltow-Fläming,TRUE
+vi,DE,4002822099,Tirschenreuth district,Huyện Tirschenreuth,Tirschenreuth,TRUE
+vi,DE,4003220841,Traunstein district,Huyện Traunstein,Traunstein,TRUE
+vi,DE,4003249091,Uckermark district,Huyện Uckermark,Uckermark,TRUE
+vi,DE,4003221049,Uelzen district,Huyện Uelzen,Uelzen,TRUE
+vi,DE,4003220787,Ulm district,Huyện Ulm,Ulm,TRUE
+vi,DE,4006547389,Unstrut-Hainich district,Huyện Unstrut-Hainich,Unstrut-Hainich,TRUE
+vi,DE,4003214112,Waldshut district,Huyện Waldshut,Waldshut,TRUE
+vi,DE,4003247444,Warendorf district,Huyện Warendorf,Warendorf,TRUE
+vi,DE,4003220999,Werra-Meissner district,Huyện Werra-Meissner,Werra-Meissner,TRUE
+vi,DE,4002810674,Wesel district,Huyện Wesel,Wesel,TRUE
+vi,DE,4003221101,Wittmund district,Huyện Wittmund,Wittmund,TRUE
+vi,DE,4003221020,Wolfenbuttel district,Huyện Wolfenbüttel,Wolfenbüttel,TRUE
+vi,DE,4003220853,Landkreis Wunsiedel im Fichtelgebirge,Huyện Wunsiedel im Fichtelgebirge,Wunsiedel im Fichtelgebirge,TRUE
+vi,DE,4003220794,Zollernalb district,Huyện Zollernalb,Zollernalb,TRUE
+vi,DM,4011167260,Alto Velo,Đảo Alto Velo,Alto Velo,TRUE
+vi,DM,4011155537,Catalina,Đảo Catalina,Catalina,TRUE
+vi,DM,4011162460,Isla Catalina,Đảo Catalina,Catalina,TRUE
+vi,DM,4011168701,La Saona,Đảo Saona,Saona,TRUE
+vi,DM,4011155565,Isla Saona,Đảo Saona,Saona,TRUE
+vi,DM,4003512209,Provincia de Azua,Tỉnh Azua,Azua,TRUE
+vi,DM,4003512050,Provincia de Baoruco,Tỉnh Baoruco,Baoruco,TRUE
+vi,DM,4003512042,Provincia de Barahona,Tỉnh Barahona,Barahona,TRUE
+vi,DM,4003508951,Provincia de Dajabón,Tỉnh Dajabón,Dajabón,TRUE
+vi,DM,4003508718,Provincia Duarte,Tỉnh Duarte,Duarte,TRUE
+vi,DM,4003506189,Provincia de El Seibo,Tỉnh El Seibo,El Seibo,TRUE
+vi,DM,4003507269,Provincia de Elías Piña,Tỉnh Elías Piña,Elías Piña,TRUE
+vi,DM,4003505867,Provincia Espaillat,Tỉnh Espaillat,Espaillat,TRUE
+vi,DM,4011164057,Hato De San Pedro,Tỉnh Hato Mayor,Hato Mayor,TRUE
+vi,DM,4011167096,Hato San Pedro,Tỉnh Hato Mayor,Hato Mayor,TRUE
+vi,DM,4003504766,Provincia de Hato Mayor,Tỉnh Hato Mayor,Hato Mayor,TRUE
+vi,DM,4011167689,Hermanas Mirabal,Tỉnh Hermanas Mirabal,Hermanas Mirabal,TRUE
+vi,DM,4003493282,Provincia de Hermanas Mirabal,Tỉnh Hermanas Mirabal,Hermanas Mirabal,TRUE
+vi,DM,4003504326,Provincia de Independencia,Tỉnh Independencia,Independencia,TRUE
+vi,DM,4003503706,Provincia de La Altagracia,Tỉnh La Altagracia,La Altagracia,TRUE
+vi,DM,4003500955,Provincia de La Romana,Tỉnh La Romana,La Romana,TRUE
+vi,DM,4003499977,Provincia de La Vega,Tỉnh La Vega,La Vega,TRUE
+vi,DM,4003496772,Provincia María Trinidad Sánchez,Tỉnh María Trinidad Sánchez,María Trinidad Sánchez,TRUE
+vi,DM,4003496274,Provincia de Monseñor Nouel,Tỉnh Monseñor Nouel,Monseñor Nouel,TRUE
+vi,DM,4003496200,Provincia de Monte Cristi,Tỉnh Monte Cristi,Monte Cristi,TRUE
+vi,DM,4003496132,Provincia de Monte Plata,Tỉnh Monte Plata,Monte Plata,TRUE
+vi,DM,4003495136,Provincia de Pedernales,Tỉnh Pedernales,Pedernales,TRUE
+vi,DM,4003495015,Provincia de Peravia,Tỉnh Peravia,Peravia,TRUE
+vi,DM,4003494267,Provincia de Puerto Plata,Tỉnh Puerto Plata,Puerto Plata,TRUE
+vi,DM,4003493232,Samaná Province,Tỉnh Samaná,Samaná,TRUE
+vi,DM,4003493186,Provincia de San Cristóbal,Tỉnh San Cristóbal,San Cristóbal,TRUE
+vi,DM,4006201372,Provincia de San José de Ocoa,Tỉnh San José de Ocoa,San José de Ocoa,TRUE
+vi,DM,4003493091,Provincia de San Juan,Tỉnh San Juan,San Juan,TRUE
+vi,DM,4003493031,Provincia de San Pedro de Macorís,Tỉnh San Pedro de Macorís,San Pedro de Macorís,TRUE
+vi,DM,4003493192,Provincia Sánchez Ramírez,Tỉnh Sánchez Ramírez,Sánchez Ramírez,TRUE
+vi,DM,4003492918,Provincia de Santiago,Tỉnh Santiago,Santiago,TRUE
+vi,DM,4003492912,Provincia de Santiago Rodríguez,Tỉnh Santiago Rodríguez,Santiago Rodríguez,TRUE
+vi,DM,4006201373,Provincia de Santo Domingo,Tỉnh Santo Domingo,Santo Domingo,TRUE
+vi,DM,4003492112,Provincia de Valverde,Tỉnh Valverde,Valverde,TRUE
+vi,DZ,4002497026,Es Souf,Tỉnh El Oued,El Oued,TRUE
+vi,EC,30054702,Isabela,Đảo Isabela,Isabela,TRUE
+vi,EE,4007522297,Karula vald,Xã Karula,Karula,TRUE
+vi,EE,4007522342,Mikitamäe vald,Xã Mikitamäe,Mikitamäe,TRUE
+vi,EE,4007522396,Tudulinna vald,Xã Tudulinna,Tudulinna,TRUE
+vi,EG,30070858,10 Ramadan 1,Thành phố 10 Ramadan,10 Ramadan,TRUE
+vi,EG,30070792,15 Mayu,Thành phố 15 tháng 5,15 tháng 5,TRUE
+vi,EG,30070991,New Akhmim City,Thành phố Akhmim Mới,Akhmim Mới,TRUE
+vi,EG,30070899,New Asyut City,Thành phố Asyut Mới,Asyut Mới,TRUE
+vi,EG,4000362612,New Burj al-'Arab City,Thành phố New Burj Al Arab,New Burj Al Arab,TRUE
+vi,EG,30070929,New Damietta City,Thành phố New Damietta,New Damietta,TRUE
+vi,EG,4000362276,Sixth of October 2 City,Thành phố ngày 6 tháng 10 thứ 2,ngày 6 tháng 10 thứ 2,TRUE
+vi,EG,4000359211,Sixth of October 1 City,"Thành phố ngày 6 tháng 10, 1","ngày 6 tháng 10, 1",TRUE
+vi,EG,30070832,Al-'Ubur,Thành phố Obour,Obour,TRUE
+vi,EG,4000360821,Sadat City,Thành phố Sadat,Sadat,TRUE
+vi,EG,4000360687,Sheikh Zayed,Thành phố Sheikh Zayed,Sheikh Zayed,TRUE
+vi,EG,30070992,New Sawhaj City,Thành phố Sohag Mới,Sohag Mới,TRUE
+vi,EG,30070918,Ash-Sharq,Tỉnh Ash Sharqia,Ash Sharqia,TRUE
+vi,EG,4000360016,Ash Sharqiyah,Tỉnh Ash Sharqia,Ash Sharqia,TRUE
+vi,EG,4000361370,Al Buhayrah,Tỉnh Beheira,Beheira,TRUE
+vi,EG,4000361468,Al Bahr al Ahmar,Tỉnh Biển Đỏ,Biển Đỏ,TRUE
+vi,EG,4000361849,Ad Daqahliyah,Tỉnh Dakahlia,Dakahlia,TRUE
+vi,EG,4000361294,Al Gharbiyah,Tỉnh Gharbia,Gharbia,TRUE
+vi,EG,4000360688,Muḩāfaz̧at al Minyā,Tỉnh Minya,Minya,TRUE
+vi,EG,4000355182,Janub Sina',Tỉnh Nam Sinai,Nam Sinai,TRUE
+vi,EG,4000360621,Al Qalyubiyah,Tỉnh Qalyubia,Qalyubia,TRUE
+vi,EG,4000360483,Al Wadi al Jadid,Tỉnh Thung lũng Mới,Thung lũng Mới,TRUE
+vi,ES,4003128759,Barcelona Province,Tỉnh Barcelona,Barcelona,TRUE
+vi,ES,4002509951,Valencia Province,Tỉnh Valencia,Valencia,TRUE
+vi,FJ,30073126,Denarau Island,Đảo Denarau,Denarau,TRUE
+vi,FJ,4002203798,Ba Province,Tỉnh Ba,Ba,TRUE
+vi,FJ,4002203651,Bua Province,Tỉnh Bua,Bua,TRUE
+vi,FJ,4002197820,Cakaudrove Province,Tỉnh Cakaudrove,Cakaudrove,TRUE
+vi,FJ,4008617786,Kadavu Province,Tỉnh Kadavu,Kadavu,TRUE
+vi,FJ,4002204318,Lomaiviti Province,Tỉnh Lomaiviti,Lomaiviti,TRUE
+vi,FJ,4002203875,Macuata Province,Tỉnh Macuata,Macuata,TRUE
+vi,FJ,4002201984,Nandronga and Navosa Province,Tỉnh Nadroga-Navosa,Nadroga-Navosa,TRUE
+vi,FJ,4002203150,Naitasiri Province,Tỉnh Naitasiri,Naitasiri,TRUE
+vi,FJ,4002202182,Namosi Province,Tỉnh Namosi,Namosi,TRUE
+vi,FJ,4002198946,Ra Province,Tỉnh Ra,Ra,TRUE
+vi,FJ,4002198876,Rewa Province,Tỉnh Rewa,Rewa,TRUE
+vi,FJ,4002198411,Serua Province,Tỉnh Serua,Serua,TRUE
+vi,FJ,4002198131,Tailevu Province,Tỉnh Tailevu,Tailevu,TRUE
+vi,GA,30021178,Estuaire,Tỉnh Estuaire,Estuaire,TRUE
+vi,GA,30021182,Ogooue-Maritime,Tỉnh Ogooué-Maritime,Ogooué-Maritime,TRUE
+vi,GT,4003595529,Municipio de Guatemala,Thành phố Guatemala,Guatemala,TRUE
+vi,GT,4003598571,Departamento de Chimaltenango,Tỉnh Chimaltenango,Chimaltenango,TRUE
+vi,GT,4003595530,Departamento de Guatemala,Tỉnh Guatemala,Guatemala,TRUE
+vi,GT,4003595415,Departamento de Huehuetenango,Tỉnh Huehuetenango,Huehuetenango,TRUE
+vi,GT,4003590978,Departamento de Quetzaltenango,Tỉnh Quetzaltenango,Quetzaltenango,TRUE
+vi,GY,30060850,Wakenaam (Essequibo Islands),Đảo Wakenaam,Wakenaam,TRUE
+vi,HK,10010794,Hong Kong Island,Đảo Hồng Kông,Hồng Kông,TRUE
+vi,HK,10010844,Lamma Island,Đảo Lamma,Lamma,TRUE
+vi,HK,10011101,Lantau Island,Đảo Lantau,Lantau,TRUE
+vi,HK,10010983,Stonecutters Island,Đảo Stonecutters,Stonecutters,TRUE
+vi,HK,10010754,Tseng Lan Shue,Tỉnh Lan Thụ,Lan Thụ,TRUE
+vi,HU,30019419,Margareth Island,Đảo Margaret,Margaret,TRUE
+vi,HU,4009644757,Ajkai Járás,Huyện Ajka,Ajka,TRUE
+vi,HU,4009644348,Aszódi Járás,Huyện Aszód,Aszód,TRUE
+vi,HU,4009644264,Bácsalmási Járás,Huyện Bácsalmás,Bácsalmás,TRUE
+vi,HU,4009644263,Bajai Járás,Huyện Baja,Baja,TRUE
+vi,HU,4009644307,Baktalórántházai Járás,Huyện Baktalórántháza,Baktalórántháza,TRUE
+vi,HU,4009644340,Balassagyarmati Járás,Huyện Balassagyarmat,Balassagyarmat,TRUE
+vi,HU,4009644753,Balatonalmádi Járás,Huyện Balatonalmádi,Balatonalmádi,TRUE
+vi,HU,4009644754,Balatonfüredi Járás,Huyện Balatonfüredi,Balatonfüredi,TRUE
+vi,HU,4009644296,Balmazújvárosi Járás,Huyện Balmazújváros,Balmazújváros,TRUE
+vi,HU,4009644177,Barcsi Járás,Huyện Barcs,Barcs,TRUE
+vi,HU,4009644341,Bátonyterenyei Járás,Huyện Bátonyterenye,Bátonyterenye,TRUE
+vi,HU,4009644287,Békési Járás,Huyện Békés,Békés,TRUE
+vi,HU,4009644333,Bélapátfalvai Járás,Huyện Bélapátfalva,Bélapátfalva,TRUE
+vi,HU,4009644294,Berettyóújfalui Járás,Huyện Berettyóújfalu,Berettyóújfalu,TRUE
+vi,HU,4009644763,Bicskei Járás,Huyện Bicske,Bicske,TRUE
+vi,HU,4009644192,Bólyi Járás,Huyện Bóly,Bóly,TRUE
+vi,HU,4009644774,Bonyhádi Járás,Huyện Bonyhád,Bonyhád,TRUE
+vi,HU,4009644349,Budakeszi Járás,Huyện Budakeszi,Budakeszi,TRUE
+vi,HU,4009644350,Ceglédi Járás,Huyện Cegléd,Cegléd,TRUE
+vi,HU,4009644160,Celldömölki Járás,Huyện Celldömölk,Celldömölk,TRUE
+vi,HU,4009644316,Cigándi Járás,Huyện Cigánd,Cigánd,TRUE
+vi,HU,4009644313,Csengeri Járás,Huyện Csenger,Csenger,TRUE
+vi,HU,4009644279,Csongrádi Járás,Huyện Csongrád,Csongrád,TRUE
+vi,HU,4009644179,Csurgói Járás,Huyện Csurgó,Csurgó,TRUE
+vi,HU,4009644351,Dabasi Járás,Huyện Dabasi,Dabasi,TRUE
+vi,HU,4009644758,Devecseri Járás,Huyện Devecser,Devecser,TRUE
+vi,HU,4009644773,Dombóvári Járás,Huyện Dombóvár,Dombóvár,TRUE
+vi,HU,4009644352,Dunakeszi Járás,Huyện Dunakeszi,Dunakeszi,TRUE
+vi,HU,4009644766,Dunaújvárosi Járás,Huyện Dunaújváros,Dunaújváros,TRUE
+vi,HU,4009644317,Edelényi Járás,Huyện Edelény,Edelény,TRUE
+vi,HU,4009644334,Egri Járás,Huyện Eger,Eger,TRUE
+vi,HU,4009644318,Encsi Járás,Huyện Encs,Encs,TRUE
+vi,HU,4009644770,Enyingi Járás,Huyện Enying,Enying,TRUE
+vi,HU,4009644353,Érdi Járás,Huyện Érd,Érd,TRUE
+vi,HU,4009644744,Esztergomi Járás,Huyện Esztergom,Esztergom,TRUE
+vi,HU,4009644312,Fehérgyarmati Járás,Huyện Fehérgyarmat,Fehérgyarmat,TRUE
+vi,HU,4009644182,Fonyódi Járás,Huyện Fonyód,Fonyód,TRUE
+vi,HU,4009644335,Füzesabonyi Járás,Huyện Füzesabony,Füzesabony,TRUE
+vi,HU,4009644765,Gárdonyi Járás,Huyện Gárdonyi,Gárdonyi,TRUE
+vi,HU,4009644354,Gödöllői Járás,Huyện Gödöllő,Gödöllő,TRUE
+vi,HU,4009644320,Gönci Járás,Huyện Gönc,Gönc,TRUE
+vi,HU,4009644355,Gyáli Járás,Huyện Gyál,Gyál,TRUE
+vi,HU,4009644289,Gyomaendrődi Járás,Huyện Gyomaendrőd,Gyomaendrőd,TRUE
+vi,HU,4009644151,Győri Járás,Huyện Győr,Győr,TRUE
+vi,HU,4009644283,Gyulai Járás,Huyện Gyula,Gyula,TRUE
+vi,HU,4009644297,Hajdúböszörményi Járás,Huyện Hajdúböszörmény,Hajdúböszörmény,TRUE
+vi,HU,4009644291,Hajdúhadházi Járás,Huyện Hajdúhadház,Hajdúhadház,TRUE
+vi,HU,4009644299,Hajdúnánási Járás,Huyện Hajdúnánás,Hajdúnánás,TRUE
+vi,HU,4009644295,Hadjúszoboszlói Járás,Huyện Hajdúszoboszló,Hajdúszoboszló,TRUE
+vi,HU,4009644337,Hatvani Járás,Huyện Hatvan,Hatvan,TRUE
+vi,HU,4009644338,Hevesi Járás,Huyện Heves,Heves,TRUE
+vi,HU,4009644314,Ibrányi Járás,Huyện Ibrány,Ibrány,TRUE
+vi,HU,4009644265,Jánoshalmai Járás,Huyện Jánoshalma,Jánoshalma,TRUE
+vi,HU,4009644780,Jászapáti Járás,Huyện Jászapáti,Jászapáti,TRUE
+vi,HU,4009644779,Jászberényi Járás,Huyện Jászberény,Jászberény,TRUE
+vi,HU,4009644268,Kalocsai Járás,Huyện Kalocsa,Kalocsa,TRUE
+vi,HU,4009644180,Kaposvári Járás,Huyện Kaposvár,Kaposvár,TRUE
+vi,HU,4009644148,Kapuvári Járás,Huyện Kapuvár,Kapuvár,TRUE
+vi,HU,4009644785,Karcagi Járás,Huyện Karcag,Karcag,TRUE
+vi,HU,4009644321,Kazincbarcikai Járás,Huyện Kazincbarcika,Kazincbarcika,TRUE
+vi,HU,4009644271,Kecskeméti Járás,Huyện Kecskemét,Kecskemét,TRUE
+vi,HU,4009644308,Kemecsei Járás,Huyện Kemecse,Kemecse,TRUE
+vi,HU,4009644171,Keszthelyi Járás,Huyện Keszthely,Keszthely,TRUE
+vi,HU,4009644748,Kisbéri Járás,Huyện Kisbér,Kisbér,TRUE
+vi,HU,4009644269,Kiskőrösi Járás,Huyện Kiskőrös,Kiskőrös,TRUE
+vi,HU,4009644273,Kiskunfélegyházi Járás,Huyện Kiskunfélegyháza,Kiskunfélegyháza,TRUE
+vi,HU,4009644266,Kiskunhalasi Járás,Huyện Kiskunhalas,Kiskunhalas,TRUE
+vi,HU,4009644267,Kiskunmajsai Járás,Huyện Kiskunmajsa,Kiskunmajsa,TRUE
+vi,HU,4009644277,Kisteleki Járás,Huyện Kistelek,Kistelek,TRUE
+vi,HU,4009644309,Kisvárdai Járás,Huyện Kisvárda,Kisvárda,TRUE
+vi,HU,4009644194,Komlói Járás,Huyện Komló,Komló,TRUE
+vi,HU,4009644157,Körmendi Járás,Huyện Körmend,Körmend,TRUE
+vi,HU,4009644154,Kőszegi Járás,Huyện Kőszeg,Kőszeg,TRUE
+vi,HU,4009644787,Kunhegyesi Járás,Huyện Kunhegyes,Kunhegyes,TRUE
+vi,HU,4009644783,Kunszentmártoni Járás,Huyện Kunszentmárton,Kunszentmárton,TRUE
+vi,HU,4009644270,Kunszentmiklósi Járás,Huyện Kunszentmiklós,Kunszentmiklós,TRUE
+vi,HU,4009644168,Lenti Járás,Huyện Lenti,Lenti,TRUE
+vi,HU,4009644169,Letenyei Járás,Huyện Letenye,Letenye,TRUE
+vi,HU,4009644276,Makói Járás,Huyện Makó,Makó,TRUE
+vi,HU,4009644181,Marcali Járás,Huyện Marcali,Marcali,TRUE
+vi,HU,4009644764,Martonvásári Járás,Huyện Martonvásár,Martonvásár,TRUE
+vi,HU,4009644306,Mátészalkai Járás,Huyện Mátészalka,Mátészalka,TRUE
+vi,HU,4009644322,Mezőcsáti Járás,Huyện Mezőcsát,Mezőcsát,TRUE
+vi,HU,4009644284,Mezőkovácsházai Járás,Huyện Mezőkovácsháza,Mezőkovácsháza,TRUE
+vi,HU,4009644323,Mezőkövesdi Járás,Huyện Mezőkövesd,Mezőkövesd,TRUE
+vi,HU,4009644784,Mezőtúri Járás,Huyện Mezőtúr,Mezőtúr,TRUE
+vi,HU,4009644324,Miskolci Járás,Huyện Miskolc,Miskolc,TRUE
+vi,HU,4009644191,Mohácsi Járás,Huyện Mohács,Mohács,TRUE
+vi,HU,4009644356,Monori Járás,Huyện Monor,Monor,TRUE
+vi,HU,4009644771,Móri Járás,Huyện Mór,Mór,TRUE
+vi,HU,4009644274,Mórahalmi Járás,Huyện Mórahalom,Mórahalom,TRUE
+vi,HU,4009644150,Mosonmagyaróvári Járás,Huyện Mosonmagyaróvár,Mosonmagyaróvár,TRUE
+vi,HU,4009644304,Nagykállói Járás,Huyện Nagykálló,Nagykálló,TRUE
+vi,HU,4009644172,Nagykanizsai Járás,Huyện Nagykanizsa,Nagykanizsa,TRUE
+vi,HU,4009644735,Nagykátai Járás,Huyện Nagykáta,Nagykáta,TRUE
+vi,HU,4009644300,Nyíradonyi Járás,Huyện Nyíradony,Nyíradony,TRUE
+vi,HU,4009644305,Nyírbátori Járás,Huyện Nyírbátor,Nyírbátor,TRUE
+vi,HU,4009644303,Nyíregyházi Járás,Huyện Nyíregyháza,Nyíregyháza,TRUE
+vi,HU,4009644285,Orosházi Járás,Huyện Orosháza,Orosháza,TRUE
+vi,HU,4009644749,Oroszlányi Járás,Huyện Oroszlány,Oroszlány,TRUE
+vi,HU,4009644325,Ózdi Járás,Huyện Ózd,Ózd,TRUE
+vi,HU,4009644153,Pannonhalmi Járás,Huyện Pannonhalma,Pannonhalma,TRUE
+vi,HU,4009644750,Pápai Járás,Huyện Pápai,Pápai,TRUE
+vi,HU,4009644343,Pásztói Járás,Huyện Pásztó,Pásztó,TRUE
+vi,HU,4009644190,Pécsi Járás,Huyện Pécs,Pécs,TRUE
+vi,HU,4009644193,Pécsváradi Járás,Huyện Pécsvárad,Pécsvárad,TRUE
+vi,HU,4009644339,Pétervásárai Járás,Huyện Pétervásárai,Pétervásárai,TRUE
+vi,HU,4009644739,Pilisvörösvári Járás,Huyện Pilisvörösvár,Pilisvörösvár,TRUE
+vi,HU,4009644769,Polgárdi Járás,Huyện Polgárdi,Polgárdi,TRUE
+vi,HU,4009644293,Püspökladányi Járás,Huyện Püspökladány,Püspökladány,TRUE
+vi,HU,4009644326,Putnoki Járás,Huyện Putnok,Putnok,TRUE
+vi,HU,4009644737,Ráckevei Járás,Huyện Ráckeve,Ráckeve,TRUE
+vi,HU,4009644344,Rétsági Járás,Huyện Rétság,Rétság,TRUE
+vi,HU,4009644345,Salgótarjáni Járás,Huyện Salgótarján,Salgótarján,TRUE
+vi,HU,4009644768,Sárbogárdi Járás,Huyện Sárbogárd,Sárbogárd,TRUE
+vi,HU,4009644282,Sarkadi Járás,Huyện Sarkad,Sarkad,TRUE
+vi,HU,4009644327,Sárospataki Járás,Huyện Sárospatak,Sárospatak,TRUE
+vi,HU,4009644159,Sárvári Járás,Huyện Sárvár,Sárvár,TRUE
+vi,HU,4009644328,Sátoraljaújhelyi Járás,Huyện Sátoraljaújhely,Sátoraljaújhely,TRUE
+vi,HU,4009644260,Sellyei Járás,Huyện Sellye,Sellye,TRUE
+vi,HU,4009644189,Siklósi Járás,Huyện Siklós,Siklós,TRUE
+vi,HU,4009644187,Siófoki Járás,Huyện Siófok,Siófok,TRUE
+vi,HU,4009644140,Soproni Járás,Huyện Sopron,Sopron,TRUE
+vi,HU,4009644756,Sümegi Járás,Huyện Sümeg,Sümeg,TRUE
+vi,HU,4009644286,Szarvasi Járás,Huyện Szarvas,Szarvas,TRUE
+vi,HU,4009644346,Szécsényi Járás,Huyện Szécsény,Szécsény,TRUE
+vi,HU,4009644275,Szegedi Járás,Huyện Szeged,Szeged,TRUE
+vi,HU,4009644281,Szeghalmi Járás,Huyện Szeghalom,Szeghalom,TRUE
+vi,HU,4009644767,Székesfehérvári Járás,Huyện Székesfehérvár,Székesfehérvár,TRUE
+vi,HU,4009644776,Szekszárdi Járás,Huyện Szekszárd,Szekszárd,TRUE
+vi,HU,4009644738,Szentendrei Járás,Huyện Szentendre,Szentendre,TRUE
+vi,HU,4009644280,Szentesi Járás,Huyện Szentes,Szentes,TRUE
+vi,HU,4009644156,Szentgotthárdi Járás,Huyện Szentgotthárd,Szentgotthárd,TRUE
+vi,HU,4009644262,Szentlőrinci Járás,Huyện Szentlőrinc,Szentlőrinc,TRUE
+vi,HU,4009644329,Szerencsi Járás,Huyện Szerencs,Szerencs,TRUE
+vi,HU,4009644736,Szigetszentmiklósi Járás,Huyện Szigetszentmiklós,Szigetszentmiklós,TRUE
+vi,HU,4009644261,Szigetvári Járás,Huyện Szigetvár,Szigetvár,TRUE
+vi,HU,4009644330,Szikszói Járás,Huyện Szikszó,Szikszó,TRUE
+vi,HU,4009644740,Szobi Járás,Huyện Szob,Szob,TRUE
+vi,HU,4009644781,Szolnoki Járás,Huyện Szolnok,Szolnok,TRUE
+vi,HU,4009644188,Tabi Járás,Huyện Tabi,Tabi,TRUE
+vi,HU,4009644772,Tamási Járás,Huyện Tamási,Tamási,TRUE
+vi,HU,4009644755,Tapolcai Járás,Huyện Tapolca,Tapolca,TRUE
+vi,HU,4009644746,Tatai Járás,Huyện Tata,Tata,TRUE
+vi,HU,4009644745,Tatabányai Járás,Huyện Tatabánya,Tatabánya,TRUE
+vi,HU,4009644152,Téti Járás,Huyện Tét,Tét,TRUE
+vi,HU,4009644786,Tiszafüredi Járás,Huyện Tiszafüred,Tiszafüred,TRUE
+vi,HU,4009644272,Tiszakécskei Járás,Huyện Tiszakécske,Tiszakécske,TRUE
+vi,HU,4009644331,Tiszaújvárosi Járás,Huyện Tiszaújváros,Tiszaújváros,TRUE
+vi,HU,4009644302,Tiszavasvári Járás,Huyện Tiszavasvári,Tiszavasvári,TRUE
+vi,HU,4009644332,Tokaji Járás,Huyện Tokaji,Tokaji,TRUE
+vi,HU,4009644775,Tolnai Járás,Huyện Tolna,Tolna,TRUE
+vi,HU,4009644782,Törökszentmiklósi Járás,Huyện Törökszentmiklós,Törökszentmiklós,TRUE
+vi,HU,4009644752,Várpalotai Járás,Huyện Várpalota,Várpalota,TRUE
+vi,HU,4009644311,Vásárosnaményi Járás,Huyện Vásárosnamény,Vásárosnamény,TRUE
+vi,HU,4009644158,Vasvári Járás,Huyện Vasvár,Vasvár,TRUE
+vi,HU,4009644741,Vecsési Járás,Huyện Vecsés,Vecsés,TRUE
+vi,HU,4009644759,Veszprémi Járás,Huyện Veszprém,Veszprém,TRUE
+vi,HU,4009644310,Záhonyi Járás,Huyện Záhony,Záhony,TRUE
+vi,HU,4009644170,Zalaszentgróti Járás,Huyện Zalaszentgrót,Zalaszentgrót,TRUE
+vi,HU,4009644751,Zirci Járás,Huyện Zirc,Zirc,TRUE
+vi,IE,4007778678,Cork City,Thành phố Cork,Cork,TRUE
+vi,IE,4007778676,Galway City,Thành phố Galway,Galway,TRUE
+vi,IE,4007778675,Limerick City,Thành phố Limerick,Limerick,TRUE
+vi,IE,4007778674,Waterford City,Thành phố Waterford,Waterford,TRUE
+vi,IN,4008347665,Kāsaragod District,Huyện Kasaragod,Kasaragod,TRUE
+vi,IN,4001264818,Lohit District,Huyện Lohit,Lohit,TRUE
+vi,IQ,30021288,Al-Anbar,Tỉnh Al Anbar,Al Anbar,TRUE
+vi,IQ,30021298,Al-Muthannia,Tỉnh Al Muthanna,Al Muthanna,TRUE
+vi,IQ,30021295,Dhi-Qar,Tỉnh Dhi Qar,Dhi Qar,TRUE
+vi,IQ,30021301,Halabja Governorate,Tỉnh Halabja,Halabja,TRUE
+vi,IQ,30021286,Ninawa,Tỉnh Ninawa,Ninawa,TRUE
+vi,IQ,30021291,Sala ad-Din,Tỉnh Salah ad Din,Salah ad Din,TRUE
+vi,IR,30021278,Alborz Province,Tỉnh Alborz,Alborz,TRUE
+vi,IR,30021270,Ardabil Province,Tỉnh Ardabil,Ardabil,TRUE
+vi,IR,30021279,East Azerbaijan Province,Tỉnh Azerbaijan thuộc Đông,Azerbaijan thuộc Đông,TRUE
+vi,IR,30021252,North Khorasan Province,Tỉnh Bắc Khorasan,Bắc Khorasan,TRUE
+vi,IR,30021269,Bushehr Province,Tỉnh Bushehr,Bushehr,TRUE
+vi,IR,30021257,Chaharmahal and Bakhtiyari Province,Tỉnh Chahar Mahal và Bakhtiari,Chahar Mahal và Bakhtiari,TRUE
+vi,IR,30021268,Fars Province,Tỉnh Fars,Fars,TRUE
+vi,IR,30021261,Gilan Province,Tỉnh Gilan,Gilan,TRUE
+vi,IR,30021272,Golestan Province,Tỉnh Golestan,Golestan,TRUE
+vi,IR,30021259,Hamadan Province,Tỉnh Hamadan,Hamadan,TRUE
+vi,IR,30021281,Hormozgan Province,Tỉnh Hormozgan,Hormozgan,TRUE
+vi,IR,30021254,Ilam Province,Tỉnh Ilam,Ilam,TRUE
+vi,IR,30021264,Isfahan Province,Tỉnh Isfahan,Isfahan,TRUE
+vi,IR,30021253,Kerman Province,Tỉnh Kerman,Kerman,TRUE
+vi,IR,30021258,Kermanshah Province,Tỉnh Kermanshah,Kermanshah,TRUE
+vi,IR,30021274,South Khorasan Province,Tỉnh Khorasan Nam,Khorasan Nam,TRUE
+vi,IR,30021282,Khuzestan Province,Tỉnh Khuzestan,Khuzestan,TRUE
+vi,IR,30021265,Kohgiluye and Buyer Ahmad Province,Tỉnh Kohgiluyeh và Boyer-Ahmad,Kohgiluyeh và Boyer-Ahmad,TRUE
+vi,IR,30021266,Kurdistan Province,Tỉnh Kurdistan,Kurdistan,TRUE
+vi,IR,30021255,Lorestan Province,Tỉnh Lorestan,Lorestan,TRUE
+vi,IR,30021256,Markazi Province,Tỉnh Markazi,Markazi,TRUE
+vi,IR,30021271,Mazandaran Province,Tỉnh Mazandaran,Mazandaran,TRUE
+vi,IR,30021260,Qazvin Province,Tỉnh Qazvin,Qazvin,TRUE
+vi,IR,30021277,Qom Province,Tỉnh Qom,Qom,TRUE
+vi,IR,30021273,Razavi Khorasan,Tỉnh Razavi Khorasan,Razavi Khorasan,TRUE
+vi,IR,30021263,Semnan Province,Tỉnh Semnan,Semnan,TRUE
+vi,IR,30021275,Sistan and Baluchestan Province,Tỉnh Sistan và Baluchestan,Sistan và Baluchestan,TRUE
+vi,IR,30021267,West Azerbaijan Province,Tỉnh Tây Azerbaijan,Tây Azerbaijan,TRUE
+vi,IR,30021276,Tehran Province,Tỉnh Tehran,Tehran,TRUE
+vi,IR,30021280,Yazd Province,Tỉnh Yazd,Yazd,TRUE
+vi,IR,30021262,Zanjan Province,Tỉnh Zanjan,Zanjan,TRUE
+vi,IT,30005234,Metropolitan City of Bologna,Thành phố trung tâm Bologna,trung tâm Bologna,TRUE
+vi,IT,30005248,Metropolitan City of Genova,Thành phố trung tâm Genova,trung tâm Genova,TRUE
+vi,IT,30010480,Vatican City,Thành phố Vatican,Vatican,TRUE
+vi,IT,30005285,Metropolitan City of Florence,Thành phố столичний Firenze,столичний Firenze,TRUE
+vi,IT,30005297,Metropolitan City of Venice,Thành phố столичний Venice,столичний Venice,TRUE
+vi,IT,30005316,Province of Agrigento,Tỉnh Agrigento,Agrigento,TRUE
+vi,IT,30005272,Province of Alessandria,Tỉnh Alessandria,Alessandria,TRUE
+vi,IT,30005264,Province of Ancona,Tỉnh Ancona,Ancona,TRUE
+vi,IT,30005286,Province of Arezzo,Tỉnh Arezzo,Arezzo,TRUE
+vi,IT,30005265,Province of Ascoli Piceno,Tỉnh Ascoli Piceno,Ascoli Piceno,TRUE
+vi,IT,30005273,Province of Asti,Tỉnh Asti,Asti,TRUE
+vi,IT,30005230,Province of Avellino,Tỉnh Avellino,Avellino,TRUE
+vi,IT,30005279,Province of Bari,Tỉnh Bari,Bari,TRUE
+vi,IT,30005298,Province of Belluno,Tỉnh Belluno,Belluno,TRUE
+vi,IT,30005231,Province of Benevento,Tỉnh Benevento,Benevento,TRUE
+vi,IT,30005253,Province of Bergamo,Tỉnh Bergamo,Bergamo,TRUE
+vi,IT,30005274,Province of Biella,Tỉnh Biella,Biella,TRUE
+vi,IT,30005254,Province of Brescia,Tỉnh Brescia,Brescia,TRUE
+vi,IT,30005281,Province of Brindisi,Tỉnh Brindisi,Brindisi,TRUE
+vi,IT,30005308,Province of Cagliari,Tỉnh Cagliari,Cagliari,TRUE
+vi,IT,30005317,Province of Caltanissetta,Tỉnh Caltanissetta,Caltanissetta,TRUE
+vi,IT,30005269,Province of Campobasso,Tỉnh Campobasso,Campobasso,TRUE
+vi,IT,30005232,Province of Caserta,Tỉnh Caserta,Caserta,TRUE
+vi,IT,30005318,Province of Catania,Tỉnh Catania,Catania,TRUE
+vi,IT,30005225,Province of Catanzaro,Tỉnh Catanzaro,Catanzaro,TRUE
+vi,IT,30005218,Province of Chieti,Tỉnh Chieti,Chieti,TRUE
+vi,IT,30005255,Province of Como,Tỉnh Como,Como,TRUE
+vi,IT,30005226,Province of Cosenza,Tỉnh Cosenza,Cosenza,TRUE
+vi,IT,30005256,Province of Cremona,Tỉnh Cremona,Cremona,TRUE
+vi,IT,30005227,Province of Crotone,Tỉnh Crotone,Crotone,TRUE
+vi,IT,30005275,Province of Cuneo,Tỉnh Cuneo,Cuneo,TRUE
+vi,IT,30005319,Province of Enna,Tỉnh Enna,Enna,TRUE
+vi,IT,30005266,Province of Fermo,Tỉnh Fermo,Fermo,TRUE
+vi,IT,30005235,Province of Ferrara,Tỉnh Ferrara,Ferrara,TRUE
+vi,IT,30005282,Province of Foggia,Tỉnh Foggia,Foggia,TRUE
+vi,IT,30005236,Province of Forli-Cesena,Tỉnh Forlì-Cesena,Forlì-Cesena,TRUE
+vi,IT,30005244,Province of Frosinone,Tỉnh Frosinone,Frosinone,TRUE
+vi,IT,30005304,Province of Gorizia,Tỉnh Gorizia,Gorizia,TRUE
+vi,IT,30005287,Province of Grosseto,Tỉnh Grosseto,Grosseto,TRUE
+vi,IT,30005249,Province of Imperia,Tỉnh Imperia,Imperia,TRUE
+vi,IT,30005270,Province of Isernia,Tỉnh Isernia,Isernia,TRUE
+vi,IT,30005219,Province of L'Aquila,Tỉnh L'Aquila,L'Aquila,TRUE
+vi,IT,30005250,Province of La Spezia,Tỉnh La Spezia,La Spezia,TRUE
+vi,IT,30005245,Province of Latina,Tỉnh Latina,Latina,TRUE
+vi,IT,30005283,Province of Lecce,Tỉnh Lecce,Lecce,TRUE
+vi,IT,30005257,Province of Lecco,Tỉnh Lecco,Lecco,TRUE
+vi,IT,30005288,Province of Livorno,Tỉnh Livorno,Livorno,TRUE
+vi,IT,30005258,Province of Lodi,Tỉnh Lodi,Lodi,TRUE
+vi,IT,30005289,Province of Lucca,Tỉnh Lucca,Lucca,TRUE
+vi,IT,30005267,Province of Macerata,Tỉnh Macerata,Macerata,TRUE
+vi,IT,30005259,Province of Mantua,Tỉnh Mantua,Mantua,TRUE
+vi,IT,30005222,Province of Matera,Tỉnh Matera,Matera,TRUE
+vi,IT,30005320,Province of Messina,Tỉnh Messina,Messina,TRUE
+vi,IT,30018270,Milan Province,Tỉnh Milano,Milano,TRUE
+vi,IT,30005237,Province of Modena,Tỉnh Modena,Modena,TRUE
+vi,IT,30005325,Province of South Tyrol,Tỉnh Nam Tyrol,Nam Tyrol,TRUE
+vi,IT,30005276,Province of Novara,Tỉnh Novara,Novara,TRUE
+vi,IT,30005311,Province of Nuoro,Tỉnh Nuoro,Nuoro,TRUE
+vi,IT,30005314,Province of Oristano,Tỉnh Oristano,Oristano,TRUE
+vi,IT,30005299,Province of Padua,Tỉnh Padova,Padova,TRUE
+vi,IT,30005238,Province of Parma,Tỉnh Parma,Parma,TRUE
+vi,IT,30005261,Province of Pavia,Tỉnh Pavia,Pavia,TRUE
+vi,IT,30005295,Province of Perugia,Tỉnh Perugia,Perugia,TRUE
+vi,IT,30005268,Province of Pesaro and Urbino,Tỉnh Pesaro và Urbino,Pesaro và Urbino,TRUE
+vi,IT,30005220,Province of Pescara,Tỉnh Pescara,Pescara,TRUE
+vi,IT,30005239,Province of Piacenza,Tỉnh Piacenza,Piacenza,TRUE
+vi,IT,30005291,Province of Pisa,Tỉnh Pisa,Pisa,TRUE
+vi,IT,30005292,Province of Pistoia,Tỉnh Pistoia,Pistoia,TRUE
+vi,IT,30005305,Province of Pordenone,Tỉnh Pordenone,Pordenone,TRUE
+vi,IT,30005293,Province of Prato,Tỉnh Prato,Prato,TRUE
+vi,IT,30005322,Province of Ragusa,Tỉnh Ragusa,Ragusa,TRUE
+vi,IT,30005240,Province of Ravenna,Tỉnh Ravenna,Ravenna,TRUE
+vi,IT,30005241,Province of Reggio Nell'Emilia,Tỉnh Reggio Emilia,Reggio Emilia,TRUE
+vi,IT,30005246,Province of Rieti,Tỉnh Rieti,Rieti,TRUE
+vi,IT,30005242,Province of Rimini,Tỉnh Rimini,Rimini,TRUE
+vi,IT,30005300,Province of Rovigo,Tỉnh Rovigo,Rovigo,TRUE
+vi,IT,30005315,Province of Sassari,Tỉnh Sassari,Sassari,TRUE
+vi,IT,30005251,Province of Savona,Tỉnh Savona,Savona,TRUE
+vi,IT,30005294,Province of Siena,Tỉnh Siena,Siena,TRUE
+vi,IT,30005262,Province of Sondrio,Tỉnh Sondrio,Sondrio,TRUE
+vi,IT,30005323,Province of Syracuse,Tỉnh Syracuse,Syracuse,TRUE
+vi,IT,30005284,Province of Taranto,Tỉnh Taranto,Taranto,TRUE
+vi,IT,30005221,Province of Teramo,Tỉnh Teramo,Teramo,TRUE
+vi,IT,30005296,Province of Terni,Tỉnh Terni,Terni,TRUE
+vi,IT,30005271,Turin Province,Tỉnh Torino,Torino,TRUE
+vi,IT,30005324,Province of Trapani,Tỉnh Trapani,Trapani,TRUE
+vi,IT,30005326,Province of Trento,Tỉnh Trento,Trento,TRUE
+vi,IT,30005301,Province of Treviso,Tỉnh Treviso,Treviso,TRUE
+vi,IT,30005306,Province of Trieste,Tỉnh Trieste,Trieste,TRUE
+vi,IT,30005307,Province of Udine,Tỉnh Udine,Udine,TRUE
+vi,IT,30005263,Province of Varese,Tỉnh Varese,Varese,TRUE
+vi,IT,30005277,Verbano-Cusio-Ossola,Tỉnh Verbano-Cusio-Ossola,Verbano-Cusio-Ossola,TRUE
+vi,IT,30005278,Province of Vercelli,Tỉnh Vercelli,Vercelli,TRUE
+vi,IT,30005228,Province of Vibo Valentia,Tỉnh Vibo Valentia,Vibo Valentia,TRUE
+vi,IT,30005303,Province of Vicenza,Tỉnh Vicenza,Vicenza,TRUE
+vi,IT,30005247,Province of Viterbo,Tỉnh Viterbo,Viterbo,TRUE
+vi,JO,30019889,Amman Governorate,Tỉnh Amman,Amman,TRUE
+vi,JO,30019884,Muhafazat al 'Aqabah,Tỉnh Aqaba,Aqaba,TRUE
+vi,JO,30019929,Muhafazat al Balqa',Tỉnh Balqa,Balqa,TRUE
+vi,JO,30019886,Muhafazat Ma'an,Tỉnh Ma'an,Ma'an,TRUE
+vi,JO,30019885,Muhafazat Madaba,Tỉnh Madaba,Madaba,TRUE
+vi,JO,30019905,Muhafazat at Tafilah,Tỉnh Tafilah,Tafilah,TRUE
+vi,JO,30019927,Muhafazat az Zarqa',Tỉnh Zarqa,Zarqa,TRUE
+vi,KE,30033171,Mfangano Island,Đảo Mfangano,Mfangano,TRUE
+vi,KE,30033172,Rusinga Island,Đảo Rusinga,Rusinga,TRUE
+vi,KG,30066189,Aksyi,Huyện Aksy,Aksy,TRUE
+vi,KG,30066205,Chong-Alay,Huyện Chong-Alay,Chong-Alay,TRUE
+vi,KG,30066171,Chuy,Tỉnh Chuy,Chuy,TRUE
+vi,KG,30066182,Chui,Tỉnh Chuy,Chuy,TRUE
+vi,KP,30021632,South Hamgyong,Tỉnh Hamgyong Nam,Hamgyong Nam,TRUE
+vi,KP,30021639,North Pyongan,Tỉnh Pyongan Bắc,Pyongan Bắc,TRUE
+vi,KP,30021634,South Pyongan,Tỉnh Pyongan Nam,Pyongan Nam,TRUE
+vi,KP,30021631,Ryanggang,Tỉnh Ryanggang,Ryanggang,TRUE
+vi,KR,20001759,Jeju Island,Đảo Jeju,Jeju,TRUE
+vi,KR,20001753,Jangheung-gun,Huyện Jangheung,Jangheung,TRUE
+vi,KR,20001754,Jangseong-gun,Huyện Jangseong,Jangseong,TRUE
+vi,KR,20004763,Uiseong-gun,Huyện Uiseong,Uiseong,TRUE
+vi,KW,4000285841,Muḩāfaz̧at al Aḩmadī,Tỉnh Al Ahmadi,Al Ahmadi,TRUE
+vi,KW,4000285816,Muḩāfaz̧at al Farwānīyah,Tỉnh Al Farwaniyah,Al Farwaniyah,TRUE
+vi,KW,4000285798,Muḩāfaz̧at al Jahrā’,Tỉnh Al Jahra,Al Jahra,TRUE
+vi,KW,4000285628,Muḩāfaz̧at Ḩawallī,Tỉnh Hawalli,Hawalli,TRUE
+vi,KW,4007733358,Muḩāfaz̧at Mubārak al Kabīr,Tỉnh Mubarak Al-Kabeer,Mubarak Al-Kabeer,TRUE
+vi,KZ,4001537309,Abyraly Aūdany,Huyện Abyraly,Abyraly,TRUE
+vi,KZ,4001517194,Aqsū Aūdany,Huyện Aksu,Aksu,TRUE
+vi,KZ,4001526631,Aqsū Aūdany,Huyện Aksu,Aksu,TRUE
+vi,KZ,4000610687,Aqtöbe Aūdany,Huyện Aktobe,Aktobe,TRUE
+vi,KZ,4001526570,Aqtoghay Aūdany,Huyện Aktogay,Aktogay,TRUE
+vi,KZ,4001522019,Aqtoghay Aūdany,Huyện Aktogay,Aktogay,TRUE
+vi,KZ,4001526489,Alaköl Aūdany,Huyện Alakol,Alakol,TRUE
+vi,KZ,4000610656,Algha Aūdany,Huyện Alga,Alga,TRUE
+vi,KZ,4001537245,Altynsarinskiy Rayon,Huyện Altynsarin,Altynsarin,TRUE
+vi,KZ,4001526340,Amangeldi Aūdany,Huyện Amangeldi,Amangeldi,TRUE
+vi,KZ,4001526321,Amantoghay Aūdany,Huyện Amantogay,Amantogay,TRUE
+vi,KZ,4000610685,Aqzhayyq Aūdany,Huyện Aqzhayiq,Aqzhayiq,TRUE
+vi,KZ,4001526248,Aral Aūdany,Huyện Aral,Aral,TRUE
+vi,KZ,4001517439,Arshaly Aūdany,Huyện Arshaly,Arshaly,TRUE
+vi,KZ,4001526177,Aryqbalyq Aūdany,Huyện Arykbalyk,Arykbalyk,TRUE
+vi,KZ,4001537271,Arys Aūdany,Huyện Arys,Arys,TRUE
+vi,KZ,4001526056,Astrakhan Aūdany,Huyện Astrakhan,Astrakhan,TRUE
+vi,KZ,4001526033,Atbasar Aūdany,Huyện Atbasar,Atbasar,TRUE
+vi,KZ,4001523423,Äyteke Bī Aūdany,Huyện Ayteke Bi,Ayteke Bi,TRUE
+vi,KZ,4001525804,Balqash Aūdany,Huyện Balkhash,Balkhash,TRUE
+vi,KZ,4000610444,Balyqshy Aūdany,Huyện Balykshy,Balykshy,TRUE
+vi,KZ,4000610385,Bayghanīn Aūdany,Huyện Bayganin,Bayganin,TRUE
+vi,KZ,4008739769,Bayzak District,Huyện Bayzak,Bayzak,TRUE
+vi,KZ,4000610297,Beyneū Aūdany,Huyện Beyneu,Beyneu,TRUE
+vi,KZ,4001522334,Bögetköl Aūdany,Huyện Bögetkol,Bögetkol,TRUE
+vi,KZ,4001525133,Borodūlīkha Aūdany,Huyện Borodulikha,Borodulikha,TRUE
+vi,KZ,4000610130,Chapaev Aūdany,Huyện Chapaev,Chapaev,TRUE
+vi,KZ,4001524766,Chīstopol’e Aūdany,Huyện Chistopolye,Chistopolye,TRUE
+vi,KZ,4001524485,Dzerzhinskiy Rayon,Huyện Dzerzhinsky,Dzerzhinsky,TRUE
+vi,KZ,4001521995,Egindiköl Aūdany,Huyện Egindikol,Egindikol,TRUE
+vi,KZ,4001524315,Engbekshiqazaq Aūdany,Huyện Enbekshikazakh,Enbekshikazakh,TRUE
+vi,KZ,4001524313,Ėngbekshilder Aūdany,Huyện Engbekshilder,Engbekshilder,TRUE
+vi,KZ,4001517189,Ereymentaū Aūdany,Huyện Ereymentau,Ereymentau,TRUE
+vi,KZ,4001517166,Esil Aūdany,Huyện Esil,Esil,TRUE
+vi,KZ,4001524226,Glūbokoe Aūdany,Huyện Glubokoe,Glubokoe,TRUE
+vi,KZ,4001524128,Ile Aūdany,Huyện Ile,Ile,TRUE
+vi,KZ,4000609795,Īnder Aūdany,Huyện Inder,Inder,TRUE
+vi,KZ,4000608723,Īsatay Aūdany,Huyện Isatay,Isatay,TRUE
+vi,KZ,4000609786,Īsatay Aūdany,Huyện Isatay,Isatay,TRUE
+vi,KZ,4000609541,Qaratöbe Aūdany,Huyện Karatobe,Karatobe,TRUE
+vi,KZ,4001522926,Qotanqaraghay Aūdany,Huyện Katonkaragay,Katonkaragay,TRUE
+vi,KZ,4001522859,Qazaly Aūdany,Huyện Kazaly,Kazaly,TRUE
+vi,KZ,4000609453,Kaztalovka Aūdany,Huyện Kaztalovka,Kaztalovka,TRUE
+vi,KZ,4008739752,Kazygurt District,Huyện Kazygurt,Kazygurt,TRUE
+vi,KZ,4001522816,Kegen Aūdany,Huyện Kegen,Kegen,TRUE
+vi,KZ,4001522812,Keles Aūdany,Huyện Keles,Keles,TRUE
+vi,KZ,4001522739,Kerbulaq Aūdany,Huyện Kerbulak,Kerbulak,TRUE
+vi,KZ,4000608707,Khromtaū Aūdany,Huyện Khromtau,Khromtau,TRUE
+vi,KZ,4000609408,Qobda Aūdany,Huyện Kobda,Kobda,TRUE
+vi,KZ,4001522504,Kökpekti Aūdany,Huyện Kokpekti,Kokpekti,TRUE
+vi,KZ,4001522636,Köksū Aūdany,Huyện Köksu,Köksu,TRUE
+vi,KZ,4001521754,Qorday Aūdany,Huyện Korday,Korday,TRUE
+vi,KZ,4001521667,Kustanayskiy Rayon,Huyện Kostanay,Kostanay,TRUE
+vi,KZ,4000610044,Kurmanghazy Aūdany,Huyện Kurmangazy,Kurmangazy,TRUE
+vi,KZ,4001521759,Kürshim Aūdany,Huyện Kürshim,Kürshim,TRUE
+vi,KZ,4001521711,Kürti Aūdany,Huyện Kurti,Kurti,TRUE
+vi,KZ,4000608966,Qyzylqogha Aūdany,Huyện Kyzylkoga,Kyzylkoga,TRUE
+vi,KZ,4001521382,Lebyazh’e Aūdany,Huyện Lebyazhye,Lebyazhye,TRUE
+vi,KZ,4001521288,Lūgovoe Aūdany,Huyện Lugovoy,Lugovoy,TRUE
+vi,KZ,4001521244,Maqanshy Aūdany,Huyện Makanshi,Makanshi,TRUE
+vi,KZ,4000608919,Maqat Aūdany,Huyện Makat,Makat,TRUE
+vi,KZ,4000608914,Makhambet Aūdany,Huyện Makhambet,Makhambet,TRUE
+vi,KZ,4001520258,Maqtaaral Aūdany,Huyện Maktaaral,Maktaaral,TRUE
+vi,KZ,4001521151,Mamlyutka Aūdany,Huyện Mamlyut,Mamlyut,TRUE
+vi,KZ,4000608878,Mangghystaū Aūdany,Huyện Mangystau,Mangystau,TRUE
+vi,KZ,4000608866,Mortyq Aūdany,Huyện Martuk,Martuk,TRUE
+vi,KZ,4001521012,May Aūdany,Huyện May,May,TRUE
+vi,KZ,4001520965,Merke Aūdany,Huyện Merki,Merki,TRUE
+vi,KZ,4001520873,Molodezhnyy Aūdany,Huyện Molodezhnyy,Molodezhnyy,TRUE
+vi,KZ,4001520854,Moskva Aūdany,Huyện Moskva,Moskva,TRUE
+vi,KZ,4001520845,Moyynqum Aūdany,Huyện Moyinkum,Moyinkum,TRUE
+vi,KZ,4000608796,Mughalzhar Aūdany,Huyện Mugalzhar,Mugalzhar,TRUE
+vi,KZ,4000608780,Munaylinskiy Rayon,Huyện Munaily,Munaily,TRUE
+vi,KZ,4001520735,Naūryzym Aūdany,Huyện Nauryzym,Nauryzym,TRUE
+vi,KZ,4001520548,Novoshūl’ba Aūdany,Huyện Novoshulba,Novoshulba,TRUE
+vi,KZ,4001520497,Nura Aūdany,Huyện Nura,Nura,TRUE
+vi,KZ,4000608677,Oktyabr’sk Aūdany,Huyện Oktyabr'sk,Oktyabr'sk,TRUE
+vi,KZ,4001525042,Ordabasy Aūdany,Huyện Ordabasy,Ordabasy,TRUE
+vi,KZ,4001520325,Osakarovka Aūdany,Huyện Osakarovka,Osakarovka,TRUE
+vi,KZ,4001521407,Otyrar Aūdany,Huyện Otyrar,Otyrar,TRUE
+vi,KZ,4001520251,Panfīlov Aūdany,Huyện Panfilov,Panfilov,TRUE
+vi,KZ,4001520238,Pavlodar Aūdany,Huyện Pavlodar,Pavlodar,TRUE
+vi,KZ,4001520047,Presnovka Aūdany,Huyện Presnovka,Presnovka,TRUE
+vi,KZ,4001520020,Priozernyy Rayon,Huyện Priozernyy,Priozernyy,TRUE
+vi,KZ,4000608573,Prīūral’e Aūdany,Huyện Priuralye,Priuralye,TRUE
+vi,KZ,4001523544,Qamysty Aūdany,Huyện Qamysty,Qamysty,TRUE
+vi,KZ,4000607726,Qaraqīya Aūdany,Huyện Qaraqıya,Qaraqıya,TRUE
+vi,KZ,4001523101,Qaratal Aūdany,Huyện Qaratal,Qaratal,TRUE
+vi,KZ,4001523663,Qashyr Aūdany,Huyện Qashyr,Qashyr,TRUE
+vi,KZ,4001517288,Qazybek Bī Aūdany,Huyện Qazybek Bi,Qazybek Bi,TRUE
+vi,KZ,4001521354,Qazyqurt Aūdany,Huyện Qazyqurt,Qazyqurt,TRUE
+vi,KZ,4001520746,Rayymbek Aūdany,Huyện Raiymbek,Raiymbek,TRUE
+vi,KZ,4001519834,Rūzaevka Aūdany,Huyện Ruzayevka,Ruzayevka,TRUE
+vi,KZ,4001525806,Sandyqtaū Aūdany,Huyện Sandyktau,Sandyktau,TRUE
+vi,KZ,4001519704,Sarqan Aūdany,Huyện Sarkan,Sarkan,TRUE
+vi,KZ,4001519675,Saryaghash Aūdany,Huyện Saryagash,Saryagash,TRUE
+vi,KZ,4001519552,Sarysū Aūdany,Huyện Sarysu,Sarysu,TRUE
+vi,KZ,4001519452,Sayram Aūdany,Huyện Sayram,Sayram,TRUE
+vi,KZ,4001519383,Sergeevka Aūdany,Huyện Sergeyev,Sergeyev,TRUE
+vi,KZ,4000610114,Shalqar Aūdany,Huyện Shalqar,Shalqar,TRUE
+vi,KZ,4001519247,Sharbaqty Aūdany,Huyện Sharbakty,Sharbakty,TRUE
+vi,KZ,4001524885,Shardara Aūdany,Huyện Shardara,Shardara,TRUE
+vi,KZ,4001519241,Shchūchīnsk Aūdany,Huyện Shchūchīnsk,Shchūchīnsk,TRUE
+vi,KZ,4001524792,Shelek Aūdany,Huyện Shelek,Shelek,TRUE
+vi,KZ,4001519224,Shemonaīkha Aūdany,Huyện Shemonaikha,Shemonaikha,TRUE
+vi,KZ,4001519197,Shet Aūdany,Huyện Shet,Shet,TRUE
+vi,KZ,4001524798,Shīeli Aūdany,Huyện Shieli,Shieli,TRUE
+vi,KZ,4001519052,Shortandy Aūdany,Huyện Shortandy,Shortandy,TRUE
+vi,KZ,4001524678,Shū Aūdany,Huyện Shu,Shu,TRUE
+vi,KZ,4001524717,Shubartaū Aūdany,Huyện Shubartau,Shubartau,TRUE
+vi,KZ,4000610089,Shyngghyrlaū Aūdany,Huyện Shyngghyrlau,Shyngghyrlau,TRUE
+vi,KZ,4001518912,Sokolovka Aūdany,Huyện Sokolovka,Sokolovka,TRUE
+vi,KZ,4001518835,Sovet Aūdany,Huyện Sovet,Sovet,TRUE
+vi,KZ,4001518678,Sozaq Aūdany,Huyện Sozak,Sozak,TRUE
+vi,KZ,4001518673,Sverdlov Aūdany,Huyện Sverdlov,Sverdlov,TRUE
+vi,KZ,4001518650,Syrdarīya Aūdany,Huyện Syrdariya,Syrdariya,TRUE
+vi,KZ,4000609978,Syrym Aūdany,Huyện Syrym,Syrym,TRUE
+vi,KZ,4001518545,Taldyqorghan Aūdany,Huyện Taldykorgan,Taldykorgan,TRUE
+vi,KZ,4001518519,Talghar Aūdany,Huyện Talgar,Talgar,TRUE
+vi,KZ,4001518456,Tarbaghatay Aūdany,Huyện Tarbagatay,Tarbagatay,TRUE
+vi,KZ,4000609717,Tasqala Aūdany,Huyện Taskala,Taskala,TRUE
+vi,KZ,4001518415,Taskesken Aūdany,Huyện Taskesken,Taskesken,TRUE
+vi,KZ,4000608031,Temir Aūdany,Huyện Temir,Temir,TRUE
+vi,KZ,4001518252,Tengiz Aūdany,Huyện Tengiz,Tengiz,TRUE
+vi,KZ,4001518202,Terengözek Aūdany,Huyện Terengozek,Terengozek,TRUE
+vi,KZ,4001518161,Tīmīryazev Aūdany,Huyện Timiryazev,Timiryazev,TRUE
+vi,KZ,4001521378,Töle Bī Aūdany,Huyện Tole Bi,Tole Bi,TRUE
+vi,KZ,4001537252,Toqyraūyn Aūdany,Huyện Toqyrauyn,Toqyrauyn,TRUE
+vi,KZ,4001517878,Tülkibas Aūdany,Huyện Tulkibas,Tulkibas,TRUE
+vi,KZ,4000828323,Tupqaraghan Aūdany,Huyện Tupkaragan,Tupkaragan,TRUE
+vi,KZ,4001517946,Türkistan Aūdany,Huyện Turkistan,Turkistan,TRUE
+vi,KZ,4001517502,Ūälīkhanov Aūdany,Huyện Ualikhanov,Ualikhanov,TRUE
+vi,KZ,4001517810,Ulan Aūdany,Huyện Ulan,Ulan,TRUE
+vi,KZ,4001525198,Ülkennaryn Aūdany,Huyện Ulken Naryn,Ulken Naryn,TRUE
+vi,KZ,4001517740,Ulytaū Aūdany,Huyện Ulytau,Ulytau,TRUE
+vi,KZ,4001517619,Ūspenka Aūdany,Huyện Uspen,Uspen,TRUE
+vi,KZ,4001526298,Üygentas Aūdany,Huyện Uygentas,Uygentas,TRUE
+vi,KZ,4001517577,Üyghyr Aūdany,Huyện Uyghur,Uyghur,TRUE
+vi,KZ,4001523782,Yrghyz Aūdany,Huyện Yrgyz,Yrgyz,TRUE
+vi,KZ,4001517062,Zavodskoy Rayon,Huyện Zavodskoy,Zavodskoy,TRUE
+vi,KZ,4001517012,Zhaqsy Aūdany,Huyện Zhaksy,Zhaksy,TRUE
+vi,KZ,4001524477,Zhalaghash Aūdany,Huyện Zhalagash,Zhalagash,TRUE
+vi,KZ,4001524440,Zhambyl Aūdany,Huyện Zhambyl,Zhambyl,TRUE
+vi,KZ,4001524439,Zhambyl Aūdany,Huyện Zhambyl,Zhambyl,TRUE
+vi,KZ,4001524438,Zhambyl Aūdany,Huyện Zhambyl,Zhambyl,TRUE
+vi,KZ,4011184241,Zhambyl District,Huyện Zhambyl,Zhambyl,TRUE
+vi,KZ,4001516894,Zhangaarqa Aūdany,Huyện Zhangaarka,Zhangaarka,TRUE
+vi,KZ,4001516873,Zhangadala Aūdany,Huyện Zhangadala,Zhangadala,TRUE
+vi,KZ,4000609964,Zhangaqala Aūdany,Huyện Zhangaqala,Zhangaqala,TRUE
+vi,KZ,4001517322,Zhangaqorghan Aūdany,Huyện Zhangaqorghan,Zhangaqorghan,TRUE
+vi,KZ,4001524425,Zhangeldīn Aūdany,Huyện Zhangeldi,Zhangeldi,TRUE
+vi,KZ,4000609952,Zhänibek Aūdany,Huyện Zhanibek,Zhanibek,TRUE
+vi,KZ,4001524603,Zharqayyng Aūdany,Huyện Zharkain,Zharkain,TRUE
+vi,KZ,4001516713,Zharma Aūdany,Huyện Zharma,Zharma,TRUE
+vi,KZ,4001516632,Zhelezīn Aūdany,Huyện Zhelezinka,Zhelezinka,TRUE
+vi,KZ,4001524388,Zhetiqara Aūdany,Huyện Zhetikara,Zhetikara,TRUE
+vi,KZ,4001524384,Zhetisay Aūdany,Huyện Zhetisay,Zhetisay,TRUE
+vi,KZ,4001524382,Zhezdi Aūdany,Huyện Zhezdi,Zhezdi,TRUE
+vi,KZ,4001524333,Zhūaly Aūdany,Huyện Zhualy,Zhualy,TRUE
+vi,KZ,4000609923,Zhylyoy Aūdany,Huyện Zhylyoi,Zhylyoi,TRUE
+vi,KZ,4001516437,Zyryanovsk Aūdany,Huyện Zyryanovsk,Zyryanovsk,TRUE
+vi,KZ,4001518003,Aqmola Oblysy,Tỉnh Akmola,Akmola,TRUE
+vi,KZ,4000610688,Aktyubinskaya Oblast’,Tỉnh Aktobe,Aktobe,TRUE
+vi,KZ,4001537162,Almaty Oblysy,Tỉnh Almaty,Almaty,TRUE
+vi,KZ,4000609862,Atyraū Oblysy,Tỉnh Atyrau,Atyrau,TRUE
+vi,KZ,4001519367,North Kazakhstan,Tỉnh Bắc Kazakhstan,Bắc Kazakhstan,TRUE
+vi,KZ,4001517381,East Kazakhstan,Tỉnh Đông Kazakhstan,Đông Kazakhstan,TRUE
+vi,KZ,4001523401,Qaraghandy Oblysy,Tỉnh Karaganda,Karaganda,TRUE
+vi,KZ,4001521671,Qostanay Oblysy,Tỉnh Kostanay,Kostanay,TRUE
+vi,KZ,4001521406,Qyzylorda Oblysy,Tỉnh Kyzylorda,Kyzylorda,TRUE
+vi,KZ,4000608879,Mangistauskaya Oblast’,Tỉnh Mangystau,Mangystau,TRUE
+vi,KZ,4001520239,Pavlodar Oblysy,Tỉnh Pavlodar,Pavlodar,TRUE
+vi,KZ,4001524444,Zhambyl Oblysy,Tỉnh Zhambyl,Zhambyl,TRUE
+vi,LB,4000278297,North,Tỉnh Bắc Lebanon,Bắc Lebanon,TRUE
+vi,LK,4007435036,Bopitiya Town,Thị trấn Bopitiya,Bopitiya,TRUE
+vi,LK,4008303708,Lunugala Town,Thị trấn Lunugala,Lunugala,TRUE
+vi,LK,4007436837,Ratnapura New Town,Thị trấn mới Ratnapura,mới Ratnapura,TRUE
+vi,LK,4007434246,Rambukkana Town,Thị trấn Rambukkana,Rambukkana,TRUE
+vi,LK,4007436709,Ratnapura Town,Thị trấn Ratnapura,Ratnapura,TRUE
+vi,LK,4007671049,Northern Province,Tỉnh Bắc,Bắc,TRUE
+vi,LK,4001249296,Central Province,Tỉnh miền Trung,miền Trung,TRUE
+vi,LK,4001227618,Southern Province,Tỉnh phía Nam,phía Nam,TRUE
+vi,LK,4001223421,Western Province,Tỉnh phía Tây,phía Tây,TRUE
+vi,LK,4001228435,Province of Sabaragamuwa,Tỉnh Sabaragamuwa,Sabaragamuwa,TRUE
+vi,LK,4001232860,North Western Province,Tỉnh Tây Bắc,Tây Bắc,TRUE
+vi,LK,4001232870,North Central Province,Tỉnh Trung Bắc,Trung Bắc,TRUE
+vi,LK,4001225265,Province of Uva,Tỉnh Uva,Uva,TRUE
+vi,LU,4002960317,Ville de Luxembourg,Thành phố Luxembourg,Luxembourg,TRUE
+vi,MA,4002556569,Azilal Province,Tỉnh Azilal,Azilal,TRUE
+vi,MA,4011281973,Berrechid Province,Tỉnh Berrechid,Berrechid,TRUE
+vi,MA,4002553533,Chefchaouen Province,Tỉnh Chefchaouen,Chefchaouen,TRUE
+vi,MA,4011281974,Driouch Province,Tỉnh Driouch,Driouch,TRUE
+vi,MA,4002550076,El-Jadida Province,Tỉnh El Jadida,El Jadida,TRUE
+vi,MA,4002549340,Errachidia Province,Tỉnh Errachidia,Errachidia,TRUE
+vi,MA,4006546056,Er-Rissani,Tỉnh Errachidia,Errachidia,TRUE
+vi,MA,4011282175,Fquih Ben Salah Province,Tỉnh Fquih Ben Salah,Fquih Ben Salah,TRUE
+vi,MA,4002548525,Guelmim Province,Tỉnh Guelmim,Guelmim,TRUE
+vi,MA,4011281933,Guercif Province,Tỉnh Guercif,Guercif,TRUE
+vi,MA,4002546906,Ifrane Province,Tỉnh Ifrane,Ifrane,TRUE
+vi,MA,4002544568,Kenitra Province,Tỉnh Kénitra,Kénitra,TRUE
+vi,MA,4002544331,Khenifra Province,Tỉnh Khénifra,Khénifra,TRUE
+vi,MA,4002544246,Khouribga Province,Tỉnh Khouribga,Khouribga,TRUE
+vi,MA,4006547301,Mohammedia Prefecture,Tỉnh Mohammedia,Mohammedia,TRUE
+vi,MA,4002541472,Nador Province,Tỉnh Nador,Nador,TRUE
+vi,MA,4006547299,Nouaceur Province,Tỉnh Nouaceur,Nouaceur,TRUE
+vi,MA,4011282023,Ouezzane Province,Tỉnh Ouezzane,Ouezzane,TRUE
+vi,MA,4002537878,Safi Province,Tỉnh Safi,Safi,TRUE
+vi,MA,4002537405,Settat Province,Tỉnh Settat,Settat,TRUE
+vi,MA,4002528907,Tetouan Province,Tỉnh Tétouan,Tétouan,TRUE
+vi,MA,4011281984,Tinghir Province,Tỉnh Tinghir,Tinghir,TRUE
+vi,MD,30021519,Florești District,Huyện Florești,Florești,TRUE
+vi,MD,30021499,Hâncești District,Huyện Hîncești,Hîncești,TRUE
+vi,MH,30021457,Jabat,Đảo Jabat,Jabat,TRUE
+vi,MN,30021543,Arhangay,Tỉnh Arkhangai,Arkhangai,TRUE
+vi,MN,30021533,Dornod,Tỉnh Dornod,Dornod,TRUE
+vi,MN,30021534,Dornogovi,Tỉnh Dornogovi,Dornogovi,TRUE
+vi,MN,30021547,Dundgovi,Tỉnh Dundgovi,Dundgovi,TRUE
+vi,MN,30021548,Govisumber,Tỉnh Govisümber,Govisümber,TRUE
+vi,MN,30021532,Hentiy,Tỉnh Khentii,Khentii,TRUE
+vi,MN,30058148,Khovsgol,Tỉnh Khövsgöl,Khövsgöl,TRUE
+vi,MN,30058371,Omnogovi,Tỉnh Ömnögovi,Ömnögovi,TRUE
+vi,MN,30021535,Omnogovi,Tỉnh Ömnögovi,Ömnögovi,TRUE
+vi,MN,30021546,Orhon,Tỉnh Orkhon,Orkhon,TRUE
+vi,MN,30021542,Ovorhangay,Tỉnh Övörkhangai,Övörkhangai,TRUE
+vi,MN,30058121,Selenge,Tỉnh Selenge,Selenge,TRUE
+vi,MN,30021544,Selenge,Tỉnh Selenge,Selenge,TRUE
+vi,MN,30021551,Dzavhan,Tỉnh Zavkhan,Zavkhan,TRUE
+vi,MV,30018189,Hulhule Island,Đảo Hulhulé,Hulhulé,TRUE
+vi,MV,30018190,Hulhumale Island,Đảo Hulhumale,Hulhumale,TRUE
+vi,MV,30016881,Maafushi Island,Đảo Maafushi,Maafushi,TRUE
+vi,MW,30039549,Blantyre City,Thành phố Blantyre,Blantyre,TRUE
+vi,MW,30039627,Lilongwe City,Thành phố Lilongwe,Lilongwe,TRUE
+vi,MW,30039690,Mzuzu City,Thành phố Mzuzu,Mzuzu,TRUE
+vi,MX,4003527646,Mexico City,Thành phố Mexico,Mexico,TRUE
+vi,MZ,30039367,Ilha De Mocambique (Cidade),Đảo Mozambique,Mozambique,TRUE
+vi,MZ,30021562,Maputo City,Thành phố Maputo,Maputo,TRUE
+vi,NC,30073228,Nord,Tỉnh Nord,Nord,TRUE
+vi,NC,30073229,Sud,Tỉnh Sud,Sud,TRUE
+vi,NG,30034922,Lagos Island,Đảo Lagos,Lagos,TRUE
+vi,NL,30004814,Utrecht Province,Tỉnh Utrecht,Utrecht,TRUE
+vi,NP,4007800112,MadhyapurThimiN.P.,Thành phố tự trị Madhyapur Thimi,tự trị Madhyapur Thimi,TRUE
+vi,NZ,4006238696,Moutohora,Đảo Moutohora,Moutohora,TRUE
+vi,NZ,4006229137,Rangitoto,Đảo Rangitoto,Rangitoto,TRUE
+vi,NZ,4007910044,Hurunui District,Huyện Hurunui,Hurunui,TRUE
+vi,NZ,4002188943,Kawerau District,Huyện Kawerau,Kawerau,TRUE
+vi,NZ,4007910053,Matamata-Piako District,Huyện Matamata-Piako,Matamata-Piako,TRUE
+vi,NZ,4002185506,Opotiki District,Huyện Ōpōtiki,Ōpōtiki,TRUE
+vi,NZ,4002185244,Otorohanga District,Huyện Otorohanga,Otorohanga,TRUE
+vi,NZ,4007910070,Waipa District,Huyện Waipa,Waipa,TRUE
+vi,NZ,4002179374,Whakatane District,Huyện Whakatane,Whakatane,TRUE
+vi,OM,30019959,Ad Dakhliyah,Tỉnh Ad Dakhiliyah,Ad Dakhiliyah,TRUE
+vi,OM,30019962,Al Dhahira,Tỉnh Ad Dhahirah,Ad Dhahirah,TRUE
+vi,OM,30019966,Al Batinah North,Tỉnh Al Batinah North,Al Batinah North,TRUE
+vi,OM,30019961,Al Batinah South,Tỉnh Al Batinah South,Al Batinah South,TRUE
+vi,OM,30019960,Al Wusta,Tỉnh Al Wusta,Al Wusta,TRUE
+vi,OM,30070031,Al Wusta,Tỉnh Al Wusta,Al Wusta,TRUE
+vi,OM,30019963,Ash Sharqiyah South,Tỉnh Ash Sharqiyah Nam,Ash Sharqiyah Nam,TRUE
+vi,OM,30019969,Musandam,Tỉnh Musandam,Musandam,TRUE
+vi,PA,4003713393,Distrito de Calobre,Huyện Calobre,Calobre,TRUE
+vi,PA,4009857610,Mariato District,Huyện Mariato,Mariato,TRUE
+vi,PA,4003713954,Provincia de Bocas del Toro,Tỉnh Bocas del Toro,Bocas del Toro,TRUE
+vi,PA,4003712410,Provincia de Chiriquí,Tỉnh Chiriquí,Chiriquí,TRUE
+vi,PA,4003712162,Provincia de Coclé,Tỉnh Coclé,Coclé,TRUE
+vi,PA,4003712073,Provincia de Colón,Tỉnh Colón,Colón,TRUE
+vi,PA,4003711671,Provincia del Darién,Tỉnh Darién,Darién,TRUE
+vi,PA,4003708710,Provincia de Herrera,Tỉnh Herrera,Herrera,TRUE
+vi,PA,4003704961,Provincia de Los Santos,Tỉnh Los Santos,Los Santos,TRUE
+vi,PA,4003703433,Provincia de Panamá,Tỉnh Panamá,Panamá,TRUE
+vi,PA,4003700159,Provincia de Veraguas,Tỉnh Veraguas,Veraguas,TRUE
+vi,PE,4008350817,Amantani,Đảo Amantani,Amantani,TRUE
+vi,PE,4003948641,Provincia de Abancay,Tỉnh Abancay,Abancay,TRUE
+vi,PE,4003948478,Provincia de Acobamba,Tỉnh Acobamba,Acobamba,TRUE
+vi,PE,4003699820,Provincia de Aija,Tỉnh Aija,Aija,TRUE
+vi,PE,4003699735,Provincia de Alto Amazonas,Tỉnh Alto Amazonas,Alto Amazonas,TRUE
+vi,PE,4003947955,Provincia de Ambo,Tỉnh Ambo,Ambo,TRUE
+vi,PE,4003947739,Provincia de Andahuaylas,Tỉnh Andahuaylas,Andahuaylas,TRUE
+vi,PE,4003699607,Provincia de Antonio Raymondi,Tỉnh Antonio Raymondi,Antonio Raymondi,TRUE
+vi,PE,4003947318,Provincia de Arequipa,Tỉnh Arequipa,Arequipa,TRUE
+vi,PE,4003946963,Provincia de Aymaraes,Tỉnh Aymaraes,Aymaraes,TRUE
+vi,PE,4003699485,Provincia de Bagua,Tỉnh Bagua,Bagua,TRUE
+vi,PE,4003946643,Provincia de Bolognesi,Tỉnh Bolognesi,Bolognesi,TRUE
+vi,PE,4003699086,Provincia de Cajamarca,Tỉnh Cajamarca,Cajamarca,TRUE
+vi,PE,4003946262,Provincia de Cajatambo,Tỉnh Cajatambo,Cajatambo,TRUE
+vi,PE,4003946176,Provincia de Calca,Tỉnh Calca,Calca,TRUE
+vi,PE,4003945982,Provincia de Camaná,Tỉnh Camaná,Camaná,TRUE
+vi,PE,4003945875,Provincia de Canas,Tỉnh Canas,Canas,TRUE
+vi,PE,4003945823,Provincia de Canchis,Tỉnh Canchis,Canchis,TRUE
+vi,PE,4003945799,Provincia de Cañete,Tỉnh Cañete,Cañete,TRUE
+vi,PE,4003945748,Provincia de Canta,Tỉnh Canta,Canta,TRUE
+vi,PE,4003945539,Provincia de Caravelí,Tỉnh Caravelí,Caravelí,TRUE
+vi,PE,4003698813,Provincia de Carhuaz,Tỉnh Carhuaz,Carhuaz,TRUE
+vi,PE,4003698678,Provincia de Casma,Tỉnh Casma,Casma,TRUE
+vi,PE,4003945232,Provincia de Castrovirreyna,Tỉnh Castrovirreyna,Castrovirreyna,TRUE
+vi,PE,4003945135,Provincia de Caylloma,Tỉnh Caylloma,Caylloma,TRUE
+vi,PE,4003698607,Provincia de Celendín,Tỉnh Celendín,Celendín,TRUE
+vi,PE,4003698538,Provincia de Chachapoyas,Tỉnh Chachapoyas,Chachapoyas,TRUE
+vi,PE,4003698348,Provincia de Chiclayo,Tỉnh Chiclayo,Chiclayo,TRUE
+vi,PE,4003943790,Provincia de Chincha,Tỉnh Chincha,Chincha,TRUE
+vi,PE,4003698139,Provincia de Chota,Tỉnh Chota,Chota,TRUE
+vi,PE,4003943362,Provincia de Chucuito,Tỉnh Chucuito,Chucuito,TRUE
+vi,PE,4003697834,Provincia de Contralmirante Villar,Tỉnh Contralmirante Villar,Contralmirante Villar,TRUE
+vi,PE,4003697832,Provincia de Contumazá,Tỉnh Contumazá,Contumazá,TRUE
+vi,PE,4003697793,Provincia de Corongo,Tỉnh Corongo,Corongo,TRUE
+vi,PE,4003942083,Provincia de Cotabambas,Tỉnh Cotabambas,Cotabambas,TRUE
+vi,PE,4003941582,Provincia de Cusco,Tỉnh Cusco,Cusco,TRUE
+vi,PE,4003697539,Provincia de Cutervo,Tỉnh Cutervo,Cutervo,TRUE
+vi,PE,4003941507,Provincia de Daniel Carrión,Tỉnh Daniel Carrión,Daniel Carrión,TRUE
+vi,PE,4003697460,Provincia de Dos de Mayo,Tỉnh Dos de Mayo,Dos de Mayo,TRUE
+vi,PE,4003941092,Provincia de Espinar,Tỉnh Espinar,Espinar,TRUE
+vi,PE,4003697032,Provincia de Ferreñafe,Tỉnh Ferreñafe,Ferreñafe,TRUE
+vi,PE,4003696537,Provincia de Hualgayoc,Tỉnh Hualgayoc,Hualgayoc,TRUE
+vi,PE,4003696534,Provincia de Huallaga,Tỉnh Huallaga,Huallaga,TRUE
+vi,PE,4003696505,Provincia de Huamalíes,Tỉnh Huamalíes,Huamalíes,TRUE
+vi,PE,4003939740,Provincia de Huamanga,Tỉnh Huamanga,Huamanga,TRUE
+vi,PE,4007778815,Provincia de Huanca Sancos,Tỉnh Huanca Sancos,Huanca Sancos,TRUE
+vi,PE,4003696465,Provincia de Huancabamba,Tỉnh Huancabamba,Huancabamba,TRUE
+vi,PE,4003939536,Provincia de Huancané,Tỉnh Huancané,Huancané,TRUE
+vi,PE,4003939465,Provincia de Huancavelica,Tỉnh Huancavelica,Huancavelica,TRUE
+vi,PE,4003939456,Provincia de Huancayo,Tỉnh Huancayo,Huancayo,TRUE
+vi,PE,4003939385,Provincia de Huanta,Tỉnh Huanta,Huanta,TRUE
+vi,PE,4003696415,Provincia de Huánuco,Tỉnh Huánuco,Huánuco,TRUE
+vi,PE,4003939284,Provincia de Huaral,Tỉnh Huaral,Huaral,TRUE
+vi,PE,4003696377,Provincia de Huaraz,Tỉnh Huaraz,Huaraz,TRUE
+vi,PE,4003696371,Provincia de Huari,Tỉnh Huari,Huari,TRUE
+vi,PE,4003696358,Provincia de Huarmey,Tỉnh Huarmey,Huarmey,TRUE
+vi,PE,4003939153,Provincia de Huarochirí,Tỉnh Huarochirí,Huarochirí,TRUE
+vi,PE,4008349565,Huaura Province,Tỉnh Huaura,Huaura,TRUE
+vi,PE,4003696296,Provincia de Huaylas,Tỉnh Huaylas,Huaylas,TRUE
+vi,PE,4003925316,Provincia de Ica,Tỉnh Ica,Ica,TRUE
+vi,PE,4003938414,Provincia de Ilo,Tỉnh Ilo,Ilo,TRUE
+vi,PE,4003696149,Provincia de Jaén,Tỉnh Jaén,Jaén,TRUE
+vi,PE,4003937732,Provincia de Jauja,Tỉnh Jauja,Jauja,TRUE
+vi,PE,4003937248,Provincia de La Convención,Tỉnh La Convención,La Convención,TRUE
+vi,PE,4003937045,Provincia de La Mar,Tỉnh La Mar,La Mar,TRUE
+vi,PE,4003695756,Provincia de Lamas,Tỉnh Lamas,Lamas,TRUE
+vi,PE,4003695752,Provincia de Lambayeque,Tỉnh Lambayeque,Lambayeque,TRUE
+vi,PE,4003936995,Provincia de Lampa,Tỉnh Lampa,Lampa,TRUE
+vi,PE,4003936451,Provincia de Lima,Tỉnh Lima,Lima,TRUE
+vi,PE,4003695237,Provincia de Loreto,Tỉnh Loreto,Loreto,TRUE
+vi,PE,4003695112,Provincia de Luya,Tỉnh Luya,Luya,TRUE
+vi,PE,4003694961,Provincia de Marañón,Tỉnh Marañón,Marañón,TRUE
+vi,PE,4003694924,Provincia de Mariscal Cáceres,Tỉnh Mariscal Cáceres,Mariscal Cáceres,TRUE
+vi,PE,4003694919,Provincia de Mariscal Luzuriaga,Tỉnh Mariscal Luzuriaga,Mariscal Luzuriaga,TRUE
+vi,PE,4003935255,Provincia de Mariscal Nieto,Tỉnh Mariscal Nieto,Mariscal Nieto,TRUE
+vi,PE,4003935054,Provincia de Melgar,Tỉnh Melgar,Melgar,TRUE
+vi,PE,4003934607,Departamento de Moquegua,Tỉnh Moquegua,Moquegua,TRUE
+vi,PE,4003934353,Provincia de Nazca,Tỉnh Nazca,Nazca,TRUE
+vi,PE,4003694211,Provincia de Otuzco,Tỉnh Otuzco,Otuzco,TRUE
+vi,PE,4003933873,Provincia de Oxapampa,Tỉnh Oxapampa,Oxapampa,TRUE
+vi,PE,4003694175,Provincia de Pacasmayo,Tỉnh Pacasmayo,Pacasmayo,TRUE
+vi,PE,4003694110,Provincia de Paita,Tỉnh Paita,Paita,TRUE
+vi,PE,4003694074,Provincia de Pallasca,Tỉnh Pallasca,Pallasca,TRUE
+vi,PE,4003932863,Provincia de Paruro,Tỉnh Paruro,Paruro,TRUE
+vi,PE,4003932833,Provincia de Pasco,Tỉnh Pasco,Pasco,TRUE
+vi,PE,4003693821,Provincia de Pataz,Tỉnh Pataz,Pataz,TRUE
+vi,PE,4003932143,Provincia de Pisco,Tỉnh Pisco,Pisco,TRUE
+vi,PE,4003693524,Provincia de Piura,Tỉnh Piura,Piura,TRUE
+vi,PE,4003693467,Provincia de Pomabamba,Tỉnh Pomabamba,Pomabamba,TRUE
+vi,PE,4003931274,Provincia de Puno,Tỉnh Puno,Puno,TRUE
+vi,PE,4003930646,Provincia de Quispicanchis,Tỉnh Quispicanchi,Quispicanchi,TRUE
+vi,PE,4003930459,Provincia de Recuay,Tỉnh Recuay,Recuay,TRUE
+vi,PE,4003692894,Provincia de Requena,Tỉnh Requena,Requena,TRUE
+vi,PE,4003692862,Provincia de Rioja,Tỉnh Rioja,Rioja,TRUE
+vi,PE,4003692841,Provincia de Rodríguez de Mendoza,Tỉnh Rodríguez de Mendoza,Rodríguez de Mendoza,TRUE
+vi,PE,4003692526,Provincia de San Ignacio,Tỉnh San Ignacio,San Ignacio,TRUE
+vi,PE,4003692383,Provincia de San Martín,Tỉnh San Martín,San Martín,TRUE
+vi,PE,4003692365,Provincia de San Miguel,Tỉnh San Miguel,San Miguel,TRUE
+vi,PE,4003929739,Provincia de Sandia,Tỉnh Sandia,Sandia,TRUE
+vi,PE,4003692276,Provincia de Santa,Tỉnh Santa,Santa,TRUE
+vi,PE,4003692215,Provincia de Santa Cruz,Tỉnh Santa Cruz,Santa Cruz,TRUE
+vi,PE,4003692071,Provincia de Santiago de Chuco,Tỉnh Santiago de Chuco,Santiago de Chuco,TRUE
+vi,PE,4003691673,Provincia de Sullana,Tỉnh Sullana,Sullana,TRUE
+vi,PE,4003928126,Provincia de Tacna,Tỉnh Tacna,Tacna,TRUE
+vi,PE,4003928091,Provincia de Tahuamanú,Tỉnh Tahuamanú,Tahuamanú,TRUE
+vi,PE,4003691580,Provincia de Talara,Tỉnh Talara,Talara,TRUE
+vi,PE,4003927937,Provincia de Tambopata,Tỉnh Tambopata,Tambopata,TRUE
+vi,PE,4003927773,Provincia de Tarata,Tỉnh Tarata,Tarata,TRUE
+vi,PE,4003927757,Provincia de Tarma,Tỉnh Tarma,Tarma,TRUE
+vi,PE,4003927670,Provincia de Tayacaja,Tỉnh Tayacaja,Tayacaja,TRUE
+vi,PE,4003691174,Provincia de Trujillo,Tỉnh Trujillo,Trujillo,TRUE
+vi,PE,4003691145,Provincia de Tumbes,Tỉnh Tumbes,Tumbes,TRUE
+vi,PE,4003926436,Provincia de Urubamba,Tỉnh Urubamba,Urubamba,TRUE
+vi,PE,4003926224,Provincia de Víctor Fajardo,Tỉnh Víctor Fajardo,Víctor Fajardo,TRUE
+vi,PE,4003925598,Provincia de Yauli,Tỉnh Yauli,Yauli,TRUE
+vi,PE,4003925567,Provincia de Yauyos,Tỉnh Yauyos,Yauyos,TRUE
+vi,PE,4003690672,Provincia de Yungay,Tỉnh Yungay,Yungay,TRUE
+vi,PE,4003690615,Provincia de Zarumilla,Tỉnh Zarumilla,Zarumilla,TRUE
+vi,PG,4007910338,Manus,Đảo Manus,Manus,TRUE
+vi,PG,4006942226,manuas,Đảo Manus,Manus,TRUE
+vi,PG,4002098593,Chimbu Province,Tỉnh Chimbu,Chimbu,TRUE
+vi,PG,4002097853,East New Britain Province,Tỉnh East New Britain,East New Britain,TRUE
+vi,PG,4002097846,East Sepik Province,Tỉnh East Sepik,East Sepik,TRUE
+vi,PG,4002097855,Eastern Highlands Province,Tỉnh Eastern Highlands,Eastern Highlands,TRUE
+vi,PG,4002097655,Enga Province,Tỉnh Enga,Enga,TRUE
+vi,PG,4002096633,Gulf Province,Tỉnh Gulf,Gulf,TRUE
+vi,PG,4002091993,Madang Province,Tỉnh Madang,Madang,TRUE
+vi,PG,4002091495,Manus Province,Tỉnh Manus,Manus,TRUE
+vi,PG,4002133763,Central Province,Tỉnh Miền Trung,Miền Trung,TRUE
+vi,PG,4002132895,Milne Bay Province,Tỉnh Milne Bay,Milne Bay,TRUE
+vi,PG,4002090468,Morobe Province,Tỉnh Morobe,Morobe,TRUE
+vi,PG,4002089693,New Ireland Province,Tỉnh New Ireland,New Ireland,TRUE
+vi,PG,4002087246,West Sepik Province,Tỉnh Sandaun,Sandaun,TRUE
+vi,PG,4002086331,Southern Highlands Province,Tỉnh Southern Highlands,Southern Highlands,TRUE
+vi,PG,4002083546,West New Britain Province,Tỉnh Tây New Britain,Tây New Britain,TRUE
+vi,PG,4002083549,Western Province,Tỉnh Western,Western,TRUE
+vi,PG,4002083551,Western Highlands Province,Tỉnh Western Highlands,Western Highlands,TRUE
+vi,PK,4007418962,Hāfizābād District,Huyện Hafizabad,Hafizabad,TRUE
+vi,PK,4001176733,Hyderābād District,Huyện Hyderabad,Hyderabad,TRUE
+vi,PK,4006641960,Nushki District,Huyện Nushki,Nushki,TRUE
+vi,PL,4007530784,Powiat elbląski,Huyện Elbląg,Elbląg,TRUE
+vi,PL,4007530971,Powiat gdański,Huyện Gdańsk,Gdańsk,TRUE
+vi,PL,4007530738,Powiat hrubieszowski,Huyện Hrubieszów,Hrubieszów,TRUE
+vi,PL,4007530768,Powiat krakowski,Huyện Kraków,Kraków,TRUE
+vi,PL,4007530743,Powiat lubelski,Huyện Lublin,Lublin,TRUE
+vi,PL,4007531072,Powiat mrągowski,Huyện Mrągowo,Mrągowo,TRUE
+vi,PL,4007530957,Powiat nowotomyski,Huyện Nowy Tomyśl,Nowy Tomyśl,TRUE
+vi,PL,4006690160,Powiat oświęcimski,Huyện Oświęcim,Oświęcim,TRUE
+vi,PL,4007530876,Powiat piaseczyński,Huyện Piaseczno,Piaseczno,TRUE
+vi,PL,4007530945,Powiat pilski,Huyện Piła,Piła,TRUE
+vi,PL,4007530788,Powiat pucki,Huyện Puck,Puck,TRUE
+vi,PL,4006690162,Powiat suski,Huyện Sucha,Sucha,TRUE
+vi,PL,4007531029,Powiat warszawski zachodni,Huyện Warsaw West,Warsaw West,TRUE
+vi,PL,4007530850,Powiat wrocławski,Huyện Wrocław,Wrocław,TRUE
+vi,PL,4003337492,Województwo Dolnośląskie,Tỉnh Dolnośląskie,Dolnośląskie,TRUE
+vi,PL,4003337498,Województwo Wielkopolskie,Tỉnh Greater Poland,Greater Poland,TRUE
+vi,PL,4003337500,Województwo Kujawsko-Pomorskie,Tỉnh Kuyavia-Pomerania,Kuyavia-Pomerania,TRUE
+vi,PL,4000858786,Województwo Małopolskie,Tỉnh Lesser Ba Lan,Lesser Ba Lan,TRUE
+vi,PL,4003337493,Województwo Łódzkie,Tỉnh Łódź,Łódź,TRUE
+vi,PL,4000858785,Województwo Lubelskie,Tỉnh Lublin,Lublin,TRUE
+vi,PL,4003337494,Województwo Lubuskie,Tỉnh Lubusz,Lubusz,TRUE
+vi,PL,4000858787,Województwo Mazowieckie,Tỉnh Mazowieckie,Mazowieckie,TRUE
+vi,PL,4003337495,Województwo Opolskie,Tỉnh Opole,Opole,TRUE
+vi,PL,4000858788,Województwo Podkarpackie,Tỉnh Podkarpackie,Podkarpackie,TRUE
+vi,PL,4000858789,Województwo Podlaskie,Tỉnh Podlaskie,Podlaskie,TRUE
+vi,PL,4003337496,Województwo Pomorskie,Tỉnh Pomorskie,Pomorskie,TRUE
+vi,PL,4003337497,Województwo Śląskie,Tỉnh Śląskie,Śląskie,TRUE
+vi,PL,4000858790,Województwo Świętokrzyskie,Tỉnh Świętokrzyskie,Świętokrzyskie,TRUE
+vi,PL,4000858791,Województwo Warmińsko-Mazurskie,Tỉnh Warmian-Masurian,Warmian-Masurian,TRUE
+vi,PY,30021678,Alto Parana,Tỉnh Alto Paraná,Alto Paraná,TRUE
+vi,PY,30021670,Boqueron,Tỉnh Boquerón,Boquerón,TRUE
+vi,PY,30021675,Canindeyu,Tỉnh Canindeyú,Canindeyú,TRUE
+vi,PY,30021679,Central,Tỉnh Central,Central,TRUE
+vi,PY,30021676,Cordillera,Tỉnh Cordillera,Cordillera,TRUE
+vi,PY,30021682,Neembucu,Tỉnh Ñeembucú,Ñeembucú,TRUE
+vi,RO,4000670112,Comuna Poiana,Xã Poiana,Poiana,TRUE
+vi,RO,4000668610,Comuna Roşiori,Xã Roșiori,Roșiori,TRUE
+vi,RO,4000666715,Comuna Slobozia,Xã Slobozia,Slobozia,TRUE
+vi,RS,4007581905,North Banat,Huyện Bắc Banat,Bắc Banat,TRUE
+vi,RS,4000788705,Opština Leskovac,Thành phố Leskovac,Leskovac,TRUE
+vi,RU,4000584324,Abzelilovsky District,Huyện Abzelilovsky,Abzelilovsky,TRUE
+vi,RU,4001512163,Achinsky District,Huyện Achinsky,Achinsky,TRUE
+vi,RU,4000584306,Achitskiy Rayon,Huyện Achitsky,Achitsky,TRUE
+vi,RU,4000584145,Afanasyevsky District,Huyện Afanasyevsky,Afanasyevsky,TRUE
+vi,RU,4000583576,Aktanyshsky District,Huyện Aktanyshsky,Aktanyshsky,TRUE
+vi,RU,4002027984,Alarsky District,Huyện Alarsky,Alarsky,TRUE
+vi,RU,4000583047,Aleksandrovo-Gayskiy Rayon,Huyện Aleksandrovo-Gaysky,Aleksandrovo-Gaysky,TRUE
+vi,RU,4002027942,Aleksandrovo-Zavodsky District,Huyện Aleksandrovo-Zavodsky,Aleksandrovo-Zavodsky,TRUE
+vi,RU,4002127281,Aleksandrovsk-Sakhalinsky District,Huyện Aleksandrovsk-Sakhalinsky,Aleksandrovsk-Sakhalinsky,TRUE
+vi,RU,4000582996,Aleksandrovsky District,Huyện Aleksandrovsky,Aleksandrovsky,TRUE
+vi,RU,4000582713,Aleksinsky District,Huyện Aleksinsky,Aleksinsky,TRUE
+vi,RU,4002127270,Aleutsky District,Huyện Aleutsky,Aleutsky,TRUE
+vi,RU,4002027744,Amursky District,Huyện Amursky,Amursky,TRUE
+vi,RU,4002127198,Anadyrsky District,Huyện Anadyrsky,Anadyrsky,TRUE
+vi,RU,4000582104,Andreapolsky District,Huyện Andreapolsky,Andreapolsky,TRUE
+vi,RU,4002050918,Angarsky District,Huyện Angarsky,Angarsky,TRUE
+vi,RU,4000581618,Anninsky District,Huyện Anninsky,Anninsky,TRUE
+vi,RU,4002027594,Anuchinsky District,Huyện Anuchinsky,Anuchinsky,TRUE
+vi,RU,4002027485,Arkharinsky District,Huyện Arkharinsky,Arkharinsky,TRUE
+vi,RU,4000579567,Baksansky District,Huyện Baksansky,Baksansky,TRUE
+vi,RU,4002050919,Balagansky District,Huyện Balagansky,Balagansky,TRUE
+vi,RU,4002027182,Baleysky District,Huyện Baleysky,Baleysky,TRUE
+vi,RU,4000578944,Baryatinsky District,Huyện Baryatinsky,Baryatinsky,TRUE
+vi,RU,4000578639,Bavlinsky District,Huyện Bavlinsky,Bavlinsky,TRUE
+vi,RU,4002027003,Bayandayevsky District,Huyện Bayandayevsky,Bayandayevsky,TRUE
+vi,RU,4000578469,Bazarno-Karabulaksky District,Huyện Bazarno-Karabulaksky,Bazarno-Karabulaksky,TRUE
+vi,RU,4000830805,Bezhtinskiy Uchastok District,Huyện Bezhtinsky Uchastok,Bezhtinsky Uchastok,TRUE
+vi,RU,4000576124,Blagovarsky District,Huyện Blagovarsky,Blagovarsky,TRUE
+vi,RU,4000575878,Bobrovsky District,Huyện Bobrovsky,Bobrovsky,TRUE
+vi,RU,4002026584,Bodaybinsky District,Huyện Bodaybinsky,Bodaybinsky,TRUE
+vi,RU,4001509887,Bogdanovichsky District,Huyện Bogdanovichsky,Bogdanovichsky,TRUE
+vi,RU,4001509820,Bolotninsky District,Huyện Bolotninsky,Bolotninsky,TRUE
+vi,RU,4000574428,Bolshebereznikovsky District,Huyện Bolshebereznikovsky,Bolshebereznikovsky,TRUE
+vi,RU,4000574403,Bolsheignatovsky District,Huyện Bolsheignatovsky,Bolsheignatovsky,TRUE
+vi,RU,4000574377,Bolshemurashkinsky District,Huyện Bolshemurashkinsky,Bolshemurashkinsky,TRUE
+vi,RU,4000574363,Bolsheselsky District,Huyện Bolsheselsky,Bolsheselsky,TRUE
+vi,RU,4002026092,Bratsky District,Huyện Bratsky,Bratsky,TRUE
+vi,RU,4000571633,Breytovsky District,Huyện Breytovsky,Breytovsky,TRUE
+vi,RU,4000570867,Burayevsky District,Huyện Burayevsky,Burayevsky,TRUE
+vi,RU,4000570472,Buysky District,Huyện Buysky,Buysky,TRUE
+vi,RU,4002126347,Bystrinsky District,Huyện Bystrinsky,Bystrinsky,TRUE
+vi,RU,4001508407,Chastoozersky District,Huyện Chastoozersky,Chastoozersky,TRUE
+vi,RU,4002126275,Chaunsky District,Huyện Chaunsky,Chaunsky,TRUE
+vi,RU,4000490029,Chereksky District,Huyện Chereksky,Chereksky,TRUE
+vi,RU,4001508155,Cherepanovsky District,Huyện Cherepanovsky,Cherepanovsky,TRUE
+vi,RU,4000569222,Cherepovetsky District,Huyện Cherepovetsky,Cherepovetsky,TRUE
+vi,RU,4000568594,Chernyakhovsky District,Huyện Chernyakhovsky,Chernyakhovsky,TRUE
+vi,RU,4000568584,Chernyansky District,Huyện Chernyansky,Chernyansky,TRUE
+vi,RU,4001507924,Chesmensky District,Huyện Chesmensky,Chesmensky,TRUE
+vi,RU,4001507795,Chistoozernyy District,Huyện Chistoozerny,Chistoozerny,TRUE
+vi,RU,4000567985,Chistopolsky District,Huyện Chistopolsky,Chistopolsky,TRUE
+vi,RU,4002025332,Chitinsky District,Huyện Chitinsky,Chitinsky,TRUE
+vi,RU,4000567693,Chukhlomsky District,Huyện Chukhlomsky,Chukhlomsky,TRUE
+vi,RU,4001507674,Chulymsky District,Huyện Chulymsky,Chulymsky,TRUE
+vi,RU,4001507634,Chunsky District,Huyện Chunsky,Chunsky,TRUE
+vi,RU,4000567118,Danilovsky District,Huyện Danilovsky,Danilovsky,TRUE
+vi,RU,4000567119,Danilovsky District,Huyện Danilovsky,Danilovsky,TRUE
+vi,RU,4000567048,Darovsky District,Huyện Darovsky,Darovsky,TRUE
+vi,RU,4001507221,Dovolensky District,Huyện Dovolensky,Dovolensky,TRUE
+vi,RU,4000564803,Dubensky District,Huyện Dubensky,Dubensky,TRUE
+vi,RU,4000564599,Dubovsky District,Huyện Dubovsky,Dubovsky,TRUE
+vi,RU,4000564600,Dubovsky District,Huyện Dubovsky,Dubovsky,TRUE
+vi,RU,4000564343,Dubrovsky District,Huyện Dubrovsky,Dubrovsky,TRUE
+vi,RU,4000564189,Duminichsky District,Huyện Duminichsky,Duminichsky,TRUE
+vi,RU,4000564013,Duvansky District,Huyện Duvansky,Duvansky,TRUE
+vi,RU,4000563697,Dzerzhinsky District,Huyện Dzerzhinsky,Dzerzhinsky,TRUE
+vi,RU,4007303363,Dzhayrakhsky District,Huyện Dzheyrakhsky,Dzheyrakhsky,TRUE
+vi,RU,4000825097,Elbrussky District,Huyện Elbrussky,Elbrussky,TRUE
+vi,RU,4000562360,Frolovsky District,Huyện Frolovsky,Frolovsky,TRUE
+vi,RU,4000558235,Gryazovetsky District,Huyện Gryazovetsky,Gryazovetsky,TRUE
+vi,RU,4000557562,Iglinsky District,Huyện Iglinsky,Iglinsky,TRUE
+vi,RU,4000557391,Ikryaninsky District,Huyện Ikryaninsky,Ikryaninsky,TRUE
+vi,RU,4001505932,Ilansky District,Huyện Ilansky,Ilansky,TRUE
+vi,RU,4000557055,Ilishevsky District,Huyện Ilishevsky,Ilishevsky,TRUE
+vi,RU,4000556962,Ilovlinsky District,Huyện Ilovlinsky,Ilovlinsky,TRUE
+vi,RU,4000557129,Ilinsky District,Huyện Ilyinsky,Ilyinsky,TRUE
+vi,RU,4000556219,Irafsky District,Huyện Irafsky,Irafsky,TRUE
+vi,RU,4001505530,Irbeysky District,Huyện Irbeysky,Irbeysky,TRUE
+vi,RU,4002023464,Irkutsky District,Huyện Irkutsky,Irkutsky,TRUE
+vi,RU,4000555977,Ishimbaysky District,Huyện Ishimbaysky,Ishimbaysky,TRUE
+vi,RU,4000555207,Ivanovsky District,Huyện Ivanovsky,Ivanovsky,TRUE
+vi,RU,4000554969,Ivnyansky District,Huyện Ivnyansky,Ivnyansky,TRUE
+vi,RU,4002050912,Ivolginsky District,Huyện Ivolginsky,Ivolginsky,TRUE
+vi,RU,4000554843,Izhemsky District,Huyện Izhemsky,Izhemsky,TRUE
+vi,RU,4001505227,Izhmorsky District,Huyện Izhmorsky,Izhmorsky,TRUE
+vi,RU,4000554317,Kalevalsky District,Huyện Kalevalsky,Kalevalsky,TRUE
+vi,RU,4000553410,Kamensky District,Huyện Kamensky,Kamensky,TRUE
+vi,RU,4000553278,Kamyshinsky District,Huyện Kamyshinsky,Kamyshinsky,TRUE
+vi,RU,4002023095,Karymsky District,Huyện Karymsky,Karymsky,TRUE
+vi,RU,4002023030,Kazachinsko-Lensky District,Huyện Kazachinsko-Lensky,Kazachinsko-Lensky,TRUE
+vi,RU,4001503899,Kemerovsky District,Huyện Kemerovo,Kemerovo,TRUE
+vi,RU,4001503771,Khanty-Mansiyskiy Rayon,Huyện Khanty-Mansiysky,Khanty-Mansiysky,TRUE
+vi,RU,4002022584,Khasansky District,Huyện Khasansky,Khasansky,TRUE
+vi,RU,4002022461,Khiloksky District,Huyện Khiloksky,Khiloksky,TRUE
+vi,RU,4000549847,Khokholsky District,Huyện Khokholsky,Khokholsky,TRUE
+vi,RU,4000549104,Khunzakhsky District,Huyện Khunzakhsky,Khunzakhsky,TRUE
+vi,RU,4000548980,Khvalynsky District,Huyện Khvalynsky,Khvalynsky,TRUE
+vi,RU,4000548971,Khvastovichsky District,Huyện Khvastovichsky,Khvastovichsky,TRUE
+vi,RU,4000548887,Khvoyninsky District,Huyện Khvoyninsky,Khvoyninsky,TRUE
+vi,RU,4000548691,Kilmezsky District,Huyện Kilmezsky,Kilmezsky,TRUE
+vi,RU,4000548653,Kimrsky District,Huyện Kimrsky,Kimrsky,TRUE
+vi,RU,4000548614,Kinelsky District,Huyện Kinelsky,Kinelsky,TRUE
+vi,RU,4000547486,Klinsky District,Huyện Klinsky,Klinsky,TRUE
+vi,RU,4001502386,Kosikhinsky District,Huyện Kosikhinsky,Kosikhinsky,TRUE
+vi,RU,4000507965,Kumylzhensky District,Huyện Kumylzhensky,Kumylzhensky,TRUE
+vi,RU,4000539285,Kumensky District,Huyện Kumyonsky,Kumyonsky,TRUE
+vi,RU,4000539128,Kuninsky District,Huyện Kuninsky,Kuninsky,TRUE
+vi,RU,4002021063,Kyakhtinsky District,Huyện Kyakhtinsky,Kyakhtinsky,TRUE
+vi,RU,4002021029,Kyrinsky District,Huyện Kyrinsky,Kyrinsky,TRUE
+vi,RU,4000536486,Lebyazhsky District,Huyện Lebyazhsky,Lebyazhsky,TRUE
+vi,RU,4001500740,Lebyazhyevsky District,Huyện Lebyazhyevsky,Lebyazhyevsky,TRUE
+vi,RU,4000535840,Leshukonsky District,Huyện Leshukonsky,Leshukonsky,TRUE
+vi,RU,4011205483,Leskensky District,Huyện Leskensky,Leskensky,TRUE
+vi,RU,4000534834,Liskinsky District,Huyện Liski,Liski,TRUE
+vi,RU,4000532129,Makaryevsky District,Huyện Makaryevsky,Makaryevsky,TRUE
+vi,RU,4000531978,Maksatikhinsky District,Huyện Maksatikhinsky,Maksatikhinsky,TRUE
+vi,RU,4001500033,Makushinsky District,Huyện Makushinsky,Makushinsky,TRUE
+vi,RU,4000530957,Maloderbetovsky District,Huyện Maloderbetovsky,Maloderbetovsky,TRUE
+vi,RU,4000529705,Mamadyshsky District,Huyện Mamadyshsky,Mamadyshsky,TRUE
+vi,RU,4002020302,Mamsko-Chuysky District,Huyện Mamsko-Chuysky,Mamsko-Chuysky,TRUE
+vi,RU,4000529503,Manturovsky District,Huyện Manturovsky,Manturovsky,TRUE
+vi,RU,4000529502,Manturovsky District,Huyện Manturovsky,Manturovsky,TRUE
+vi,RU,4000529386,Marevsky District,Huyện Marevsky,Marevsky,TRUE
+vi,RU,4000529068,Marksovsky District,Huyện Marksovsky,Marksovsky,TRUE
+vi,RU,4000528946,Martynovsky District,Huyện Martynovsky,Martynovsky,TRUE
+vi,RU,4000528218,Maysky District,Huyện Maysky,Maysky,TRUE
+vi,RU,4002020117,Mazanovsky District,Huyện Mazanovsky,Mazanovsky,TRUE
+vi,RU,4000528130,Mechetlinsky District,Huyện Mechetlinsky,Mechetlinsky,TRUE
+vi,RU,4000528033,Medvedevsky District,Huyện Medvedevsky,Medvedevsky,TRUE
+vi,RU,4000527887,Medvezhyegorsky District,Huyện Medvezhyegorsky,Medvezhyegorsky,TRUE
+vi,RU,4000527714,Meleuzovsky District,Huyện Meleuzovsky,Meleuzovsky,TRUE
+vi,RU,4000527526,Menzelinsky District,Huyện Menzelinsky,Menzelinsky,TRUE
+vi,RU,4000527316,Mezensky District,Huyện Mezensky,Mezensky,TRUE
+vi,RU,4000527296,Mezhdurechensky District,Huyện Mezhdurechensky,Mezhdurechensky,TRUE
+vi,RU,4000527261,Mezhevskoy District,Huyện Mezhevskoy,Mezhevskoy,TRUE
+vi,RU,4000527216,Mglinsky District,Huyện Mglinsky,Mglinsky,TRUE
+vi,RU,4000526503,Milyutinsky District,Huyện Milyutinsky,Milyutinsky,TRUE
+vi,RU,4002019909,Mogochinsky District,Huyện Mogochinsky,Mogochinsky,TRUE
+vi,RU,4002019887,Mogoytuyskiy Rayon,Huyện Mogoytuysky,Mogoytuysky,TRUE
+vi,RU,4001498510,Mokrousovsky District,Huyện Mokrousovsky,Mokrousovsky,TRUE
+vi,RU,4000525149,Morozovskiy Rayon,Huyện Morozovsky,Morozovsky,TRUE
+vi,RU,4000525083,Mosalsky District,Huyện Mosalsky,Mosalsky,TRUE
+vi,RU,4001498386,Moshkovsky District,Huyện Moshkovsky,Moshkovsky,TRUE
+vi,RU,4001498378,Moskalenskiy Rayon,Huyện Moskalensky,Moskalensky,TRUE
+vi,RU,4001498313,Motyginsky District,Huyện Motyginsky,Motyginsky,TRUE
+vi,RU,4000524734,Mozdoksky District,Huyện Mozdoksky,Mozdoksky,TRUE
+vi,RU,4000524708,Mozhaysky District,Huyện Mozhaysky,Mozhaysky,TRUE
+vi,RU,4002019707,Mukhorshibirsky District,Huyện Mukhorshibirsky,Mukhorshibirsky,TRUE
+vi,RU,4000524284,Muromsky District,Huyện Muromsky,Muromsky,TRUE
+vi,RU,4000524181,Muslyumovsky District,Huyện Muslyumovsky,Muslyumovsky,TRUE
+vi,RU,4000524099,Muyezersky District,Huyện Muyezersky,Muyezersky,TRUE
+vi,RU,4002050914,Muysky District,Huyện Muysky,Muysky,TRUE
+vi,RU,4000522740,Nemansky District,Huyện Neman,Neman,TRUE
+vi,RU,4002019322,Nerchinsko-Zavodsky District,Huyện Nerchinsko-Zavodsky,Nerchinsko-Zavodsky,TRUE
+vi,RU,4002122891,Nevelsky District,Huyện Nevelsky,Nevelsky,TRUE
+vi,RU,4000522334,Neysky District,Huyện Neysky,Neysky,TRUE
+vi,RU,4002019196,Nizhneilimsky District,Huyện Nizhneilimsky,Nizhneilimsky,TRUE
+vi,RU,4001497542,Nizhnevartovskiy Rayon,Huyện Nizhnevartovsky,Nizhnevartovsky,TRUE
+vi,RU,4000518911,Novoduginskiy Rayon,Huyện Novoduginsky,Novoduginsky,TRUE
+vi,RU,4000518742,Novokhopersky District,Huyện Novokhopyorsky,Novokhopyorsky,TRUE
+vi,RU,4001496989,Novokuznetsky District,Huyện Novokuznetsky,Novokuznetsky,TRUE
+vi,RU,4000518618,Novomalyklinskiy Rayon,Huyện Novomalyklinsky,Novomalyklinsky,TRUE
+vi,RU,4000518482,Novonikolayevsky District,Huyện Novonikolayevsky,Novonikolayevsky,TRUE
+vi,RU,4000518311,Novopokrovsky District,Huyện Novopokrovsky,Novopokrovsky,TRUE
+vi,RU,4000517923,Novosokolnichesky District,Huyện Novosokolnichesky,Novosokolnichesky,TRUE
+vi,RU,4000517838,Novotor”yalsky District,Huyện Novotoryalsky,Novotoryalsky,TRUE
+vi,RU,4000517737,Novouzenskiy Rayon,Huyện Novouzensky,Novouzensky,TRUE
+vi,RU,4000517267,Novozybkovsky District,Huyện Novozybkovsky,Novozybkovsky,TRUE
+vi,RU,4000516453,Oblivskiy Rayon,Huyện Oblivsky,Oblivsky,TRUE
+vi,RU,4002018720,Obluchensky District,Huyện Obluchensky,Obluchensky,TRUE
+vi,RU,4000516251,Ocherskiy Rayon,Huyện Ochersky,Ochersky,TRUE
+vi,RU,4002122610,Okhinsky District,Huyện Okhinsky,Okhinsky,TRUE
+vi,RU,4002018629,Okinsky District,Huyện Okinsky,Okinsky,TRUE
+vi,RU,4002018500,Olovyanninsky District,Huyện Olovyanninsky,Olovyanninsky,TRUE
+vi,RU,4002122518,Olyutorsky District,Huyện Olyutorsky,Olyutorsky,TRUE
+vi,RU,4002122490,Omsukchansky District,Huyện Omsukchansky,Omsukchansky,TRUE
+vi,RU,4001496141,Omutinsky District,Huyện Omutinsky,Omutinsky,TRUE
+vi,RU,4000515266,Omutninsky District,Huyện Omutninsky,Omutninsky,TRUE
+vi,RU,4000515237,Onezhsky District,Huyện Onezhsky,Onezhsky,TRUE
+vi,RU,4000515173,Oparinsky District,Huyện Oparinsky,Oparinsky,TRUE
+vi,RU,4000515157,Opochetsky District,Huyện Opochetsky,Opochetsky,TRUE
+vi,RU,4000514967,Orichevsky District,Huyện Orichevsky,Orichevsky,TRUE
+vi,RU,4000550782,Orlovsky District,Huyện Orlovsky,Orlovsky,TRUE
+vi,RU,4000514056,Ostrovsky District,Huyện Ostrovsky,Ostrovsky,TRUE
+vi,RU,4000513326,Ozinskiy Rayon,Huyện Ozinsky,Ozinsky,TRUE
+vi,RU,4000513094,Palekhsky District,Huyện Palekhsky,Palekhsky,TRUE
+vi,RU,4000512837,Paninsky District,Huyện Paninsky,Paninsky,TRUE
+vi,RU,4000512574,Parfenyevsky District,Huyện Parfenyevsky,Parfenyevsky,TRUE
+vi,RU,4002018110,Partizanskiy Rayon,Huyện Partizansky,Partizansky,TRUE
+vi,RU,4000512246,Pavinsky District,Huyện Pavinsky,Pavinsky,TRUE
+vi,RU,4000511413,Perelyubskiy Rayon,Huyện Perelyubsky,Perelyubsky,TRUE
+vi,RU,4000511399,Peremyshlsky District,Huyện Peremyshlsky,Peremyshlsky,TRUE
+vi,RU,4000511358,Pereslavsky District,Huyện Pereslavsky,Pereslavsky,TRUE
+vi,RU,4000510344,Pestrechinsky District,Huyện Pestrechinsky,Pestrechinsky,TRUE
+vi,RU,4002017944,Petrovsk-Zabaykalsky District,Huyện Petrovsk-Zabaykalsky,Petrovsk-Zabaykalsky,TRUE
+vi,RU,4000509472,Pinezhsky District,Huyện Pinezhsky,Pinezhsky,TRUE
+vi,RU,4000509233,Pitkyarantsky District,Huyện Pitkyarantsky,Pitkyarantsky,TRUE
+vi,RU,4000508648,Pochepsky District,Huyện Pochepsky,Pochepsky,TRUE
+vi,RU,4000508393,Podgorensky District,Huyện Podgorensky,Podgorensky,TRUE
+vi,RU,4000508064,Podosinovsky District,Huyện Podosinovsky,Podosinovsky,TRUE
+vi,RU,4000508035,Podporozhsky District,Huyện Podporozhsky,Podporozhsky,TRUE
+vi,RU,4000507635,Pokhicstnevskiy Rayon,Huyện Pokhvistnevsky,Pokhvistnevsky,TRUE
+vi,RU,4000507290,Polessky District,Huyện Polessky,Polessky,TRUE
+vi,RU,4001494512,Polovinsky District,Huyện Polovinskiy,Polovinskiy,TRUE
+vi,RU,4000506288,Poretsky District,Huyện Poretsky,Poretsky,TRUE
+vi,RU,4001494329,Pospelikhinsky District,Huyện Pospelikhinsky,Pospelikhinsky,TRUE
+vi,RU,4000505805,Povorinsky District,Huyện Povorinsky,Povorinsky,TRUE
+vi,RU,4000505586,Pravoberezhnyy District,Huyện Pravoberezhny,Pravoberezhny,TRUE
+vi,RU,4000505584,Pravoberezhnyy Rayon,Huyện Pravoberezhny,Pravoberezhny,TRUE
+vi,RU,4002017645,Priargunsky District,Huyện Priargunsky,Priargunsky,TRUE
+vi,RU,4002017644,Pribaykalsky District,Huyện Pribaykalsky,Pribaykalsky,TRUE
+vi,RU,4000505371,Prigorodnyy District,Huyện Prigorodny,Prigorodny,TRUE
+vi,RU,4001494180,Priobskiy Rayon,Huyện Priobsky,Priobsky,TRUE
+vi,RU,4000505244,Prionezhsky District,Huyện Prionezhsky,Prionezhsky,TRUE
+vi,RU,4000505228,Priozerskiy Rayon,Huyện Priozersky,Priozersky,TRUE
+vi,RU,4000505150,Pristensky District,Huyện Pristensky,Pristensky,TRUE
+vi,RU,4001494157,Pritobolnyy District,Huyện Pritobolny,Pritobolny,TRUE
+vi,RU,4000504908,Prokhorovsky District,Huyện Prokhorovsky,Prokhorovsky,TRUE
+vi,RU,4000504783,Proletarskiy Rayon,Huyện Proletarsky,Proletarsky,TRUE
+vi,RU,4000504759,Promyshlennyy Rayon,Huyện Promyshlennovsky,Promyshlennovsky,TRUE
+vi,RU,4001494089,Promyshlennovsky District,Huyện Promyshlennovsky,Promyshlennovsky,TRUE
+vi,RU,4004031572,Providensky District,Huyện Providensky,Providensky,TRUE
+vi,RU,4000504407,Pryazhinsky District,Huyện Pryazhinsky,Pryazhinsky,TRUE
+vi,RU,4000504293,Puchezhsky District,Huyện Puchezhsky,Puchezhsky,TRUE
+vi,RU,4000504259,Pudozhsky District,Huyện Pudozhsky,Pudozhsky,TRUE
+vi,RU,4000503055,Rakityansky District,Huyện Rakityansky,Rakityansky,TRUE
+vi,RU,4000502892,Ramonsky District,Huyện Ramonsky,Ramonsky,TRUE
+vi,RU,4000501216,Rossoshansky District,Huyện Rossoshansky,Rossoshansky,TRUE
+vi,RU,4000501161,Rostovsky District,Huyện Rostovsky,Rostovsky,TRUE
+vi,RU,4000501124,Rovensky District,Huyện Rovensky,Rovensky,TRUE
+vi,RU,4000499779,Rzhaksinskiy Rayon,Huyện Rzhaksinsky,Rzhaksinsky,TRUE
+vi,RU,4000499665,Sabinsky District,Huyện Sabinsky,Sabinsky,TRUE
+vi,RU,4001493266,Safakulevsky District,Huyện Safakulevsky,Safakulevsky,TRUE
+vi,RU,4000499290,Salavatsky District,Huyện Salavatsky,Salavatsky,TRUE
+vi,RU,4000498876,Sanchursky District,Huyện Sanchursky,Sanchursky,TRUE
+vi,RU,4000498765,Sapozhkovskiy Rayon,Huyện Sapozhkovsky,Sapozhkovsky,TRUE
+vi,RU,4000498681,Sarapulsky District,Huyện Sarapulsky,Sarapulsky,TRUE
+vi,RU,4000498536,Sarmanovsky District,Huyện Sarmanovsky,Sarmanovsky,TRUE
+vi,RU,4000498505,Sarpinsky District,Huyện Sarpinsky,Sarpinsky,TRUE
+vi,RU,4000498203,Savinsky District,Huyện Savinsky,Savinsky,TRUE
+vi,RU,4001492889,Sayansky District,Huyện Sayansky,Sayansky,TRUE
+vi,RU,4001492853,Sedel’nikovskiy Rayon,Huyện Sedelnikovsky,Sedelnikovsky,TRUE
+vi,RU,4002017066,Selemdzhinsky District,Huyện Selemdzhinsky,Selemdzhinsky,TRUE
+vi,RU,4002017058,Selenginsky District,Huyện Selenginsky,Selenginsky,TRUE
+vi,RU,4000497311,Semënovsky District,Huyện Semenovsky,Semenovsky,TRUE
+vi,RU,4000496560,Sernursky District,Huyện Sernursky,Sernursky,TRUE
+vi,RU,4002016909,Severo-Baykalsky District,Huyện Severo-Baykalsky,Severo-Baykalsky,TRUE
+vi,RU,4000495765,Sharangskiy Rayon,Huyện Sharangsky,Sharangsky,TRUE
+vi,RU,4000495559,Shatkovskiy Rayon,Huyện Shatkovsky,Shatkovsky,TRUE
+vi,RU,4001492387,Shatrovsky District,Huyện Shatrovsky,Shatrovsky,TRUE
+vi,RU,4000495516,Shatursky District,Huyện Shatursky,Shatursky,TRUE
+vi,RU,4001492254,Sherbakul’skiy Rayon,Huyện Sherbakulsky,Sherbakulsky,TRUE
+vi,RU,4002016650,Shkotovsky District,Huyện Shkotovsky,Shkotovsky,TRUE
+vi,RU,4002016442,Skovorodinsky District,Huyện Skovorodinsky,Skovorodinsky,TRUE
+vi,RU,4000492167,Slantsevsky District,Huyện Slantsevsky,Slantsevsky,TRUE
+vi,RU,4000491024,Soligalichsky District,Huyện Soligalichsky,Soligalichsky,TRUE
+vi,RU,4002016304,Solnechnyy Rayon,Huyện Solnechny,Solnechny,TRUE
+vi,RU,4000461703,Sortavalsky District,Huyện Sortavalsky,Sortavalsky,TRUE
+vi,RU,4000490021,Sovetskiy Rayon,Huyện Sovetsky,Sovetsky,TRUE
+vi,RU,4000489867,Spas-Demensky District,Huyện Spas-Demensky,Spas-Demensky,TRUE
+vi,RU,4000488204,Starozhilovskiy Rayon,Huyện Starozhilovsky,Starozhilovsky,TRUE
+vi,RU,4000487493,Sterlitamaksky District,Huyện Sterlitamaksky,Sterlitamaksky,TRUE
+vi,RU,4000486662,Sukhinichsky District,Huyện Sukhinichsky,Sukhinichsky,TRUE
+vi,RU,4001490708,Sukholozhsky District,Huyện Sukholozhsky,Sukholozhsky,TRUE
+vi,RU,4000486183,Suoyarvsky District,Huyện Suoyarvsky,Suoyarvsky,TRUE
+vi,RU,4000486070,Surovikinsky District,Huyện Surovikinsky,Surovikinsky,TRUE
+vi,RU,4000486013,Susaninsky District,Huyện Susaninsky,Susaninsky,TRUE
+vi,RU,4002120865,Susumansky District,Huyện Susumansky,Susumansky,TRUE
+vi,RU,4000485863,Suvorovsky District,Huyện Suvorovsky,Suvorovsky,TRUE
+vi,RU,4000485794,Svechinsky District,Huyện Svechinsky,Svechinsky,TRUE
+vi,RU,4000485691,Svetloyarsky District,Huyện Svetloyarsky,Svetloyarsky,TRUE
+vi,RU,4002015840,Svobodnensky District,Huyện Svobodnensky,Svobodnensky,TRUE
+vi,RU,4000485348,Syamzhensky District,Huyện Syamzhensky,Syamzhensky,TRUE
+vi,RU,4000485241,Syktyvdinsky District,Huyện Syktyvdinsky,Syktyvdinsky,TRUE
+vi,RU,4000484968,Syzranskiy Rayon,Huyện Syzransky,Syzransky,TRUE
+vi,RU,4000484671,Tamalinskiy Rayon,Huyện Tamalinsky,Tamalinsky,TRUE
+vi,RU,4002015607,Tambovsky District,Huyện Tambovsky,Tambovsky,TRUE
+vi,RU,4000484393,Tarasovskiy Rayon,Huyện Tarasovsky,Tarasovsky,TRUE
+vi,RU,4002050913,Tarbagataysky District,Huyện Tarbagataysky,Tarbagataysky,TRUE
+vi,RU,4001490057,Taseyevsky District,Huyện Taseyevsky,Taseyevsky,TRUE
+vi,RU,4001489939,Tavricheskiy Rayon,Huyện Tavrichesky,Tavrichesky,TRUE
+vi,RU,4000483136,Teykovsky District,Huyện Teykovsky,Teykovsky,TRUE
+vi,RU,4000482217,Tonshayevskiy Rayon,Huyện Tonshayevsky,Tonshayevsky,TRUE
+vi,RU,4000482040,Toropetsky District,Huyện Toropetsky,Toropetsky,TRUE
+vi,RU,4000481547,Troitsko-Pechorsky District,Huyện Troitsko-Pechorsky,Troitsko-Pechorsky,TRUE
+vi,RU,4000481349,Trubchevsky District,Huyện Trubchevsky,Trubchevsky,TRUE
+vi,RU,4000481157,Trusovskiy Rayon,Huyện Trusovsky,Trusovsky,TRUE
+vi,RU,4002014922,Tulunsky District,Huyện Tulunsky,Tulunsky,TRUE
+vi,RU,4002014882,Tungokochensky District,Huyện Tungokochensky,Tungokochensky,TRUE
+vi,RU,4000480119,Tutayevsky District,Huyện Tutayevsky,Tutayevsky,TRUE
+vi,RU,4000479581,Udorsky District,Huyện Udorsky,Udorsky,TRUE
+vi,RU,4000478962,Untsukulsky District,Huyện Untsukulsky,Untsukulsky,TRUE
+vi,RU,4000478559,Urvansky District,Huyện Urvansky,Urvansky,TRUE
+vi,RU,4001488271,Ust-Abakansky District,Huyện Ust-Abakansky,Ust-Abakansky,TRUE
+vi,RU,4002013999,Ust-Aldansky District,Huyện Ust-Aldansky,Ust-Aldansky,TRUE
+vi,RU,4002120062,Ust-Bolsheretsky District,Huyện Ust-Bolsheretsky,Ust-Bolsheretsky,TRUE
+vi,RU,4000478131,Ust’-Donetskiy Rayon,Huyện Ust-Donetsky,Ust-Donetsky,TRUE
+vi,RU,4000478129,Ust-Dzhegutinsky District,Huyện Ust-Dzhegutinsky,Ust-Dzhegutinsky,TRUE
+vi,RU,4002013951,Ust-Ilimsky District,Huyện Ust-Ilimsky,Ust-Ilimsky,TRUE
+vi,RU,4001488205,Ust’-Ishimskiy Rayon,Huyện Ust-Ishimsky,Ust-Ishimsky,TRUE
+vi,RU,4002120058,Ust-Kamchatsky District,Huyện Ust-Kamchatsky,Ust-Kamchatsky,TRUE
+vi,RU,4001488185,Ust-Kansky District,Huyện Ust-Kansky,Ust-Kansky,TRUE
+vi,RU,4000478053,Ust-Kubinsky District,Huyện Ust-Kubinsky,Ust-Kubinsky,TRUE
+vi,RU,4002013922,Ust-Kutsky District,Huyện Ust-Kutsky,Ust-Kutsky,TRUE
+vi,RU,4002013917,Ust’-Mayskiy Rayon,Huyện Ust-Maysky,Ust-Maysky,TRUE
+vi,RU,4001488114,Ust-Pristansky District,Huyện Ust-Pristansky,Ust-Pristansky,TRUE
+vi,RU,4001488072,Ust-Tarksky District,Huyện Ust-Tarksky,Ust-Tarksky,TRUE
+vi,RU,4002013864,Ust-Udinsky District,Huyện Ust-Udinsky,Ust-Udinsky,TRUE
+vi,RU,4000477906,Ust-Vymsky District,Huyện Ust-Vymsky,Ust-Vymsky,TRUE
+vi,RU,4002119929,Vaninsky District,Huyện Vaninsky,Vaninsky,TRUE
+vi,RU,4002013652,Verkhnebureinsky District,Huyện Verkhnebureinsky,Verkhnebureinsky,TRUE
+vi,RU,4000475612,Verkhnedonskoy Rayon,Huyện Verkhnedonskoy,Verkhnedonskoy,TRUE
+vi,RU,4000470727,Vyatsko-Polyansky District,Huyện Vyatskopolyansky,Vyatskopolyansky,TRUE
+vi,RU,4002013228,Vyazemsky District,Huyện Vyazemsky,Vyazemsky,TRUE
+vi,RU,4000470665,Vyaznikovsky District,Huyện Vyaznikovsky,Vyaznikovsky,TRUE
+vi,RU,4000469804,Yadrinsky District,Huyện Yadrinsky,Yadrinsky,TRUE
+vi,RU,4000468306,Yegorlykskiy Rayon,Huyện Yegorlyksky,Yegorlyksky,TRUE
+vi,RU,4000468247,Yegoryevsky District,Huyện Yegoryevsky,Yegoryevsky,TRUE
+vi,RU,4000468037,Yelansky District,Huyện Yelansky,Yelansky,TRUE
+vi,RU,4000467976,Yeletsky District,Huyện Yeletsky,Yeletsky,TRUE
+vi,RU,4002012958,Yeravninsky District,Huyện Yeravninsky,Yeravninsky,TRUE
+vi,RU,4000466879,Yeysky District,Huyện Yeysky,Yeysky,TRUE
+vi,RU,4002119443,Yuzhno-Kurilsky District,Huyện Yuzhno-Kurilsky,Yuzhno-Kurilsky,TRUE
+vi,RU,4002012779,Zabaykalsky District,Huyện Zabaykalsky,Zabaykalsky,TRUE
+vi,RU,4002012726,Zakamensky District,Huyện Zakamensky,Zakamensky,TRUE
+vi,RU,4002012700,Zalarinsky District,Huyện Zalarinsky,Zalarinsky,TRUE
+vi,RU,4002012624,Zavitinsky District,Huyện Zavitinsky,Zavitinsky,TRUE
+vi,RU,4002012589,Zeysky District,Huyện Zeysky,Zeysky,TRUE
+vi,RU,4000463515,Zharkovskiy Rayon,Huyện Zharkovsky,Zharkovsky,TRUE
+vi,RU,4002012531,Zhigalovsky District,Huyện Zhigalovsky,Zhigalovsky,TRUE
+vi,RU,4000462912,Zhizdrinsky District,Huyện Zhizdrinsky,Zhizdrinsky,TRUE
+vi,RU,4000462753,Zhukovsky District,Huyện Zhukovsky,Zhukovsky,TRUE
+vi,RU,4000462752,Zhukovsky District,Huyện Zhukovsky,Zhukovsky,TRUE
+vi,RU,4000462646,Zianchurinsky District,Huyện Zianchurinsky,Zianchurinsky,TRUE
+vi,RU,4002027748,Amur Oblast,Tỉnh Amur,Amur,TRUE
+vi,RU,4000581043,Arkhangelsk Oblast,Tỉnh Arkhangelsk,Arkhangelsk,TRUE
+vi,RU,4000580491,Astrakhan Oblast,Tỉnh Astrakhan,Astrakhan,TRUE
+vi,RU,4000578071,Belgorod Oblast,Tỉnh Belgorod,Belgorod,TRUE
+vi,RU,4002023468,Irkutsk Oblast,Tỉnh Irkutsk,Irkutsk,TRUE
+vi,RU,4000555235,Ivanovo Oblast,Tỉnh Ivanovo,Ivanovo,TRUE
+vi,RU,4000554230,Kaliningrad Oblast,Tỉnh Kaliningrad,Kaliningrad,TRUE
+vi,RU,4000548389,Kirov Oblast,Tỉnh Kirov,Kirov,TRUE
+vi,RU,4001501312,Kurgan Oblast,Tỉnh Kurgan,Kurgan,TRUE
+vi,RU,4000538555,Kursk Oblast,Tỉnh Kursk,Kursk,TRUE
+vi,RU,4000536199,Leningrad Oblast,Tỉnh Leningrad,Leningrad,TRUE
+vi,RU,4002123627,Magadan Oblast,Tỉnh Magadan,Magadan,TRUE
+vi,RU,4000559838,Nizhny Novgorod Oblast,Tỉnh Nizhny Novgorod,Nizhny Novgorod,TRUE
+vi,RU,4000519324,Novgorod Oblast,Tỉnh Novgorod,Novgorod,TRUE
+vi,RU,4001496745,Novosibirsk Oblast,Tỉnh Novosibirsk,Novosibirsk,TRUE
+vi,RU,4001496152,Omsk Oblast,Tỉnh Omsk,Omsk,TRUE
+vi,RU,4000515001,Orenburg Oblast,Tỉnh Orenburg,Orenburg,TRUE
+vi,RU,4000511555,Penza Oblast,Tỉnh Penza,Penza,TRUE
+vi,RU,4000504338,Pskov Oblast,Tỉnh Pskov,Pskov,TRUE
+vi,RU,4000499068,Samara Oblast,Tỉnh Samara,Samara,TRUE
+vi,RU,4000498671,Saratov Oblast,Tỉnh Saratov,Saratov,TRUE
+vi,RU,4000491684,Smolensk Oblast,Tỉnh Smolensk,Smolensk,TRUE
+vi,RU,4001490542,Sverdlovsk Oblast,Tỉnh Sverdlovsk,Sverdlovsk,TRUE
+vi,RU,4000484638,Tambov Oblast,Tỉnh Tambov,Tambov,TRUE
+vi,RU,4002026639,Jewish Autonomous Oblast,Tỉnh tự trị Do Thái,tự trị Do Thái,TRUE
+vi,RU,4000480508,Tula Oblast,Tỉnh Tula,Tula,TRUE
+vi,RU,4001488747,Tyumen Oblast,Tỉnh Tyumen,Tyumen,TRUE
+vi,RU,4000479119,Ulyanovsk Oblast,Tỉnh Ulyanovsk,Ulyanovsk,TRUE
+vi,RU,4000826294,Vladimir Oblast,Tỉnh Vladimir,Vladimir,TRUE
+vi,RU,4000472454,Vologda Oblast,Tỉnh Vologda,Vologda,TRUE
+vi,RU,4000472039,Voronezh Oblast,Tỉnh Voronezh,Voronezh,TRUE
+vi,RU,4000468898,Yaroslavl Oblast,Tỉnh Yaroslavl,Yaroslavl,TRUE
+vi,RW,30036780,Nkombo,Đảo Nkombo,Nkombo,TRUE
+vi,RW,30021690,Kigali City,Thành phố Kigali,Kigali,TRUE
+vi,RW,30021691,Northern Province,Tỉnh Bắc,Bắc,TRUE
+vi,RW,30021687,Eastern Province,Tỉnh phía Đông,phía Đông,TRUE
+vi,RW,30021688,Southern Province,Tỉnh phía Nam,phía Nam,TRUE
+vi,RW,30021689,Western Province,Tỉnh phía Tây,phía Tây,TRUE
+vi,SA,4000108241,Ash-Sharqiyah,Tỉnh Ash Sharqiyah,Ash Sharqiyah,TRUE
+vi,SB,30057872,Nggatokae,Đảo Nggatokae,Nggatokae,TRUE
+vi,SB,30057793,Santa Catalina,Đảo Santa Catalina,Santa Catalina,TRUE
+vi,SB,30021748,Temotu,Tỉnh Temotu,Temotu,TRUE
+vi,SB,30021749,Western,Tỉnh Western,Western,TRUE
+vi,SD,30060239,Abba Island,Đảo Abba,Abba,TRUE
+vi,SH,30020823,Ascension,Đảo Ascension,Ascension,TRUE
+vi,SH,30020824,Ascension,Đảo Ascension,Ascension,TRUE
+vi,SK,4008986282,Okres Bánovce nad Bebravou,Huyện Bánovce nad Bebravou,Bánovce nad Bebravou,TRUE
+vi,SK,4003061185,Okres Banská Bystrica,Huyện Banská Bystrica,Banská Bystrica,TRUE
+vi,SK,4008986281,Okres Banská Štiavnica,Huyện Banská Štiavnica,Banská Štiavnica,TRUE
+vi,SK,4000725167,Okres Bardejov,Huyện Bardejov,Bardejov,TRUE
+vi,SK,4008986284,Okres Bytča,Huyện Bytča,Bytča,TRUE
+vi,SK,4003060834,Okres Čadca,Huyện Čadca,Čadca,TRUE
+vi,SK,4008986287,Okres Ilava,Huyện Ilava,Ilava,TRUE
+vi,SK,4008986288,Okres Kežmarok,Huyện Kežmarok,Kežmarok,TRUE
+vi,SK,4003059432,Okres Komárno,Huyện Komárno,Komárno,TRUE
+vi,SK,4008986343,Okres Kosice-okolie,Huyện Košice-okolie,Košice-okolie,TRUE
+vi,SK,4000724441,Košice-Vidiek Okres,Huyện Košice-okolie,Košice-okolie,TRUE
+vi,SK,4003059100,Okres Levice,Huyện Levice,Levice,TRUE
+vi,SK,4008989441,Okres Levoča,Huyện Levoča,Levoča,TRUE
+vi,SK,4003059049,Okres Liptovský Mikuláš,Huyện Liptovský Mikuláš,Liptovský Mikuláš,TRUE
+vi,SK,4003058984,Okres Lučenec,Huyện Lučenec,Lučenec,TRUE
+vi,SK,4003058779,Okres Martin,Huyện Martin,Martin,TRUE
+vi,SK,4006692651,Okres Namestovo,Huyện Námestovo,Námestovo,TRUE
+vi,SK,4003058476,Okres Nové Mesto nad Váhom,Huyện Nové Mesto nad Váhom,Nové Mesto nad Váhom,TRUE
+vi,SK,4008986293,Okres Partizánske,Huyện Partizánske,Partizánske,TRUE
+vi,SK,4008986294,Okres Pezinok,Huyện Pezinok,Pezinok,TRUE
+vi,SK,4008986295,Okres Piešťany,Huyện Piešťany,Piešťany,TRUE
+vi,SK,4008986298,Okres Púchov,Huyện Púchov,Púchov,TRUE
+vi,SK,4008986299,Okres Revúca,Huyện Revúca,Revúca,TRUE
+vi,SK,4000723735,Okres Rimavská Sobota,Huyện Rimavská Sobota,Rimavská Sobota,TRUE
+vi,SK,4000723712,Okres Rožňava,Huyện Rožňava,Rožňava,TRUE
+vi,SK,4008986301,Okres Sabinov,Huyện Sabinov,Sabinov,TRUE
+vi,SK,4008986303,Okres Snina,Huyện Snina,Snina,TRUE
+vi,SK,4008986304,Okres Sobrance,Huyện Sobrance,Sobrance,TRUE
+vi,SK,4000723416,Okres Svidník,Huyện Svidník,Svidník,TRUE
+vi,SK,4003057173,Okres Topoľčany,Huyện Topoľčany,Topoľčany,TRUE
+vi,SK,4000723357,Okres Trebišov,Huyện Trebišov,Trebišov,TRUE
+vi,SK,4003056824,Okres Veľký Krtíš,Huyện Veľký Krtíš,Veľký Krtíš,TRUE
+vi,SK,4000723194,Okres Vranov nad Topľou,Huyện Vranov nad Topľou,Vranov nad Topľou,TRUE
+vi,SK,4003056522,Okres Žiar nad Hronom,Huyện Žiar nad Hronom,Žiar nad Hronom,TRUE
+vi,SN,30061641,Goree,Đảo Gorée,Gorée,TRUE
+vi,ST,30022109,Me-Zochi,Huyện Me-Zochi,Me-Zochi,TRUE
+vi,SY,30021798,Al-Hasaka Governorate,Tỉnh Al-Hasakah,Al-Hasakah,TRUE
+vi,SY,30021802,Aleppo Governorate,Tỉnh Aleppo,Aleppo,TRUE
+vi,SY,30021801,Ar-Raqqah Governorate,Tỉnh Ar-Raqqah,Ar-Raqqah,TRUE
+vi,SY,30021810,As-Suwayda Governorate,Tỉnh As Suwayda,As Suwayda,TRUE
+vi,SY,30021811,Damascus Governorate,Tỉnh Damascus,Damascus,TRUE
+vi,SY,30021809,Daraa Governorate,Tỉnh Daraa,Daraa,TRUE
+vi,SY,30021799,Deir Ezzor Governorate,Tỉnh Deir ez-Zor,Deir ez-Zor,TRUE
+vi,SY,30021803,Hama Governorate,Tỉnh Hama,Hama,TRUE
+vi,SY,30021800,Homs Governorate,Tỉnh Homs,Homs,TRUE
+vi,SY,30021804,Idlib Governorate,Tỉnh Idlib,Idlib,TRUE
+vi,SY,30021806,Latakia Governorate,Tỉnh Latakia,Latakia,TRUE
+vi,SY,30021808,Al-Qunaitra Governorate,Tỉnh Quneitra,Quneitra,TRUE
+vi,SY,30021807,Rif Dimashq Governorate,Tỉnh Rif Dimashq,Rif Dimashq,TRUE
+vi,SY,30021805,Tartus Governorate,Tỉnh Tartus,Tartus,TRUE
+vi,TJ,30021815,Khatlon,Tỉnh Khatlon,Khatlon,TRUE
+vi,TM,30021882,Ahal,Tỉnh Ahal,Ahal,TRUE
+vi,TR,4008631927,Acıgöl İlçesi,Huyện Acıgöl,Acıgöl,TRUE
+vi,TR,4008631992,Ağlı İlçesi,Huyện Ağlı,Ağlı,TRUE
+vi,TR,4008630855,Ahlat İlçesi,Huyện Ahlat,Ahlat,TRUE
+vi,TR,4008631366,Akyaka İlçesi,Huyện Akyaka,Akyaka,TRUE
+vi,TR,4008631566,Alacakaya İlçesi,Huyện Alacakaya,Alacakaya,TRUE
+vi,TR,4008631911,Altunhisar İlçesi,Huyện Altunhisar,Altunhisar,TRUE
+vi,TR,4008631478,Andırın İlçesi,Huyện Andırın,Andırın,TRUE
+vi,TR,4008631668,Arapgir İlçesi,Huyện Arapgir,Arapgir,TRUE
+vi,TR,4008631401,Ardanuç İlçesi,Huyện Ardanuç,Ardanuç,TRUE
+vi,TR,4008631565,Arıcak İlçesi,Huyện Arıcak,Arıcak,TRUE
+vi,TR,4008631740,Artova İlçesi,Huyện Artova,Artova,TRUE
+vi,TR,4008631390,Aşkale İlçesi,Huyện Aşkale,Aşkale,TRUE
+vi,TR,4008632562,Babaeski İlçesi,Huyện Babaeski,Babaeski,TRUE
+vi,TR,4008630843,Bahçesaray İlçesi,Huyện Bahçesaray,Bahçesaray,TRUE
+vi,TR,4008632200,Baklan İlçesi,Huyện Baklan,Baklan,TRUE
+vi,TR,4008632461,Banaz İlçesi,Huyện Banaz,Banaz,TRUE
+vi,TR,4010910318,Başiskelesi İlçesi,Huyện Başiskele,Başiskele,TRUE
+vi,TR,4008631561,Baskil İlçesi,Huyện Baskil,Baskil,TRUE
+vi,TR,4008632464,Başmakçı İlçesi,Huyện Başmakçı,Başmakçı,TRUE
+vi,TR,4008632476,Bayat İlçesi,Huyện Bayat,Bayat,TRUE
+vi,TR,4008630839,Baykan İlçesi,Huyện Baykan,Baykan,TRUE
+vi,TR,4000440476,Beşiri İlçesi,Huyện Beşiri,Beşiri,TRUE
+vi,TR,4008632099,Beyşehir İlçesi,Huyện Beyşehir,Beyşehir,TRUE
+vi,TR,4008630793,Birecik İlçesi,Huyện Birecik,Birecik,TRUE
+vi,TR,4008632024,Boğazkale İlçesi,Huyện Boğazkale,Boğazkale,TRUE
+vi,TR,4008632034,Boyabat İlçesi,Huyện Boyabat,Boyabat,TRUE
+vi,TR,4008631939,Boztepe İlçesi,Huyện Boztepe,Boztepe,TRUE
+vi,TR,4008632588,Bozüyük İlçesi,Huyện Bozüyük,Bozüyük,TRUE
+vi,TR,4008630842,Çaldıran İlçesi,Huyện Çaldıran,Çaldıran,TRUE
+vi,TR,4008631912,Çamardı İlçesi,Huyện Çamardı,Çamardı,TRUE
+vi,TR,4008631638,Çamaş İlçesi,Huyện Çamaş,Çamaş,TRUE
+vi,TR,4008631454,Çamlıhemşin İlçesi,Huyện Çamlıhemşin,Çamlıhemşin,TRUE
+vi,TR,4008631631,Çamoluk İlçesi,Huyện Çamoluk,Çamoluk,TRUE
+vi,TR,4008631753,Çandır İlçesi,Huyện Çandır,Çandır,TRUE
+vi,TR,4008632447,Çavdarhisar İlçesi,Huyện Çavdarhisar,Çavdarhisar,TRUE
+vi,TR,4008631648,Çaybaşı İlçesi,Huyện Çaybaşı,Çaybaşı,TRUE
+vi,TR,4008632508,Çaycuma İlçesi,Huyện Çaycuma,Çaycuma,TRUE
+vi,TR,4008631754,Çayıralan İlçesi,Huyện Çayıralan,Çayıralan,TRUE
+vi,TR,4008631583,Çayırlı İlçesi,Huyện Çayırlı,Çayırlı,TRUE
+vi,TR,4008631456,Çaykara İlçesi,Huyện Çaykara,Çaykara,TRUE
+vi,TR,4008631745,Çekerek İlçesi,Huyện Çekerek,Çekerek,TRUE
+vi,TR,4008632111,Çeltik İlçesi,Huyện Çeltik,Çeltik,TRUE
+vi,TR,4008631950,Çeltikçi İlçesi,Huyện Çeltikçi,Çeltikçi,TRUE
+vi,TR,4008630829,Çermik İlçesi,Huyện Çermik,Çermik,TRUE
+vi,TR,4007932392,Cihanbeyli District,Huyện Cihanbeyli,Cihanbeyli,TRUE
+vi,TR,4008632515,Çilimli İlçesi,Huyện Çilimli,Çilimli,TRUE
+vi,TR,4000438774,Cizre İlçesi,Huyện Cizre,Cizre,TRUE
+vi,TR,4008631395,Çıldır İlçesi,Huyện Çıldır,Çıldır,TRUE
+vi,TR,4008632546,Çınarcık İlçesi,Huyện Çınarcık,Çınarcık,TRUE
+vi,TR,4008630836,Çüngüş İlçesi,Huyện Çüngüş,Çüngüş,TRUE
+vi,TR,4008631963,Datça İlçesi,Huyện Datça,Datça,TRUE
+vi,TR,4008631944,Delice İlçesi,Huyện Delice,Delice,TRUE
+vi,TR,4008632098,Derbent İlçesi,Huyện Derbent,Derbent,TRUE
+vi,TR,4008630817,Derik İlçesi,Huyện Derik,Derik,TRUE
+vi,TR,4008631364,Digor İlçesi,Huyện Digor,Digor,TRUE
+vi,TR,4008631663,Divriği İlçesi,Huyện Divriği,Divriği,TRUE
+vi,TR,4008630865,Diyadin İlçesi,Huyện Diyadin,Diyadin,TRUE
+vi,TR,4008630864,Doğubayazıt İlçesi,Huyện Doğubayazıt,Doğubayazıt,TRUE
+vi,TR,4008632451,Domaniç İlçesi,Huyện Domaniç,Domaniç,TRUE
+vi,TR,4008631465,Düzköy İlçesi,Huyện Düzköy,Düzköy,TRUE
+vi,TR,4008632180,Eğirdir İlçesi,Huyện Eğirdir,Eğirdir,TRUE
+vi,TR,4008631476,Elbistan İlçesi,Huyện Elbistan,Elbistan,TRUE
+vi,TR,4008630866,Eleşkirt İlçesi,Huyện Eleşkirt,Eleşkirt,TRUE
+vi,TR,4008632575,Enez İlçesi,Huyện Enez,Enez,TRUE
+vi,TR,4008630830,Ergani İlçesi,Huyện Ergani,Ergani,TRUE
+vi,TR,4008632136,Ermenek İlçesi,Huyện Ermenek,Ermenek,TRUE
+vi,TR,4007932394,Eskil District,Huyện Eskil,Eskil,TRUE
+vi,TR,4008632463,Evciler İlçesi,Huyện Evciler,Evciler,TRUE
+vi,TR,4008631657,Gemerek İlçesi,Huyện Gemerek,Gemerek,TRUE
+vi,TR,4008631677,Gerger İlçesi,Huyện Gerger,Gerger,TRUE
+vi,TR,4008632509,Gökçebey İlçesi,Huyện Gökçebey,Gökçebey,TRUE
+vi,TR,4008631684,Gölbaşı İlçesi,Huyện Gölbaşı,Gölbaşı,TRUE
+vi,TR,4008632411,Gördes İlçesi,Huyện Gördes,Gördes,TRUE
+vi,TR,4008632496,Göynük İlçesi,Huyện Göynük,Göynük,TRUE
+vi,TR,4008632144,Gülnar İlçesi,Huyện Gülnar,Gülnar,TRUE
+vi,TR,4008631633,Gülyalı İlçesi,Huyện Gülyalı,Gülyalı,TRUE
+vi,TR,4008631705,Gümüşhacıköy İlçesi,Huyện Gümüşhacıköy,Gümüşhacıköy,TRUE
+vi,TR,4008632519,Gümüşova İlçesi,Huyện Gümüşova,Gümüşova,TRUE
+vi,TR,4008632480,Günyüzü İlçesi,Huyện Günyüzü,Günyüzü,TRUE
+vi,TR,4008631649,Gürün İlçesi,Huyện Gürün,Gürün,TRUE
+vi,TR,4008630795,Halfeti İlçesi,Huyện Halfeti,Halfeti,TRUE
+vi,TR,4008630870,Hamur İlçesi,Huyện Hamur,Hamur,TRUE
+vi,TR,4008632445,Havran İlçesi,Huyện Havran,Havran,TRUE
+vi,TR,4008630827,Hazro İlçesi,Huyện Hazro,Hazro,TRUE
+vi,TR,4000442034,İdil İlçesi,Huyện İdil,İdil,TRUE
+vi,TR,4008631983,İhsangazi İlçesi,Huyện İhsangazi,İhsangazi,TRUE
+vi,TR,4008632472,İhsaniye İlçesi,Huyện İhsaniye,İhsaniye,TRUE
+vi,TR,4008631661,İmranlı İlçesi,Huyện İmranlı,İmranlı,TRUE
+vi,TR,4008631993,İnebolu İlçesi,Huyện İnebolu,İnebolu,TRUE
+vi,TR,4008632028,İskilip İlçesi,Huyện İskilip,İskilip,TRUE
+vi,TR,4008632437,İvrindi İlçesi,Huyện İvrindi,İvrindi,TRUE
+vi,TR,4010910319,İzmit İlçesi,Huyện İzmit,İzmit,TRUE
+vi,TR,4008631679,Kâhta İlçesi,Huyện Kâhta,Kâhta,TRUE
+vi,TR,4008631388,Karaçoban İlçesi,Huyện Karaçoban,Karaçoban,TRUE
+vi,TR,4008632522,Karapürçek İlçesi,Huyện Karapürçek,Karapürçek,TRUE
+vi,TR,4008631910,Karataş İlçesi,Huyện Karataş,Karataş,TRUE
+vi,TR,4010910316,Karesi İlçesi,Huyện Karesi,Karesi,TRUE
+vi,TR,4008632023,Kargı İlçesi,Huyện Kargı,Kargı,TRUE
+vi,TR,4010330997,Kazımkarabekir İlçesi,Huyện Kazım Karabekir,Kazım Karabekir,TRUE
+vi,TR,4008631574,Keban İlçesi,Huyện Keban,Keban,TRUE
+vi,TR,4008632538,Keles İlçesi,Huyện Keles,Keles,TRUE
+vi,TR,4008631619,Kelkit İlçesi,Huyện Kelkit,Kelkit,TRUE
+vi,TR,4008631610,Kemah İlçesi,Huyện Kemah,Kemah,TRUE
+vi,TR,4008631560,Kiğı İlçesi,Huyện Kiğı,Kiğı,TRUE
+vi,TR,4000437929,Kırıkhan İlçesi,Huyện Kırıkhan,Kırıkhan,TRUE
+vi,TR,4008632063,Kızılcahamam İlçesi,Huyện Kızılcahamam,Kızılcahamam,TRUE
+vi,TR,4008630833,Kocaköy İlçesi,Huyện Kocaköy,Kocaköy,TRUE
+vi,TR,4008631961,Köyceğiz İlçesi,Huyện Köyceğiz,Köyceğiz,TRUE
+vi,TR,4008630820,Kozluk İlçesi,Huyện Kozluk,Kozluk,TRUE
+vi,TR,4008630837,Kulp İlçesi,Huyện Kulp,Kulp,TRUE
+vi,TR,4008632092,Kulu İlçesi,Huyện Kulu,Kulu,TRUE
+vi,TR,4000437215,Kumlu İlçesi,Huyện Kumlu,Kumlu,TRUE
+vi,TR,4000440906,Kurtalan İlçesi,Huyện Kurtalan,Kurtalan,TRUE
+vi,TR,4008632401,Kuşadası İlçesi,Huyện Kuşadası,Kuşadası,TRUE
+vi,TR,4008632581,Lâpseki İlçesi,Huyện Lapseki,Lapseki,TRUE
+vi,TR,4007732193,Manavgat İlçesi,Huyện Manavgat,Manavgat,TRUE
+vi,TR,4008632438,Manyas İlçesi,Huyện Manyas,Manyas,TRUE
+vi,TR,4000441866,Mardin İlçesi,Huyện Mardin,Mardin,TRUE
+vi,TR,4000441469,Midyat İlçesi,Huyện Midyat,Midyat,TRUE
+vi,TR,4008632389,Milas İlçesi,Huyện Milas,Milas,TRUE
+vi,TR,4008632499,Mudurnu İlçesi,Huyện Mudurnu,Mudurnu,TRUE
+vi,TR,4008630857,Mutki İlçesi,Huyện Mutki,Mutki,TRUE
+vi,TR,4008631377,Narman İlçesi,Huyện Narman,Narman,TRUE
+vi,TR,4008631381,Oltu İlçesi,Huyện Oltu,Oltu,TRUE
+vi,TR,4000441188,Ömerli İlçesi,Huyện Ömerli,Ömerli,TRUE
+vi,TR,4008631999,Ortaköy İlçesi,Huyện Ortaköy,Ortaköy,TRUE
+vi,TR,4008631570,Palu İlçesi,Huyện Palu,Palu,TRUE
+vi,TR,4008631578,Pertek İlçesi,Huyện Pertek,Pertek,TRUE
+vi,TR,4000438624,Pervari İlçesi,Huyện Pervari,Pervari,TRUE
+vi,TR,4008632565,Pınarhisar İlçesi,Huyện Pınarhisar,Pınarhisar,TRUE
+vi,TR,4008631609,Refahiye İlçesi,Huyện Refahiye,Refahiye,TRUE
+vi,TR,4008631678,Samsat İlçesi,Huyện Samsat,Samsat,TRUE
+vi,TR,4008631370,Sarıkamış İlçesi,Huyện Sarıkamış,Sarıkamış,TRUE
+vi,TR,4008631783,Sarıoğlan İlçesi,Huyện Sarıoğlan,Sarıoğlan,TRUE
+vi,TR,4008631919,Sarıyahşi İlçesi,Huyện Sarıyahşi,Sarıyahşi,TRUE
+vi,TR,4008631774,Sarız İlçesi,Huyện Sarız,Sarız,TRUE
+vi,TR,4008632171,Şarkîkaraağaç İlçesi,Huyện Şarkikaraağaç,Şarkikaraağaç,TRUE
+vi,TR,4008631400,Şavşat İlçesi,Huyện Şavşat,Şavşat,TRUE
+vi,TR,4000441186,Savur İlçesi,Huyện Savur,Savur,TRUE
+vi,TR,4008631626,Şebin Karahisar İlçesi,Huyện Şebinkarahisar,Şebinkarahisar,TRUE
+vi,TR,4008632100,Seydişehir İlçesi,Huyện Seydişehir,Seydişehir,TRUE
+vi,TR,4000440907,Siirt İlçesi,Huyện Siirt,Siirt,TRUE
+vi,TR,4008632148,Silifke İlçesi,Huyện Silifke,Silifke,TRUE
+vi,TR,4008632455,Simav İlçesi,Huyện Simav,Simav,TRUE
+vi,TR,4008631683,Sincik İlçesi,Huyện Sincik,Sincik,TRUE
+vi,TR,4008630840,Şirvan İlçesi,Huyện Şirvan,Şirvan,TRUE
+vi,TR,4008632460,Sivaslı İlçesi,Huyện Sivaslı,Sivaslı,TRUE
+vi,TR,4000438773,Şırnak İlçesi,Huyện Şırnak,Şırnak,TRUE
+vi,TR,4008632584,Söğüt İlçesi,Huyện Söğüt,Söğüt,TRUE
+vi,TR,4008631557,Solhan İlçesi,Huyện Solhan,Solhan,TRUE
+vi,TR,4008632469,Şuhut İlçesi,Huyện Şuhut,Şuhut,TRUE
+vi,TR,4008630789,Suruç İlçesi,Huyện Suruç,Suruç,TRUE
+vi,TR,4008632439,Susurluk İlçesi,Huyện Susurluk,Susurluk,TRUE
+vi,TR,4008632106,Taşkent İlçesi,Huyện Taşkent,Taşkent,TRUE
+vi,TR,4008630854,Tatvan İlçesi,Huyện Tatvan,Tatvan,TRUE
+vi,TR,4008631954,Tefenni İlçesi,Huyện Tefenni,Tefenni,TRUE
+vi,TR,4008631384,Tekman İlçesi,Huyện Tekman,Tekman,TRUE
+vi,TR,4008631605,Tercan İlçesi,Huyện Tercan,Tercan,TRUE
+vi,TR,4008631616,Torul İlçesi,Huyện Torul,Torul,TRUE
+vi,TR,4008631980,Tosya İlçesi,Huyện Tosya,Tosya,TRUE
+vi,TR,4008631682,Tut İlçesi,Huyện Tut,Tut,TRUE
+vi,TR,4000438878,Uludere İlçesi,Huyện Uludere,Uludere,TRUE
+vi,TR,4008631606,Üzümlü İlçesi,Huyện Üzümlü,Üzümlü,TRUE
+vi,TR,4008630861,Varto İlçesi,Huyện Varto,Varto,TRUE
+vi,TR,4008632184,Yalvaç İlçesi,Huyện Yalvaç,Yalvaç,TRUE
+vi,TR,4008631555,Yedisu İlçesi,Huyện Yedisu,Yedisu,TRUE
+vi,TR,4008632576,Yenice İlçesi,Huyện Yenice,Yenice,TRUE
+vi,TR,4008631771,Yerköy İlçesi,Huyện Yerköy,Yerköy,TRUE
+vi,TR,4000441187,Yeşilli İlçesi,Huyện Yeşilli,Yeşilli,TRUE
+vi,TR,4008631738,Yeşilyurt İlçesi,Huyện Yeşilyurt,Yeşilyurt,TRUE
+vi,TR,4008632513,Yığılca İlçesi,Huyện Yığılca,Yığılca,TRUE
+vi,TW,30019152,Datong,Huyện Đại Đồng,Đại Đồng,FALSE
+vi,TW,30019096,Hunei,Huyện Hồ Nội,Hồ Nội,FALSE
+vi,TW,30018063,Xincheng,Huyện Tân Thành,Tân Thành,FALSE
+vi,TW,30019144,Su'ao,Huyện Tô Áo,Tô Áo,FALSE
+vi,TW,4001672856,Chaozhou,Huyện Triều Châu,Triều Châu,FALSE
+vi,TW,4001677830,Pingtung City,Thành phố Bình Đông,Bình Đông,FALSE
+vi,TW,4001671199,Taitung City,Thành phố Đài Đông,Đài Đông,FALSE
+vi,TW,30016998,Toufen City,Thành phố Đầu Phần,Đầu Phần,FALSE
+vi,TW,30016997,Miaoli City,Thành phố Miêu Lật,Miêu Lật,FALSE
+vi,TW,4001679295,Nantou City,Thành phố Nam Đầu,Nam Đầu,FALSE
+vi,TW,4001670638,Yilan City,Thành phố Nghi Lan,Nghi Lan,FALSE
+vi,TW,30018907,Taibao City,Thành phố Thái Bảo,Thái Bảo,FALSE
+vi,TW,30019145,Toucheng,Thị trấn Đầu Thành,Đầu Thành,FALSE
+vi,TW,30019147,Jiaoxi,Thị trấn Giảo Khê,Giảo Khê,FALSE
+vi,TW,4001677970,Chenggong,Thị trấn Thành Công,Thành Công,FALSE
+vi,TW,30019101,Cishan,Xã Kỳ Sơn,Kỳ Sơn,FALSE
+vi,TW,30016987,Puyan,Xã Puyan,Puyan,TRUE
+vi,TW,4001670307,Jiji,Xã Tập Tập,Tập Tập,TRUE
+vi,TW,30018070,Chishang,Xã Trì Thượng,Trì Thượng,FALSE
+vi,TW,30017016,Zhongliao,Xã Trung Liêu,Trung Liêu,FALSE
+vi,TW,30016989,Shetou,Xã Xã Đầu,Xã Đầu,FALSE
+vi,TZ,30028880,Ukerewe,Đảo Ukerewe,Ukerewe,TRUE
+vi,TZ,30028907,Kahama Town,Thị trấn Kahama,Kahama,TRUE
+vi,TZ,30028941,Korogwe Town,Thị trấn Korogwe,Korogwe,TRUE
+vi,TZ,30028882,Makambako Town,Thị trấn Makambako,Makambako,TRUE
+vi,UA,4008693025,Dnipro Raion,Huyện Dnipro,Dnipro,TRUE
+vi,UA,4000709961,Dnepropetrovskiy Rayon,Huyện Dnipropetrovsk,Dnipropetrovsk,TRUE
+vi,UA,4000709947,Dneprovskiy Rayon,Huyện Dniprovskyi,Dniprovskyi,TRUE
+vi,UA,4000708178,Hrebinkivs’kyy Rayon,Huyện Hrebinkivskyi,Hrebinkivskyi,TRUE
+vi,UA,4000707098,Kalus’kyy Rayon,Huyện Kalush,Kalush,TRUE
+vi,UA,4000699402,Novonikolayevskiy Rayon,Huyện Novomykolaivka,Novomykolaivka,TRUE
+vi,UA,4000699451,Novomirgorodskiy Rayon,Huyện Novomyrhorod,Novomyrhorod,TRUE
+vi,UA,4000699101,Novotroyits’kyy Rayon,Huyện Novotroits'kyi,Novotroits'kyi,TRUE
+vi,UA,4000699073,Novoukrainskiy Rayon,Huyện Novoukrainskyi,Novoukrainskyi,TRUE
+vi,UA,4000699033,Novovorontsovskiy Rayon,Huyện Novovorontsovka,Novovorontsovka,TRUE
+vi,UA,4000713583,Aleksandrovskiy Rayon,Huyện Oleksandrivka,Oleksandrivka,TRUE
+vi,UA,4000698432,Ordzhonikidzevskiy Rayon,Huyện Ordzhonikidze,Ordzhonikidze,TRUE
+vi,UA,4000695964,Pyatikhatskiy Rayon,Huyện P'yatykhats'kyi,P'yatykhats'kyi,TRUE
+vi,UA,4000694917,Sakhnovshchinskiy Rayon,Huyện Sakhnovshchyna,Sakhnovshchyna,TRUE
+vi,UA,4000693939,Shostkinskiy Rayon,Huyện Shostka,Shostka,TRUE
+vi,UA,4000694009,Shyshats’kyy Rayon,Huyện Shyshaky,Shyshaky,TRUE
+vi,UA,4000693303,Sofiyevskiy Rayon,Huyện Sofiyivka,Sofiyivka,TRUE
+vi,UA,4000691495,Tlumats’kyy Rayon,Huyện Tlumatskyi,Tlumatskyi,TRUE
+vi,UA,4000690595,Ustinovskiy Rayon,Huyện Ustynivka,Ustynivka,TRUE
+vi,UA,4000690075,Velikonovoselkovskiy Rayon,Huyện Velyka Novosilka,Velyka Novosilka,TRUE
+vi,UA,4000689814,Verkhovinskiy Rayon,Huyện Verkhovyna,Verkhovyna,TRUE
+vi,UA,4000687503,Zavodskiy Rayon,Huyện Zavodskiy,Zavodskiy,TRUE
+vi,UA,4000686911,Znamenskiy Rayon,Huyện Znamianka,Znamianka,TRUE
+vi,UA,4009030980,Dokuchayevs’ka Mis’krada,Thành phố Dokuchaevsk,Dokuchaevsk,TRUE
+vi,UA,4009030974,Kostyantynivs’ka Mis’krada,Thành phố Kostyantynivka,Kostyantynivka,TRUE
+vi,UA,4009030987,Makiyivs’ka Mis’krada,Thành phố Makiivka,Makiivka,TRUE
+vi,UA,4009030645,Luhans’ka Mis’krada,Thành phố tự trị Luhansk,tự trị Luhansk,TRUE
+vi,UA,4009030984,Yenakiyevs’ka Mis’krada,Thành phố tự trị Yenakiieve,tự trị Yenakiieve,TRUE
+vi,UA,4009030690,Zhdanivs’ka Mis’krada,Thành phố Zhdanivka,Zhdanivka,TRUE
+vi,UA,4000710802,Cherkas’ka Oblast’,Tỉnh Cherkasy,Cherkasy,TRUE
+vi,UA,4000710734,Chernihivs’ka Oblast’,Tỉnh Chernihiv,Chernihiv,TRUE
+vi,UA,4000710720,Chernivets’ka Oblast’,Tỉnh Chernivtsi,Chernivtsi,TRUE
+vi,UA,4000709929,Dnipropetrovska Oblast',Tỉnh Dnipropetrovsk,Dnipropetrovsk,TRUE
+vi,UA,4000709716,Donets’ka Oblast’,Tỉnh Donetsk,Donetsk,TRUE
+vi,UA,4000707470,Ivano-Frankivs’ka Oblast’,Tỉnh Ivano-Frankivsk,Ivano-Frankivsk,TRUE
+vi,UA,4000706482,Kharkivs’ka Oblast’,Tỉnh Kharkiv,Kharkiv,TRUE
+vi,UA,4000706442,Khersons’ka Oblast’,Tỉnh Kherson,Kherson,TRUE
+vi,UA,4000705811,Kirovohrads’ka Oblast’,Tỉnh Kirovohrad,Kirovohrad,TRUE
+vi,UA,4000702657,Luhans’ka Oblast’,Tỉnh Luhansk,Luhansk,TRUE
+vi,UA,4000702549,L’vivs’ka Oblast’,Tỉnh Lviv,Lviv,TRUE
+vi,UA,4000698738,Odes’ka Oblast’,Tỉnh Odesa,Odesa,TRUE
+vi,UA,4000696634,Poltavs’ka Oblast’,Tỉnh Poltava,Poltava,TRUE
+vi,UA,4000695592,Rivnens’ka Oblast’,Tỉnh Rivne,Rivne,TRUE
+vi,UA,4000692196,Sums’ka Oblast’,Tỉnh Sumy,Sumy,TRUE
+vi,UA,4000691649,Ternopil’s’ka Oblast’,Tỉnh Ternopil,Ternopil,TRUE
+vi,UA,4000689559,Vinnyts’ka Oblast’,Tỉnh Vinnytsia,Vinnytsia,TRUE
+vi,UA,4000689064,Volyns’ka Oblast’,Tỉnh Volyn,Volyn,TRUE
+vi,UA,4000687869,Zakarpattia Oblast,Tỉnh Zakarpattia,Zakarpattia,TRUE
+vi,UA,4000687699,Zaporiz’ka Oblast’,Tỉnh Zaporizhia,Zaporizhia,TRUE
+vi,UA,4000686966,Zhytomyrs’ka Oblast’,Tỉnh Zhytomyr,Zhytomyr,TRUE
+vi,UG,30025427,Ntimba Island,Đảo Ntimba,Ntimba,TRUE
+vi,UG,30022045,Fort Portal City,Thành phố Fort Portal,Fort Portal,TRUE
+vi,UG,30022052,Lira City,Thành phố Lira,Lira,TRUE
+vi,UG,30022055,Masaka City,Thành phố Masaka,Masaka,TRUE
+vi,UG,30022050,Mbale City,Thành phố Mbale,Mbale,TRUE
+vi,UG,30022057,Mbarara City,Thành phố Mbarara,Mbarara,TRUE
+vi,UG,30022049,Soroti City,Thành phố Soroti,Soroti,TRUE
+vi,UM,30073240,Baker,Đảo Baker,Baker,TRUE
+vi,UM,30073241,Howland,Đảo Howland,Howland,TRUE
+vi,UM,30073242,Jarvis island,Đảo Jarvis,Jarvis,TRUE
+vi,UM,30073243,Johnston,Đảo Johnston,Johnston,TRUE
+vi,UM,30073245,Midway,Đảo Midway,Midway,TRUE
+vi,UM,30073246,Navassa,Đảo Navassa,Navassa,TRUE
+vi,UM,30073247,Palmyra,Đảo san hô Palmyra,san hô Palmyra,TRUE
+vi,UM,30073248,Wake,Đảo Wake,Wake,TRUE
+vi,US,4005139559,Staten Island,Đảo Staten,Staten,TRUE
+vi,UZ,4001514593,Amudaryo Tumani,Huyện Amudarya,Amudarya,TRUE
+vi,UZ,4001514584,Andijon Tumani,Huyện Andijon,Andijon,TRUE
+vi,UZ,4001217872,Angor Tumani,Huyện Angor,Angor,TRUE
+vi,UZ,4001217778,Baxmal Tumani,Huyện Baxmal,Baxmal,TRUE
+vi,UZ,4001514386,Beruniy Tumani,Huyện Beruniy,Beruniy,TRUE
+vi,UZ,4001514338,Bŭstonliq Tumani,Huyện Bo‘stonliq,Bo‘stonliq,TRUE
+vi,UZ,4001514485,Boghot Tumani,Huyện Bogʻot,Bogʻot,TRUE
+vi,UZ,4001514430,Boyowut Tumani,Huyện Boyovut,Boyovut,TRUE
+vi,UZ,4001514327,Bŭka Tumani,Huyện Buka,Buka,TRUE
+vi,UZ,4001217663,Bukhoro Tumani,Huyện Bukhara,Bukhara,TRUE
+vi,UZ,4001514299,Buvayda Tumani,Huyện Buvayda,Buvayda,TRUE
+vi,UZ,4001514214,Chinoz Tumani,Huyện Chinoz,Chinoz,TRUE
+vi,UZ,4001538272,Chortoq Tumani,Huyện Chortoq,Chortoq,TRUE
+vi,UZ,4001538277,Chust Tumani,Huyện Chust,Chust,TRUE
+vi,UZ,4001514190,Chust Tumani,Huyện Chust,Chust,TRUE
+vi,UZ,4001217479,Dehqonobod Tumani,Huyện Dehkanabad,Dehkanabad,TRUE
+vi,UZ,4001514124,Dŭstlik Tumani,Huyện Dustlik,Dustlik,TRUE
+vi,UZ,4001538294,Furqat Tumani,Huyện Furqat,Furqat,TRUE
+vi,UZ,4001513982,Ghijduwon Tumani,Huyện G'ijduvon,G'ijduvon,TRUE
+vi,UZ,4008714363,Guzar District,Huyện Guzar,Guzar,TRUE
+vi,UZ,4001217214,Ishtixon Tumani,Huyện Ishtikhon,Ishtikhon,TRUE
+vi,UZ,4001513622,Xatirchi Tumani,Huyện Khatyrchi,Khatyrchi,TRUE
+vi,UZ,4001513603,Khiwa Tumani,Huyện Khiva,Khiva,TRUE
+vi,UZ,4001513618,Khovos Tumani,Huyện Khovos,Khovos,TRUE
+vi,UZ,4001513830,Konimex Tumani,Huyện Konimex,Konimex,TRUE
+vi,UZ,4001513713,Kosonsoy Tumani,Huyện Kosonsoy,Kosonsoy,TRUE
+vi,UZ,4001513240,Marhamat Tumani,Huyện Marhamat,Marhamat,TRUE
+vi,UZ,4001512289,Mingbuloq Tumani,Huyện Mingbuloq,Mingbuloq,TRUE
+vi,UZ,4001513202,Mirzachŭl Tumani,Huyện Mirzaobod,Mirzaobod,TRUE
+vi,UZ,4001513490,Mirzaobod Tumani,Huyện Mirzaobod,Mirzaobod,TRUE
+vi,UZ,4001216474,Muborak Tumani,Huyện Muborak,Muborak,TRUE
+vi,UZ,4001513156,Namangan Tumani,Huyện Namangan,Namangan,TRUE
+vi,UZ,4001513135,Navbahor Tumani,Huyện Navbahor,Navbahor,TRUE
+vi,UZ,4000601292,Nukus Tumani,Huyện Nukus,Nukus,TRUE
+vi,UZ,4001513082,Nurota Tumani,Huyện Nurota,Nurota,TRUE
+vi,UZ,4001514687,Ohangaron Tumani,Huyện Ohangaron,Ohangaron,TRUE
+vi,UZ,4001217960,Oqdaryo Tumani,Huyện Oqdarya,Oqdarya,TRUE
+vi,UZ,4001513035,Paxtakor Tumani,Huyện Pakhtakor,Pakhtakor,TRUE
+vi,UZ,4001513039,Pakhtaobod Tumani,Huyện Pakhtaobod,Pakhtaobod,TRUE
+vi,UZ,4001513006,Peshku Tumani,Huyện Peshku,Peshku,TRUE
+vi,UZ,4001512985,Piskent Tumani,Huyện Piskent,Piskent,TRUE
+vi,UZ,4001513057,Qibray Tumani,Huyện Qibray,Qibray,TRUE
+vi,UZ,4001513477,Qŭshkŭpir Tumani,Huyện Qushkupir,Qushkupir,TRUE
+vi,UZ,4001514010,Quyi Chirchiq Tumani,Huyện Quyi Chirchiq,Quyi Chirchiq,TRUE
+vi,UZ,4001512956,Rishton Tumani,Huyện Rishton,Rishton,TRUE
+vi,UZ,4001216243,Sariosiyo Tumani,Huyện Sariosiyo,Sariosiyo,TRUE
+vi,UZ,4001512404,Sayhunobod Tumani,Huyện Sayhunobod,Sayhunobod,TRUE
+vi,UZ,4001216154,Sherobod Tumani,Huyện Sherobod,Sherobod,TRUE
+vi,UZ,4001216113,Sho‘rchi Tumani,Huyện Sho'rchi,Sho'rchi,TRUE
+vi,UZ,4001512818,Showot Tumani,Huyện Shovot,Shovot,TRUE
+vi,UZ,4000601276,Shumanay Tumani,Huyện Shumanay,Shumanay,TRUE
+vi,UZ,4001512717,Sirdaryo Tumani,Huyện Sirdaryo,Sirdaryo,TRUE
+vi,UZ,4001538295,So‘x Tumani,Huyện So‘x,So‘x,TRUE
+vi,UZ,4001512534,To‘rtko‘l Tumani,Huyện To'rtko'l,To'rtko'l,TRUE
+vi,UZ,4001512652,Toshkent Tumani,Huyện Toshkent,Toshkent,TRUE
+vi,UZ,4001512751,Ŭrta Chirchiq Tumani,Huyện Ŭrta Chirchiq,Ŭrta Chirchiq,TRUE
+vi,UZ,4001346497,Uzun Tumani,Huyện Uzun,Uzun,TRUE
+vi,UZ,4001215788,Wobkent Tumani,Huyện Wobkent,Wobkent,TRUE
+vi,UZ,4000601340,Xo‘jayli Tumani,Huyện Xoʻjayli,Xoʻjayli,TRUE
+vi,UZ,4001538254,Yangiyŭl Tumani,Huyện Yangiyul,Yangiyul,TRUE
+vi,UZ,4001513498,Yuqori Chirchiq Tumani,Huyện Yuqori Chirchiq,Yuqori Chirchiq,TRUE
+vi,UZ,4001513067,Zafarobod Tumani,Huyện Zafarobod,Zafarobod,TRUE
+vi,UZ,4001513860,Zangiota Tumani,Huyện Zangiota,Zangiota,TRUE
+vi,UZ,4001215692,Zomin Tumani,Huyện Zomin,Zomin,TRUE
+vi,UZ,4001114929,Bukhara Province,Tỉnh Bukhara,Bukhara,TRUE
+vi,UZ,4001484844,Jizzakh Province,Tỉnh Jizzakh,Jizzakh,TRUE
+vi,UZ,4001484842,Namangan Province,Tỉnh Namangan,Namangan,TRUE
+vi,UZ,4001484841,Navoiy Province,Tỉnh Navoiy,Navoiy,TRUE
+vi,UZ,4001114928,Qashqadaryo Province,Tỉnh Qashqadaryo,Qashqadaryo,TRUE
+vi,UZ,4001114927,Samarqand Viloyati,Tỉnh Samarqand,Samarqand,TRUE
+vi,UZ,4001114926,Surxondaryo Viloyati,Tỉnh Surkhandarya,Surkhandarya,TRUE
+vi,UZ,4001484838,Toshkent Viloyati,Tỉnh Toshkent,Toshkent,TRUE
+vi,UZ,4001484843,Xorazm Viloyati,Tỉnh Xorazm,Xorazm,TRUE
+vi,VU,30022066,Shefa,Tỉnh Shefa,Shefa,TRUE
+vi,YE,30059622,Al Bayda City,Thành phố Al Bayda,Al Bayda,TRUE
+vi,YE,30059738,Dhamar City,Thành phố Dhamar,Dhamar,TRUE
+vi,YE,30059851,Marib City,Thành phố Ma'rib,Ma'rib,TRUE
+vi,YE,30022084,Al Mahrah,Tỉnh Al Mahrah,Al Mahrah,TRUE
+vi,YE,30022087,Socotra Governorate,Tỉnh Socotra,Socotra,TRUE
+vi,ZA,4008347354,City of Johannesburg Metropolitan Municipality,Thành phố Đô thị Johannesburg,Đô thị Johannesburg,TRUE
+vi,ZA,4001085596,Province of Northern Cape,Tỉnh Bắc Cape,Bắc Cape,TRUE
+vi,ZA,4000972062,Province of KwaZulu-Natal,Tỉnh KwaZulu-Natal,KwaZulu-Natal,TRUE
+vi,ZA,4001085598,Province of North West,Tỉnh Tây Bắc,Tây Bắc,TRUE
+vi,ZM,30022092,Central,Tỉnh Miền Trung,Miền Trung,TRUE
+vi,,30020705,Amwaj Islands,Đảo Amwaj,Amwaj,TRUE
