@@ -1,4 +1,7 @@
+import pymongo
 import csv
+import sys, os
+import getpass
 parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, parent_dir)
 from LocgiApi import LandmarkDataService
@@ -14,29 +17,21 @@ with open(csv_file_path, newline='') as f:
     data = list(reader)
 data = data[1:]
 for row in data:
-    if row[0] not in landmark_dict:
-        landmark_dict[row[0]] = {'before': set(), 'after': set()}
-        after_info = LandmarkDataService().get_landmark_by_id(row[0], locgi_url)
-        landmark_dict[row[0]]['after'] = set(after_info.get('alias', []))
+    ids = row[0]
+    if ids not in landmark_dict:
+        landmark_dict[ids] = {'before': set(), 'after': set()}
+        after_info = LandmarkDataService().get_landmark_by_id(ids, locgi_url)
+        landmark_dict[ids]['after'] = set(after_info.get('aliases', []))
 
-
-host = input("Please Enter host info to connect MongoDB...")
-username = input("Please Enter username...")
 password = getpass.getpass("Please Enter password...")
 
 # Simple connection
-client = pymongo.MongoClient(
-    host=host,           # e.g., "localhost" or "mongodb://localhost:27017"
-    port=27017,                 # MongoDB port
-    username=username,   # Your MongoDB username
-    password=password,   # Your MongoDB password
-    authSource="admin"          # Database where user is defined (usually "admin")
-)
+client = pymongo.MongoClient(f"mongodb://root:{}@docdb-2025-11-03-14-00-48.cvr6biffoe7c.ap-southeast-1.docdb.amazonaws.com:27017/?tls=true&tlsCAFile=global-bundle.pem&retryWrites=false")
 db = client["traveloka-data"]
 collection = db["landmark"]
 
 # Query and save
-cursor = collection.find({"_id": {"$in": list(landmark_dict.keys())}})
+cursor = collection.find({"_id": ""})
 
 for doc in cursor:
     landmark_dict[doc.get("_id")]['before'] = set(doc.get("alias", []))
