@@ -1,5 +1,7 @@
 from LocgiApi import GeoDataService
 from UserUtils import UserInput
+import csv
+
 world_id = 100001
 
 result = []
@@ -9,12 +11,9 @@ def fetch_children(parent_geo, iso, locgi_url):
     geo_info = GeoDataService.get_geo_region_by_id(parent_id, locgi_url)
     if geo_info:
         name = geo_info.get('name')
-        if name.find('AT') != -1: 
-            print(f"AT {parent_id} {name}")
-            result.append([iso, parent_id, name, "AT"])
-        if name.find('CR') != -1: 
-            print(f"CR {parent_id} {name}")
-            result.append([iso, parent_id, name, "CR"])
+        usage = geo_info.get('users')
+        if len(usage) == 1 and ('CAR_RENTAL' in usage or 'AIRPORT_TRANSFER' in usage):
+            result.append([iso, parent_id, name, usage[0]])
     geo_regions = GeoDataService.get_children_geo_by_id(parent_id, locgi_url)
     if geo_regions:
         for region in geo_regions:
