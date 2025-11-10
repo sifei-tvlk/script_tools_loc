@@ -12,8 +12,10 @@ def fetch_children(parent_geo, iso, locgi_url):
     if geo_info:
         name = geo_info.get('name')
         usage = geo_info.get('users')
+        centerLat = geo_info.get('centerLatitude')
+        centerLng = geo_info.get('centerLongitude')
         if len(usage) == 1 and ('CAR_RENTAL' in usage or 'AIRPORT_TRANSFER' in usage):
-            result.append([iso, parent_id, name, usage[0]])
+            result.append([iso, parent_id, name, usage[0], centerLat, centerLng])
     geo_regions = GeoDataService.get_children_geo_by_id(parent_id, locgi_url)
     if geo_regions:
         for region in geo_regions:
@@ -41,7 +43,7 @@ def main():
     with open(f"./get_at_cr.csv", 'w', newline='') as csvfile:
         spamwriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        spamwriter.writerow(['country-ISO', 'geoId', 'name', 'type'])
+        spamwriter.writerow(['country-ISO', 'geoId', 'name', 'type', 'centerLatitude', 'centerLongitude'])
         for row in result:
             spamwriter.writerow(row)
 
